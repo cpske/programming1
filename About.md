@@ -20,10 +20,6 @@ The [Source Repository](https://github.com/jbrucker/programming1) contains weekl
 | Resources          | https://jbrucker.github.io/programming1/Resources |
 
 
-Note: when a file is updated on [github.com/skeoop/skeoop.github.io](https://github.com/skeoop/skeoop.github.io) it may take *many minutes* before the change appears on [skeoop.github.io](https://skeoop.github.io/). 
-
-
-
 ### Requirement for Individual Work
 
 All assignments *must* be done individually, unless group work is explicitly alowed.  No copying is accepted, even a small part.
@@ -32,24 +28,13 @@ It is OK to discuss design and problems you have, but not to share code.  If you
 
 **Copying == Fail**  Anyone who submits copied work will receive grade "F" and be reported to Faculty of Engineering for disciplinary action.
 
-### Textbook and Readings
-
-Assignments will use material from these sources:
-
-* Horstmann, *Big Java*, 5E or 4E.  The 4th and 5th editions are almost identical. The 4th edition is more concise and some parts are better organized. 5E has better page layout. Both editions cover Java 7, but not the new features in Java 8.
-* [The Java Tutorial](https://docs.oracle.com/javase/tutorial/) (Recommended). The most comprehensive Java tutorial.  The [Really Big Index](https://docs.oracle.com/javase/tutorial/reallybigindex.html) page is the best place to find specific material, so bookmark it.  I suggest you [download it](http://www.oracle.com/technetwork/java/javase/java-tutorial-downloads-2005894.html) and install on your computer. 
-* *The Java JDK Documentation*. You are required to install this on your computer and **bookmark** the API index in your web browser. This is a great source of knowledge about the Java platform. Go to [Java SE Downloads](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and scroll down to "Java SE 8 documentation".
-
-### Other Useful Resources
-
-* *Getting Started with Java* by Tony Gaddis.  Covers the same material as *Big Java* but more focus on programming. Several students prefer this book.
-
 ### Programming Tools You Will Need
 
 1. **Java 8 JDK** and JRE.  The JDK includes a JRE. [Download from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
-2. **Java IDE**  Good ones are [BlueJ](https://bluej.org), Eclipse, Netbeans, and IntelliJ IDEA.  BlueJ is good for trying out code and visualization. I use BlueJ in class. In BlueJ, you can visualize code, interactively run code (without compiling), and inspect objects. 
-3. **Git command line tool.**  IDEs include a git tool but you still need the command line git program.  Download from: http://git-scm.org/download/.
-4. **UML editor is helpful.** Eclipse, Netbeans, and IDEA have UML extensions that can generate class diagram from Java code. [Violet](https://sourceforge.net/projects/violet/files/violetumleditor/) is a simple, easy-to-use UML editor written in Java. I use version 2.0.1 (not the newest) because it inserts less space.
+2. **Java IDE**  Good ones are [BlueJ](https://bluej.org), Eclipse, Netbeans, and IntelliJ IDEA.  BlueJ is recommended for trying out Java code and visualization objects. I use BlueJ in class. Please try BlueJ at first.
+3. **Git command line tool.**  IDEs include a git tool but you still need the command line git program.  Download from [http://git-scm.org/download/](http://git-scm.org/download/).
+4. **UML editor is helpful.** [Violet](https://sourceforge.net/projects/violet/files/violetumleditor/) is a simple, easy-to-use UML editor written in Java. I use version 2.0.1 (not the newest) because it inserts less space.  Eclipse, Netbeans, and IDEA have UML extensions that generate a class diagram from Java code.
+5. You also need the Java Documentation, see below.  The *Java Tutorial* is also recommended.
 
 ### Windows Users:
 
@@ -59,6 +44,14 @@ Assignments will use material from these sources:
 Good path: C:\java\jdk8u20 and C:\java\jdk8\docs
 Bad path:  C:\Program Files\Java\JavaSDK 8u20
 ```
+
+### Textbook and Documentation
+
+Assignments will use material from these sources:
+
+* Horstmann, *Big Java*, 5E or 4E.  The 4th and 5th editions are almost identical. The 4th edition is more concise and some parts are better organized. 5E has better page layout. Both editions cover Java 7, but not the new features in Java 8.
+* [The Java Tutorial](https://docs.oracle.com/javase/tutorial/) (Recommended). The most comprehensive Java tutorial.  The [Really Big Index](https://docs.oracle.com/javase/tutorial/reallybigindex.html) page is the best place to find specific material, so bookmark it.  I suggest you [download it](http://www.oracle.com/technetwork/java/javase/java-tutorial-downloads-2005894.html) and install on your computer. 
+* *The Java JDK Documentation*. You are required to install this on your computer and **bookmark** the API index in your web browser. This is a great source of knowledge about the Java platform. Go to [Java SE Downloads](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and scroll down to "Java SE 8 documentation".
 
 ### Individual Feedback
 
