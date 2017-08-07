@@ -34,11 +34,11 @@ It is OK to discuss design and problems you have, but not to share code.  If you
 
 ### Textbook and Readings
 
-The main sources for this course are:
+Assignments will use material from these sources:
 
-* Horstmann, *Big Java*, 5E or 4E.  The 4th and 5th editions are almost identical. The 4th edition is more concise and some chapters are better organized. 5E has better page layout. Both editions cover Java 7, but not the new features in Java 8.
-* *The Java JDK Documentation*. You are required to install this on your computer and **bookmark** the API index in your web browser. This is a great source of knowledge about the Java platform.
-* *The Java Tutorial* from Oracle (Recommended).  I recommend you install this on your computer.  The "Really Big Index" page is the most efficient way to find things in the material, so bookmark it.
+* Horstmann, *Big Java*, 5E or 4E.  The 4th and 5th editions are almost identical. The 4th edition is more concise and some parts are better organized. 5E has better page layout. Both editions cover Java 7, but not the new features in Java 8.
+* [The Java Tutorial](https://docs.oracle.com/javase/tutorial/) (Recommended). The most comprehensive Java tutorial.  The [Really Big Index](https://docs.oracle.com/javase/tutorial/reallybigindex.html) page is the best place to find specific material, so bookmark it.  I suggest you [download it](http://www.oracle.com/technetwork/java/javase/java-tutorial-downloads-2005894.html) and install on your computer. 
+* *The Java JDK Documentation*. You are required to install this on your computer and **bookmark** the API index in your web browser. This is a great source of knowledge about the Java platform. Go to [Java SE Downloads](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and scroll down to "Java SE 8 documentation".
 
 ### Other Useful Resources
 
@@ -46,8 +46,8 @@ The main sources for this course are:
 
 ### Programming Tools You Will Need
 
-1. **Java 8 JDK** and JRE.  The JDK includes a JRE.  Older versions do not have some features we will use.
-2. **Java IDE**  Good ones are: Eclipse, Netbeans, and IntelliJ IDEA.  BlueJ is good for beginners and for trying out code.  I use BlueJ in class. In BlueJ, you can visualize code, interactively run code (without compiling), and inspect objects. 
+1. **Java 8 JDK** and JRE.  The JDK includes a JRE. [Download from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+2. **Java IDE**  Good ones are [BlueJ](https://bluej.org), Eclipse, Netbeans, and IntelliJ IDEA.  BlueJ is good for trying out code and visualization. I use BlueJ in class. In BlueJ, you can visualize code, interactively run code (without compiling), and inspect objects. 
 3. **Git command line tool.**  IDEs include a git tool but you still need the command line git program.  Download from: http://git-scm.org/download/.
 4. **UML editor is helpful.** Eclipse, Netbeans, and IDEA have UML extensions that can generate class diagram from Java code. [Violet](https://sourceforge.net/projects/violet/files/violetumleditor/) is a simple, easy-to-use UML editor written in Java. I use version 2.0.1 (not the newest) because it inserts less space.
 
