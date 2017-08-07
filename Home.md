@@ -1,6 +1,6 @@
 # Programming 1 for SKE 2017 students
 
-[About](About.md) the course lists required programming tools and documentation.
+[About](About.md) the course has required programming tools and documentation.
 
 ## Topics for this week
 
@@ -41,13 +41,15 @@ Slide presentation: [tba]
 
 ### 2. Tools You Need
 
-See [tools.md](tools.md) for details. You need the Java Development Kit (JDK), Java Documentation, and a coding tool (IDE). At first, please try BlueJ - its very visual and lets you try out code without compiling. We use BlueJ in class.
+See [Tools.md](Tools.md) for how to download. You need
+
+1. Java Development Kit (JDK) version 8.
+2. Java Documentation  
+3. Coding tool (IDE). Please try BlueJ - its very visual and lets you try out code without compiling. We use BlueJ in class.
 
 ### 3. Recommended Textbook
 
 *Big Java, 5th Ed.* by Cay Horstmann.  Book is easy to read, but long.  Horstmann is a well-known author.  He also wrote *Core Java*, a favorite of programmers. *Big Java* may be available online.
-
-Another good book is *Starting Out with Java* by Tony Gaddis. Covers same topics as *Big Java* but more focus on code.
 
 ### 4. Structure of a Java Program
 
@@ -101,7 +103,7 @@ BlueJ and other IDEs will compile and run code for you, so you don't need to use
 
 ### 7. Conceptual View of Software
 
-The purpose of software is to **do something** for us.  In order to do something useful, software also needs *data" and/or *information*.  Some data is used only while the program is running. Other data is persisted (saved) in files, database, or other form.
+The purpose of software is to **do something** for us.  In order to do something useful, software also needs *data* and/or *information*.  Some data is used only while the program is running. Other data is persisted (saved) in files, database, or other form.
 
 * **Calculator** performs calculations for us. The data it needs are numbers to operate on and the operations (or formulas) we want.  Most calculators don't *persist* (save) any information when they exit.
     * behavior (actions): read input, evaluate expression, multiply, divide, etc.
@@ -127,4 +129,7 @@ The purpose of software is to **do something** for us.  In order to do something
 > In Java, Python, C# and many other languages, you invoke behavior (a method)
 > of an object by writing `object.methodname( )`.
 
-   * String methods: toUppercase()
+   * String methods: `"hello".toUppercase()`, `"Java is easy".length()`
+   * Math methods:   `Math.sqrt(2.0)`, `Math.pow(10.0,7)`
+   * System methods: `System.getProperty("os.name")`
+   * Output methods: `System.out.println("I am a robot")`
