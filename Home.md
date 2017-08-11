@@ -8,7 +8,7 @@
 6. [Primitive Data Types](week2/3-Primitive-Datatypes.pdf)
 7. Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic java syntax for students who know how to code.
 
-### Recommended Textbook
+### Recommended Book
 
 *Big Java, 5th Ed.* by Cay Horstmann.  Book is easy to read, but long.  Horstmann is a popular author of Java books, including *Core Java* (a favorite of programmers) and *Object-oriented Design & Patterns* (favorite among SKE students).
 
