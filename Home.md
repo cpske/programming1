@@ -4,40 +4,11 @@
 
 ## Topics for this week
 
-### 0. Review
+1. [Review](week2/Review.md)
 
-What programming structures (or concepts) did you learn at code.org last week?
+2. [Intro to Java](week2/Intro-to-Java.md), [slides](week2/0-Intro-to-Java.pdf)
 
-* I learned 5.  To get you started:
-    1. Code a sequence of instructions to achieve a goal.
-    2. (hint: how to use same sequence more than once? 2 ways)
-    3. (hint: how to modularize sequence for reuse many times?)
-    4. what else?
-    5. what else?
-
-
-### 1. Intro to Java
-1. Why Java?
-
-    [2017 Programming Language Ranking on IEEE Spectrum](http://spectrum.ieee.org/computing/software/top-programming-languages-2017-focus-on-jobs) ranks Python slightly above C and Java overall (Python 100.0, Java 99.4), but Java is #1 for Jobs.  IEEE uses data from 10 different sources.  You can create a custom ranking (change weights).
-
-    [Coding Dojo](http://www.codingdojo.com/blog/9-most-in-demand-programming-languages-of-2017/) Programming Jobs: SQL was most in-demand. Java was #2 (about 68K job postings), Python moved up 2 spots to #3 (40K postings), slightly ahead of Javascript.
-
-2. About the language.
-
-    Java is a *compiled*, *statically typed* programming language designed for object-oriented programming.  All code is contained in classes.  Java is very portable -- compiled code can run on any computer with a JVM installed.
-
-3. How Java works.
-
-    Java is designed so that the compiled code (called "Java byte code")
-can be run on any machine that supports Java.  The same byte code
-runs the same on Mac OS, Windows, Linux, or anything with the Java
-Runtime installed.
-
-    This is different from languages such as C or C#, 
-where the code must be recompiled for each target platform.
-
-Slide presentation: [tba]
+3. [Program Structure](week2/Program-Structure.md) and [slides
 
 ### 2. Tools You Need
 
@@ -51,51 +22,6 @@ See [Tools.md](Tools.md) for how to download. You need
 
 *Big Java, 5th Ed.* by Cay Horstmann.  Book is easy to read, but long.  Horstmann is a well-known author.  He also wrote *Core Java*, a favorite of programmers. *Big Java* may be available online.
 
-### 4. Structure of a Java Program
-
-All Java code is contained in *methods* that are part of a *class*.
-For example:
-```java
-public class Greeter {
-    // a variable referring to a string
-    static String who = "Nerd";
-
-    // a method. 'static' means its owned by the class, not an object
-    public static void main(String[] args) {
-
-        // Ridiculously verbose syntax for printing to the console
-        System.out.println("Hello, " + who);  // prints: Hello, Nerd
-    }
-}
-```
-
-This source code must be in a file named: `Greeter.java`.
-
-Java requires all source files by named **exactly** same as the class they contain, with extension `.java`.
-
-Wrong: `greeter.java` (lowercase "g"), `Greet.java` (name doesn't match)
-
-### 5. Compiling and Running a Program
-
-You must compile Java code before you can run it. The command for this is **javac**. First verify that `javac` is on your shell (or command window) PATH by typing:
-```
-cmd>  javac -version
-```
-The output print the version number (`java 1.8.0_121`).
-If you get "command not found", it means the JDK programs directory isn't on your command interpreter (or "shell") PATH.  The Java commands are in the directory `JAVA_INSTALL_DIR/bin`.  You should add this directory to your path. This depends on OS.
-
-To compile the Greeter class, on the command line enter:
-```
-cmd>  javac Greeter.java
-```
-
-The compiler (javac) will create a file containing Java "byte code" for your class. For `Greeter.java` the output will be `Greeter.class`.  Java byte code files always have `.class` extension.
-
-To run the byte code use the Java Virtual Machine (JVM).  The command is `java`.  Just type:
-```
-cmd>  java Greeter
-```
-note that you type just the class name (Greeter), **not** Greeter.class.
 
 ### 6. Using the IDE
 
