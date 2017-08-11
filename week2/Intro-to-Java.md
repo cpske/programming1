@@ -8,15 +8,13 @@
 
 2. About the language.
 
-    Java is a *compiled*, *statically typed* programming language designed for object-oriented programming.  All code is contained in classes.  Java is very portable -- compiled code can run on any computer with a JVM installed. See below for code example.
+    Java is a *compiled*, *statically typed* programming language designed for object-oriented programming.  All code is contained in classes.  The Java compiler verifies syntax and validity Java is very portable -- compiled code can run on any computer with a JVM installed. See below for code example.
 
 3. How Java works.
 
-    Java is designed so that the compiled code (called "Java byte code")
-can be run on any machine that supports Java.  The same byte code
-runs the same on Mac OS, Windows, Linux, or anything with the Java
-Runtime installed.
+    The Java compiler produces machine-independent *byte code* for a virtual machine.  The Java virtual machine (JVM) verifies and runs the byte code.  This means that after you compile a Java program, you can run it on any machine that has a JVM, of the same version.  Even the graphics are portable. You can write a GUI app on Windows, compile it, and then run it on a Mac or Linux machine.
 
+    The byte code (produced by compiler) is contained in `.class` files, which are usually packaged into JAR files (jar is just an archive of files in ZIP format, similar to a library).
     This is different from languages such as C or C#, 
 where the code must be recompiled for each target platform.
 
