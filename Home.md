@@ -1,4 +1,4 @@
-# Programming 1 for SKE 2017 students
+# Programming 1 for SKE 2017
 
 ## Topics for week 2
 
