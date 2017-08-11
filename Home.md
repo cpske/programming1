@@ -1,5 +1,3 @@
-# Programming 1 for SKE 2017
-
 ## Week 2 topics
 
 1. [Review](week2/Review.md) of lessons from code.org (week1).
