@@ -3,4 +3,5 @@ misc
 old/
 bin/
 .*
+Gemfile
 !.gitignore
