@@ -1,6 +1,6 @@
 # Programming 1 for SKE 2017
 
-## Topics for week 2
+## Week 2 topics
 
 1. [Review](week2/Review.md) of lessons from code.org (week1).
 2. [Intro to Java](week2/Intro-to-Java.md) and [slides](week2/0-Intro-to-Java.pdf)
@@ -12,7 +12,7 @@
 
 ### Recommended Textbook
 
-*Big Java, 5th Ed.* by Cay Horstmann.  Book is easy to read, but long.  Horstmann is a well-known author.  His books *Core Java* (a favorite of programmers) and *Object-oriented Design & Patterns* (favorite among SKE students) are excellent. 
+*Big Java, 5th Ed.* by Cay Horstmann.  Book is easy to read, but long.  Horstmann is a popular author of Java books, including *Core Java* (a favorite of programmers) and *Object-oriented Design & Patterns* (favorite among SKE students).
 
 Contact me for how to get *Big Java*.
 
