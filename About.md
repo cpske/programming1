@@ -14,8 +14,7 @@ to be added.
 The [Source Repository](https://github.com/jbrucker/programming1) contains weekly material for the course as a Git repository, with subdirectories for each week and special topics.
 
 | Schedule and Links | https://jbrucker.github.io/programming1/Home |
-| Java Basics        | https://jbrucker.github.io/programming1/java-basics  |
-| Material for week1 | https://jbrucker.github.io/programming1/week1 |
+| Material for week2 | https://jbrucker.github.io/programming1/week2 |
 | General Documents  | https://jbrucker.github.io/programming1/docs  |
 | Resources          | https://jbrucker.github.io/programming1/Resources |
 
@@ -30,16 +29,13 @@ It is OK to discuss design and problems you have, but not to share code.  If you
 
 ### Programming Tools You Will Need
 
-1. **Java 8 JDK** and JRE.  The JDK includes a JRE. [Download from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
-2. **Java IDE**  Good ones are [BlueJ](https://bluej.org), Eclipse, Netbeans, and IntelliJ IDEA.  BlueJ is recommended for trying out Java code and visualization objects. I use BlueJ in class. Please try BlueJ at first.
-3. **Git command line tool.**  IDEs include a git tool but you still need the command line git program.  Download from [http://git-scm.org/download/](http://git-scm.org/download/).
-4. **UML editor is helpful.** [Violet](https://sourceforge.net/projects/violet/files/violetumleditor/) is a simple, easy-to-use UML editor written in Java. I use version 2.0.1 (not the newest) because it inserts less space.  Eclipse, Netbeans, and IDEA have UML extensions that generate a class diagram from Java code.
-5. You also need the Java Documentation, see below.  The *Java Tutorial* is also recommended.
+See [Tools](Tools.md).
 
 ### Windows Users:
 
-* Please do **not** install IDE, JDK docs, etc. on the desktop! (the actual path will be long have have space)
-* Please use a **short path** without a **space** in the name.
+* Please install JDK using a **short path** without a **space**.
+* Please use a `workspace` (parent folder) for all your projects that you can easily find -- please **not** use the Desktop.
+
 ```
 Good path: C:\java\jdk8u20 and C:\java\jdk8\docs
 Bad path:  C:\Program Files\Java\JavaSDK 8u20
