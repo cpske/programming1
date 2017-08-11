@@ -12,6 +12,6 @@
 
 *Big Java, 5th Ed.* by Cay Horstmann.  Book is easy to read, but long.  Horstmann is a popular author of Java books, including *Core Java* (a favorite of programmers) and *Object-oriented Design & Patterns* (favorite among SKE students).
 
-Contact me for how to get *Big Java*.
+[Contact me](Contact.md) for how to get *Big Java*.
 
 
