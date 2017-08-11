@@ -3,10 +3,10 @@
 ## Topics for week 2
 
 1. [Review](week2/Review.md) of lessons from code.org (week1).
-2. [Intro to Java](week2/Intro-to-Java.md), [slides](week2/0-Intro-to-Java.pdf)
+2. [Intro to Java](week2/Intro-to-Java.md) and [slides](week2/0-Intro-to-Java.pdf)
 3. [Tools](Tools.md) you need: Java JDK, Java Documentation, IDE, and Git.
 4. [Program Structure](week2/Program-Structure.md) and [slides](week2/1-Program-Structure.pdf)
-5. [Variables](week2/2-Variable.pdf) how to define variables, rules for names.
+5. [Variables](week2/2-Variables.pdf) how to define variables, rules for names.
 6. [Primitive Data Types](week2/3-Primitive-Datatypes.pdf)
 7. Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic java syntax for students who know how to code.
 
