@@ -1,6 +1,6 @@
 ## Week 2 topics
 
-1. [Review](week2/Review.md) of lessons from code.org (week1).
+1. [Review](week2/Review.md) of lessons from [code.org](http://code.org) (week1).
 2. [Intro to Java](week2/Intro-to-Java.md) and [slides](week2/0-Intro-to-Java.pdf)
 3. [Tools](Tools.md) you need: Java JDK, Java Documentation, IDE, and Git.
 4. [Program Structure](week2/Program-Structure.md) and [slides](week2/1-Program-Structure.pdf)
