@@ -6,7 +6,7 @@
 4. [Program Structure](week2/Program-Structure.md) and how to compile, [slides](week2/1-Program-Structure.pdf).
 5. [Variables](week2/2-Variables.pdf) how to define variables, rules for names.
 6. [Primitive Data Types](week2/3-Primitive-Datatypes.pdf)
-7. Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic java syntax for students who know how to code.
+7. Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java syntax for students who already know how to code.
 
 ### Recommended Book
 
