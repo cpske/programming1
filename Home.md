@@ -8,6 +8,11 @@
 6. [Primitive Data Types](week2/3-Primitive-Datatypes.pdf)
 7. Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java syntax for students who already know how to code.
 
+## Lab
+
+1. [Intro to Java](week2/Lab1-Intro.pdf) with Greeter program. **New:** added 2 optional problems.
+2. [elab](https://elab.cpe.ku.ac.th) - must be done by next week.
+
 ### Recommended Book
 
 *Big Java, 5th Ed.* by Cay Horstmann.  Book is easy to read, but long.  Horstmann is a popular author of Java books, including *Core Java* (a favorite of programmers) and *Object-oriented Design & Patterns* (favorite among SKE students).
