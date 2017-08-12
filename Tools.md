@@ -10,17 +10,16 @@
 > BlueJ (IDE) for Windows and Mac OSX includes the Java JDK. If you install BlueJ you can skip #1.
 
 1. Java Development Kit (JDK): [JDK 8 Downloads](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) at http://www.oracle.com/technetwork/java/javase/.
-2. [JDK Documentation](http://www.oracle.com/technetwork/java/javase/documentation/jdk8-doc-downloads-2133158.html). Please install on your computer and **bookmark** the API docs in your browser (demo in class).
-    * You can view the [JDK Documentation online](http://docs.oracle.com/javase/8/docs/) at http://docs.oracle.com/javase/8/docs/, but its less efficient.
-    * The [Java API](http://docs.oracle.com/javase/8/docs/api) is what you need most. Bookmark it!
-    * [Download it!](http://www.oracle.com/technetwork/java/javase/documentation/jdk8-doc-downloads-2133158.html).  You don't need the JavaFX docs.
-        1. Saves time and bandwidth.
-        2. Your IDE (Eclipse, BlueJ, Netbeans) will show context sensitive help using the API docs (or JDK source)!
-3. An Integrated Development Env (IDE) for writing code. Please try BlueJ, but you can use whatever IDE you prefer.
+2. Integrated Development Env (IDE) for writing code. Please try BlueJ, but you can use whatever IDE you prefer.
     * [BlueJ](https://www.bluej.org) - great for learning. You can interactively run code without compiling, view objects, and visualize project structure.
     * [Eclipse](https://eclipse.org/downloads) - powerful, but complex.
     * [Netbeans](https://netbeans.org/downloads) - easier than Eclipse. Install the "Java SE" version.
     * IntelliJ by JetBrains. Many say its most powerful Java IDE. Somewhat hard to master, I think.
+3. [JDK Documentation](http://www.oracle.com/technetwork/java/javase/documentation/jdk8-doc-downloads-2133158.html). Please install on your computer and **bookmark** the API docs in your browser (demo in class).
+    * You can view the [JDK Documentation online](http://docs.oracle.com/javase/8/docs/) at http://docs.oracle.com/javase/8/docs/, but its much faster to install on your computer and bookmark it.
+    * The [Java API](http://docs.oracle.com/javase/8/docs/api) is what you need most. Bookmark it!
+    * [Download](http://www.oracle.com/technetwork/java/javase/documentation/jdk8-doc-downloads-2133158.html).  You don't need the JavaFX docs.
+    * The IDE (Eclipse, BlueJ, Netbeans) can show context sensitive help using the API docs on your computer. Eclipse can also get Javadoc from source code.
 4. [Git command tool](http://git-scm.org/download/) from http://git-scm.org/download/ (not needed at beginning). The "git" command line program is needed to submit some assignments. IDEs have builtin Git support, but command line is sometimes better.
 
 ### Recommended
