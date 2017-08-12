@@ -11,12 +11,12 @@ to be added.
 
 ### Course Material
 
-The [Source Repository](https://github.com/jbrucker/programming1) contains weekly material for the course as a Git repository, with subdirectories for each week and special topics.
+The [Source Repository](https://github.com/cpske/programming1) contains weekly material for the course as a Git repository, with subdirectories for each week and special topics.
 
-| Schedule and Links | https://jbrucker.github.io/programming1/Home |
-| Material for week2 | https://jbrucker.github.io/programming1/week2 |
-| General Documents  | https://jbrucker.github.io/programming1/docs  |
-| Resources          | https://jbrucker.github.io/programming1/Resources |
+| Schedule and Links | https://cpske.github.io/programming1/Home |
+| Material for week2 | https://cpske.github.io/programming1/week2 |
+| General Documents  | https://cpske.github.io/programming1/docs  |
+| Resources          | https://cpske.github.io/programming1/Resources |
 
 
 ### Requirement for Individual Work
