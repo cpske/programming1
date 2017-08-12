@@ -25,9 +25,9 @@
 ### Recommended
 
 [The Java Tutorial](https://docs.oracle.com/javase/tutorial/)
-the most comprehensive Java tutorial.  The [Really Big Index](https://docs.oracle.com/javase/tutorial/reallybigindex.html) page is the best place to find specific material, so bookmark it.  
+is a *very* comprehensive Java tutorial from Oracle.  The [Really Big Index](https://docs.oracle.com/javase/tutorial/reallybigindex.html) page is the best way to find specific material, so bookmark it.  
 
-We suggest you [download it](http://www.oracle.com/technetwork/java/javase/java-tutorial-downloads-2005894.html) and install on your computer.  You can download the tutorial as HTML or ebooks (ePub).
+We suggest you [download the tutorial](http://www.oracle.com/technetwork/java/javase/java-tutorial-downloads-2005894.html) and install on your computer.  You can download the tutorial as HTML or ebooks (ePub).
 
 ### Online Coding Sites
 
