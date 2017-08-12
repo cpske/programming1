@@ -1,3 +1,4 @@
-theme: none
+## Remove theme
+## theme: minimal
 title: Programming 1 @ KU
 description: Programming using Java. https://jbrucker.github.io/programming1
