@@ -1,9 +1,9 @@
-### Please Install JDK and JDK Docs in Path without space
-
-The JDK "bin" includes many commands you can run from command line.  To avoid problems with your system PATH, its better to use a *short* path **without spaces in the path**.
-
-Good: `c:\java\jdk8u144` (Windows), `/opt/java/jdk8u144` (Linux).    
-Bad: `c:\Program Files\Java Development Kit\jdk_1.8.0u144`
+> Please Install the JDK and JDK Docs in a path without space.
+>
+> The JDK "bin" has many commands you can run from the command line.  To avoid problems with your system PATH, its better to use a *short* path **without spaces**.
+>
+> Good: `c:\java\jdk8u144` (Windows), `/opt/java/jdk8u144` (Linux).    
+> Bad: `c:\Program Files\Java Development Kit\jdk_1.8.0u144`
 
 ## Programming Tools You Will Need
 
