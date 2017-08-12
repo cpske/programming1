@@ -81,11 +81,12 @@ To compile for Java 1.6 (aka Java 6) use:
 cmd> javac -source 1.6 -target 1.6 Greeter
 ```
 
-Suppose Java 6 JRE is in directory /java/jdk6/jre/bin (Java 7 would also work) then you could run Greeter.class using:
+Suppose Java 6 JRE is in the directory /java/jdk6/jre/bin (Java 7 would also work) then you can run Greeter.class using:
 ```
 cmd> /java/jdk6/jre/bin/java  Greeter
 ```
 It should print:
+```
 Hello, Human. You are running Java 1.6.0_24 on Windows 
 ```
 The update (24) and OS (Windows) may vary.

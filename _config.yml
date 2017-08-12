@@ -2,3 +2,7 @@
 ## theme: minimal
 title: Programming 1 @ KU
 description: Programming using Java. 
+# Use Git's markdown syntax
+markdown: kramdown
+kramdown:
+    auto_ids: true
