@@ -2,7 +2,7 @@
 ### Structure of a Java Program
 
 Java source code is contained in *methods* that are part of a *class*.
-For example:
+Here is a simple class:
 ```java
 public class Greeter {
     // a variable referring to a string
@@ -16,8 +16,8 @@ public class Greeter {
     }
 }
 ```
-This code should be in a file `Greeter.java`.
-Java requires that source file names **exactly match** the name of the class they contain.  
+This code should be in a file named `Greeter.java`.
+Java requires that source file name **exactly match** the name of the class it contains.  
 
 **Wrong**: `greeter.java` (lowercase "g"), `Greet.java` (name doesn't match)
 
@@ -25,7 +25,7 @@ If you have a class named `Person` then it should be in a file named `Person.jav
 
 ### Compiling and Running a Program
 
-You must compile Java code before you can run it. The command for this is **javac**. First verify that `javac` is on your shell (or command window) PATH by typing:
+You must compile Java code before you can run it.  An IDE will compile for you, or you can compile code in a command window using the command **javac**. First verify that `javac` is on your shell (or command window) PATH by typing:
 ```
 cmd>  javac -version
 ```
@@ -37,7 +37,7 @@ To compile the Greeter class on the command line enter:
 cmd>  javac Greeter.java
 ```
 
-The compiler (javac) will create a file containing Java "byte code" for your class. For `Greeter.java` the output will be `Greeter.class`.  Java byte code files always have `.class` extension.
+The compiler (javac) will create a file named `Greeter.class` containing Java "byte code" for your class. Java byte code files always have `.class` extension.
 
 Run the byte code in the Java Virtual Machine (JVM).  The command is `java`.  Just type:
 ```
@@ -48,13 +48,15 @@ note that you type just the class name (Greeter), **not** Greeter.class.
 ### What's a *Java Virtual Machine* and why bother?
 
 The Java compiler produces hardware-independent byte code.
-The "byte code" is instructions for a virtual machine, aka the Java Virtual Machine (JVM).  The JVM is the same for all computers, so you can run the
-same byte code on any computer that has a JVM.  As a developer, this
-means you can write and compile your code once, and users can run it
-on any platform that has a JVM.  The only requirement is that the JVM
-must be at least the minimum version you used for compiling your source.
+The "byte code" is instructions for a virtual machine, called the Java Virtual Machine (JVM).  The JVM works the same on all computers, so you can run the
+same byte code on any computer that has a JVM.  
+
+As a developer, this means you can write and compile your code once, 
+and users can run it on any platform that has a JVM.  The only requirement 
+is that the JVM
+must be at least the minimum version you used to compile your source code.
 (*If your code is compiled for Java 8 and someone only has a Java 7 JVM
-then it won't run.*)
+then it won't run. But you can correct this by specifying optional flags to the Java 8 compiler to tell it to create Java 7 byte code.*)
 
 ### Experiments
 
