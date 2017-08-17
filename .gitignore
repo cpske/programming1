@@ -1,9 +1,10 @@
 # Files to not commit to git
 misc
+_site
 old/
 bin/
 *.bak
 *.ctxt
 *.lock
-Gemfile
+# Gemfile
 !.gitignore
