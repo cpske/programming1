@@ -1,4 +1,4 @@
-## Remove theme
+# Remove theme
 theme: minima
 title: Programming 1 @ KU
 description: Intro to programming using Java
@@ -7,3 +7,6 @@ exclude: [bin, misc, Gemfile, Gemfile.lock]
 markdown: kramdown
 kramdown:
     auto_ids: true
+
+# Google Analytics Tracking Number included by _includes/google_analytics.html
+site.google_analytics: "UA-104768257-1"
