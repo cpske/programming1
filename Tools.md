@@ -1,6 +1,6 @@
 ### Please install the JDK and JDK docs in a path without spaces
 
-> The JDK "bin" has many commands you can run from the command line.  To avoid problems with your system PATH, its better to use a *short* path **without spaces**.
+> To avoid path problems (and for convenience adding new versions of the JDK), its better to install Java in a *short* path **without spaces**.
 >
 > Good: `c:\java\jdk8u144` (Windows), `/opt/java/jdk8u144` (Linux).    
 > Bad: `c:\Program Files\Java Development Kit\jdk_1.8.0u144`
@@ -13,7 +13,7 @@
 2. Integrated Development Env (IDE) for writing code. Please try BlueJ, but you can use whatever IDE you prefer.
     * [BlueJ](https://www.bluej.org) - great for learning. You can interactively run code without compiling, view objects, and visualize project structure.
     * [Eclipse](https://eclipse.org/downloads) - powerful, but complex.
-    * [Netbeans](https://netbeans.org/downloads) - easier than Eclipse. Install the "Java SE" version.
+    * [Netbeans](https://netbeans.org/downloads) - similar to Eclipse but easier to get started. Install the "Java SE" version.
     * IntelliJ by JetBrains. Many say its most powerful Java IDE. Somewhat hard to master, I think.
 3. [JDK Documentation](http://www.oracle.com/technetwork/java/javase/documentation/jdk8-doc-downloads-2133158.html). Please install on your computer and **bookmark** the API docs in your browser (demo in class).
     * You can view the [JDK Documentation online](http://docs.oracle.com/javase/8/docs/) at http://docs.oracle.com/javase/8/docs/, but its much faster to install on your computer and bookmark it.
@@ -24,15 +24,16 @@
 
 ### Recommended
 
-[The Java Tutorial](https://docs.oracle.com/javase/tutorial/)
-is a *very* comprehensive Java tutorial from Oracle.  The [Really Big Index](https://docs.oracle.com/javase/tutorial/reallybigindex.html) page is the best way to find specific material, so bookmark it.  
+Oracle's [Java Tutorial](https://docs.oracle.com/javase/tutorial/)
+is a *very* comprehensive Java tutorial.  The [Really Big Index](https://docs.oracle.com/javase/tutorial/reallybigindex.html) page is the best way to find specific material, so bookmark it.  
 
-We suggest you [download the tutorial](http://www.oracle.com/technetwork/java/javase/java-tutorial-downloads-2005894.html) and install on your computer.  You can download the tutorial as HTML or ebooks (ePub).
+We suggest you [download the tutorial](http://www.oracle.com/technetwork/java/javase/java-tutorial-downloads-2005894.html) and install it on your computer.  You can download the tutorial as HTML or ebooks (ePub).
 
 ### Online Coding Sites
 
 * [elab](http://elab.cpe.ku.ac.th) for lab work in this course.
-* [codingbat.com](http://codingbat.com/java) for more online coding practice. Has many short problems, with explanation and soluttions.
+* [codingbat.com](http://codingbat.com/java) has many short problems, with explanation and solutions. Enter code into browser window and see test results immediately.
+* [stepik.org](https://stepik.org) has a nice "[Adaptive Java](https://stepik.org/2403)" course created by JetBrains.  It chooses problems based on your past answers, so problems get progressively harder.  You can write code in browser or upload a file.
 
 ### UML Diagrams
 

@@ -8,5 +8,5 @@ markdown: kramdown
 kramdown:
     auto_ids: true
 
-# Google Analytics Tracking Number included by _includes/google_analytics.html
-site.google_analytics: "UA-104768257-1"
+# Google Analytics Tracking Number included in _includes/google_analytics.html
+google_analytics: "UA-104768257-1"
