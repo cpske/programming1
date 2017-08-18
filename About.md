@@ -1,22 +1,14 @@
-## Programming 1 
+---
+layout: default
+---
+This course is an introduction to programming using Java.  It covers fundamental programming
+programming constructs and the basics of object-oriented programming.   
 
-This course is an introduction to programming.  It covers fundamental programming
-constructs and the basics of object-oriented programming.   Programming is an
-essential skill for the Software and Knowledge Engineering curriculum. Please try
-to master the material and earn an 'A' in this course.
+Programming skill is **essential** for the Software and Knowledge Engineering curriculum. Please try to master the material and earn an 'A' in this course.
 
 ## Topics
 
-to be added.
-
-### Course Material
-
-The [Source Repository](https://github.com/cpske/programming1) contains weekly material for the course as a Git repository, with subdirectories for each week and special topics.
-
-| Schedule and Links | https://cpske.github.io/programming1/Home |
-| Material for week2 | https://cpske.github.io/programming1/week2 |
-| General Documents  | https://cpske.github.io/programming1/docs  |
-| Resources          | https://cpske.github.io/programming1/Resources |
+See Aj. Jitti's syllabus.
 
 
 ### Requirement for Individual Work
@@ -27,27 +19,23 @@ It is OK to discuss design and problems you have, but not to share code.  If you
 
 **Copying == Fail**  Anyone who submits copied work will receive grade "F" and be reported to Faculty of Engineering for disciplinary action.
 
-### Programming Tools You Will Need
+### Programming Tools You Need
 
 See [Tools](Tools.md).
-
-### Windows Users:
-
-* Please install JDK using a **short path** without a **space**.
-* Please use a `workspace` (parent folder) for all your projects that you can easily find -- please **not** use the Desktop.
-
-```
-Good path: C:\java\jdk8u20 and C:\java\jdk8\docs
-Bad path:  C:\Program Files\Java\JavaSDK 8u20
-```
 
 ### Textbook and Documentation
 
 Assignments will use material from these sources:
 
-* Horstmann, *Big Java*, 5E or 4E.  The 4th and 5th editions are almost identical. The 4th edition is more concise and some parts are better organized. 5E has better page layout. Both editions cover Java 7, but not the new features in Java 8.
-* [The Java Tutorial](https://docs.oracle.com/javase/tutorial/) (Recommended). The most comprehensive Java tutorial.  The [Really Big Index](https://docs.oracle.com/javase/tutorial/reallybigindex.html) page is the best place to find specific material, so bookmark it.  I suggest you [download it](http://www.oracle.com/technetwork/java/javase/java-tutorial-downloads-2005894.html) and install on your computer. 
+* Horstmann, *Big Java*, 5E. The 4th edition can also be used -- it covers the same material and more concise. Both 4E and 5E cover Java 7, but not the new features in Java 8.
+* Oracle's [Java Tutorial](https://docs.oracle.com/javase/tutorial/) (Recommended). The most comprehensive Java tutorial.  The [Really Big Index](https://docs.oracle.com/javase/tutorial/reallybigindex.html) page is the best place to find specific material, so bookmark it.  I suggest you [download](http://www.oracle.com/technetwork/java/javase/java-tutorial-downloads-2005894.html) and install it on your computer. 
 * *The Java JDK Documentation*. You are required to install this on your computer and **bookmark** the API index in your web browser. This is a great source of knowledge about the Java platform. Go to [Java SE Downloads](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and scroll down to "Java SE 8 documentation".
+
+### Online Coding Sites
+
+* [elab](http://elab.cpe.ku.ac.th) for lab work in this course.
+* [codingbat.com](http://codingbat.com/java) has many short problems, with explanation and solutions. Enter code into browser window and see test results immediately.
+* [stepik.org](https://stepik.org) has a nice "[Adaptive Java](https://stepik.org/2403)" course created by JetBrains.  It chooses problems based on your past answers, so problems get progressively harder.  You can write code in browser or upload a file.
 
 ### Individual Feedback
 
@@ -58,4 +46,15 @@ You must correct all problems or defects in lab work **within one week**.  After
 ## Grading
 
 See Aj. Jitti's course syllabus.
+
+### Course Material
+
+This section refer's to material for Jim's presentations.
+
+Everything is on https://cpske.github.io/programming1. There are directories for topics or weeks, plus some general files.
+
+| Schedule and Links | https://cpske.github.io/programming1/Home |
+| Material for week2 | https://cpske.github.io/programming1/week2 |
+| General Documents  | https://cpske.github.io/programming1/docs  |
+| Resources          | https://cpske.github.io/programming1/Resources |
 

@@ -5,7 +5,7 @@
 > Good: `c:\java\jdk8u144` (Windows), `/opt/java/jdk8u144` (Linux).    
 > Bad: `c:\Program Files\Java Development Kit\jdk_1.8.0u144`
 
-## Programming Tools You Will Need
+## Programming Tools You Need
 
 > BlueJ (IDE) for Windows and Mac OSX includes the Java JDK. If you install BlueJ you can skip #1.
 
@@ -25,7 +25,7 @@
 ### Recommended
 
 Oracle's [Java Tutorial](https://docs.oracle.com/javase/tutorial/)
-is a *very* comprehensive Java tutorial.  The [Really Big Index](https://docs.oracle.com/javase/tutorial/reallybigindex.html) page is the best way to find specific material, so bookmark it.  
+is *very* comprehensive, from beginner to advanced topics.  The [Really Big Index](https://docs.oracle.com/javase/tutorial/reallybigindex.html) page is the best way to find specific material, so bookmark it.  
 
 We suggest you [download the tutorial](http://www.oracle.com/technetwork/java/javase/java-tutorial-downloads-2005894.html) and install it on your computer.  You can download the tutorial as HTML or ebooks (ePub).
 
