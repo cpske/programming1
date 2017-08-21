@@ -20,6 +20,18 @@ description: Index page
 
 ---
 ## Arrays
+1. [Introduction to Arrays](java-basics/17-Arrays.pdf).
+2. Using arrays: idioms and useful methods.
+3. Practice with arrays.
+4. Multi-dimensional arrays.
+5. ArrayList is a list, like an array that grows itself.
+
+### Lab
+tba
+
+### Assignment
+**Read**: Big Java, Chapter 7 (Arrays). Only 40 pages and easy to read.    
+**Programming**: tba
 
 
 ---
