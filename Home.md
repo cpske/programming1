@@ -21,7 +21,7 @@ description: Index page
 ---
 ## Arrays
 1. [Introduction to Arrays](java-basics/17-Arrays.pdf).
-2. Using arrays: idioms and useful methods.
+2. [Using arrays](java-basics/18-Using-Arrays.md) idioms and useful methods.
 3. Practice with arrays.
 4. Multi-dimensional arrays.
 5. ArrayList is a list, like an array that grows itself.
