@@ -24,7 +24,6 @@ description: Index page
 2. [Using arrays](java-basics/18-Using-Arrays.md) idioms and useful methods.
 3. Practice with arrays.
 4. Multi-dimensional arrays.
-5. ArrayList is a list, like an array that grows itself.
 
 ### Lab
 tba
