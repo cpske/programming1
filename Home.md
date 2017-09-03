@@ -8,6 +8,7 @@ description: Index page
 <tr valign="top">
 <th> Week  </th> <th> Topics </th><th>  Assignment   </th>
 </tr>
+<!-- -->
 <tr valign="top">
 <td align="center"> 2 </td>
 <td markdown="span">
@@ -25,44 +26,25 @@ Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java synt
 2. [elab](https://elab.cpe.ku.ac.th) - must be done by next week.
 </td>
 </tr>
-
-</table>
-
-
----
-
-| Week  | Topics  | Assignment    |
-|:-----:| ------- | ------------- |
-|   2   |
-
-  1. [Review](week2/Review.md) of lessons from [code.org](http://code.org) (week1).
-  2. [Intro to Java](week2/Intro-to-Java.md) and [slides](week2/0-Intro-to-Java.pdf)
-  3. [Tools](Tools.md) you need: Java JDK, Java Documentation, IDE, and Git.
-  4. [Program Structure](week2/Program-Structure.md) and how to compile; [slides](week2/1-Program-Structure.pdf).
-  5. [Variables](week2/2-Variables.pdf) how to define variables, rules for names.
-  6. [Primitive Data Types](week2/3-Primitive-Datatypes.pdf)
-  7. Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java syntax for students who already know how to code.
-|   that's all |
-
-
-**Lab**
-1. [Intro to Java](week2/Lab1-Intro.pdf) with Greeter program. **New:** added 2 optional problems using dialog boxes.
-2. [elab](https://elab.cpe.ku.ac.th) - must be done by next week.
-
----
-## Arrays
+<!-- -->
+<tr valign="top">
+<td align="center"> 9 <br/> Oct 2 </td>
+<td markdown="span">
 1. [Introduction to Arrays](java-basics/17-Arrays.pdf).
 2. [Using arrays](java-basics/18-Using-Arrays.md) idioms and useful methods.
 3. Practice with arrays.
 4. Multi-dimensional arrays.
-
-### Lab
+</td>
+<td markdown="span">
+**Lab**   
 tba
-
-### Assignment
+**Assignment**  
 **Read**: Big Java, Chapter 7 (Arrays). Only 40 pages and easy to read.    
-**Programming**: tba
+**Programming**: tba   
+</td>
+</tr>
 
+</table>
 
 ---
 ### Recommended Book
