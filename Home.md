@@ -28,17 +28,25 @@ Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java synt
 </tr>
 <!-- -->
 <tr valign="top">
-<td align="center"> 9 <br/> Oct 2 </td>
+<td align="center"> Using Git </td>
 <td markdown="span">
-1. [Introduction to Arrays](java-basics/17-Arrays.pdf).
-2. [Using arrays](java-basics/18-Using-Arrays.md) idioms and useful methods.
-3. Practice with arrays.
-4. Multi-dimensional arrays.
+[Introduction to Git](git/git-introduction)   
 </td>
 <td markdown="span">
-**Lab**   
-tba     
-**Assignment**  
+[Git Assignment](git/git-assignment) there will be a quiz on this next week.
+</td>
+</tr>
+<!-- -->
+<tr valign="top">
+<td align="center"> 9 <br/> Oct 2 </td>
+<td markdown="span">
+[Introduction to Arrays](java-basics/17-Arrays.pdf).   
+[Using arrays](java-basics/18-Using-Arrays.md) idioms and useful methods.   
+Practice with arrays.   
+Multi-dimensional arrays.   
+</td>
+<td markdown="span">
+**Lab:**  tba     
 **Read**: Big Java, Ch. 7 *Arrays*. Only 40 pages, easy to read.    
 **Programming**: tba   
 </td>
