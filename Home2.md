@@ -4,10 +4,37 @@ title:
 description: Index page
 ---
 
+<table border="1">
+<tr valign="top">
+<th> Week  </th> <th> Topics </th><th>  Assignment   </th>
+</tr>
+<tr valign="top">
+<td align="center"> 2 </td>
+<td markdown="span">
+[Review](week2/Review.md) of week1 lessons from [code.org](http://code.org).   
+[Intro to Java](week2/Intro-to-Java.md) and [slides](week2/0-Intro-to-Java.pdf)   
+[Tools](Tools.md) you need: Java JDK, Java Documentation, IDE, and Git.  
+[Program Structure](week2/Program-Structure.md) and how to compile; [slides](week2/1-Program-Structure.pdf).  
+[Variables](week2/2-Variables.pdf) how to define variables, rules for names.  
+[Primitive Data Types](week2/3-Primitive-Datatypes.pdf)  
+Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java syntax for students who already know how to code.  
+</td>
+<td markdown="span">
+**Lab**  
+1. [Intro to Java](week2/Lab1-Intro.pdf) with Greeter program. **New:** added 2 optional problems using dialog boxes.  
+2. [elab](https://elab.cpe.ku.ac.th) - must be done by next week.
+</td>
+</tr>
+
+</table>
+
+
+---
 
 | Week  | Topics  | Assignment    |
 |:-----:| ------- | ------------- |
 |   2   |
+
   1. [Review](week2/Review.md) of lessons from [code.org](http://code.org) (week1).
   2. [Intro to Java](week2/Intro-to-Java.md) and [slides](week2/0-Intro-to-Java.pdf)
   3. [Tools](Tools.md) you need: Java JDK, Java Documentation, IDE, and Git.
