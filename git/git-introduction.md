@@ -19,7 +19,7 @@ With Git you can also control who has read or write access to files in a reposit
 
 There are many tools for using git, including:
 
-1. **git command line tool** - what we will use and the best way to learn git. Download from http://git-scm.com/downloads. For Ubuntu, use `apt-get install git`.
+1. **git command line tool** - what we will use and the best way to learn git. Download from [http://git-scm.com/downloads](http://git-scm.com/downloads). For Ubuntu, use `apt-get install git`.
 2. **Git GUI client** such as ProGit or SourceTree.
 3. **IDE builtin Git feature** Eclipse, Netbeans, IntelliJ, and BlueJ all have a builtin git. After you throughly understand git, these tools are a fast, easy way to use git while programming; but if you *don't* know git well it is easy to make mistakes or be confused.
 
@@ -64,8 +64,7 @@ cmd> git add README.md
 `git add` marks the file for adding (or updating) to the repository, but does not actually save it.
 You can add as many files as you want.
 ```
-cmd> git add Problem1.java
-cmd> git add Problem2.java
+cmd> git add Problem1.java  Problem2.java
 cmd> git status
   Changes to be commited:
      new file:  README.md
