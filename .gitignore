@@ -1,4 +1,5 @@
-# Files to not commit to git
+# Files not to commit to git
+# Should we ignore Gemfile (used to build site with Jekyll)?
 misc
 _site
 old/
@@ -6,5 +7,4 @@ bin/
 *.bak
 *.ctxt
 *.lock
-# Gemfile
 !.gitignore
