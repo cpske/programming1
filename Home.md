@@ -37,9 +37,9 @@ Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java synt
 </td>
 <td markdown="span">
 **Lab**   
-tba
+tba     
 **Assignment**  
-**Read**: Big Java, Chapter 7 (Arrays). Only 40 pages and easy to read.    
+**Read**: Big Java, Ch. 7 *Arrays*. Only 40 pages, easy to read.    
 **Programming**: tba   
 </td>
 </tr>
