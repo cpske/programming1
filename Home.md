@@ -30,7 +30,7 @@ Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java synt
 <tr valign="top">
 <td align="center"> Using Git </td>
 <td markdown="span">
-[Introduction to Git](git/git-introduction)   
+[Introduction to Git](git/intro-git)   
 </td>
 <td markdown="span">
 [Git Assignment](git/git-assignment) there will be a quiz on this next week.
