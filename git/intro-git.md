@@ -6,22 +6,21 @@ description: Introduction to Git
 
 ## About Git
 
-Git is a version control system.  It keeps a history and archive of changes 
+Git is a version control system.  It keeps a history and archive of all changes 
 to a collection of files, such as files in a project.
 
-Git keeps a record of every change to a collection of file, along with who made the change, a reason (specified in a log message), and a way for the user to recover any previous version
-of any file.  This is similar to the way Google Docs keeps a history of changes to a Google Doc,
+Git records every change to a collection of files, along with who made the change and why (specified in a log message). Git lets you view changes and recover any previous version of any file (even deleted files!).  This is similar to the way Google Docs keeps a history of changes to a Google Doc,
 except git operates on a collection of files rather than just individual files.
 
-With Git you can also control who has read or write access to files in a repository.
+Git also lets you control who has read or write access to files in a repository.
 
 ## Git Software
 
 There are many tools for using git, including:
 
 1. **git command line tool** - what we will use and the best way to learn git. Download from [http://git-scm.com/downloads](http://git-scm.com/downloads). For Ubuntu, use `apt-get install git`.
-2. **Git GUI client** such as ProGit or SourceTree.
-3. **IDE builtin Git feature** Eclipse, Netbeans, IntelliJ, and BlueJ all have a builtin git. After you throughly understand git, these tools are a fast, easy way to use git while programming; but if you *don't* know git well it is easy to make mistakes or be confused.
+2. **Git GUI client** such [SourceTree](https://www.sourcetreeapp.com/).
+3. **IDE builtin Git feature** Eclipse, Netbeans, IntelliJ, and BlueJ all have git tools. After you thoroughly understand git, these tools are a fast, easy way to use git while programming; but if you *don't* know git well it is easy to make mistakes or be confused.
 
 ## Git Concepts and Basic Usage
 
@@ -32,11 +31,11 @@ This explanation uses the command line git.  It describes how to use a local `gi
 A git repository stores a collection of files for one project.  You designate which files you want git to save.  To create a local git repostory:
 
 1. Change to the directory containing the project:
-```
+``` command-line
 cmd> cd workspace/myproject
 ```
 2. Run `git init` to create an empty repository
-```
+``` command-line
 cmd> git init
 ```
 This creates a subdirectory named `.git` containing the repository. Don't edit files in that directory! Let git manage it.  Now you should have:
@@ -58,12 +57,12 @@ You must tell git which files it should save or "track" by using the `git add` c
 </blockquote>
 
 Add this file to the repository using:
-```
+``` command-line
 cmd> git add README.md
 ```
 `git add` marks the file for adding (or updating) to the repository, but does not actually save it.
 You can add as many files as you want.
-```
+``` command-line
 cmd> git add Problem1.java  Problem2.java
 cmd> git status
   Changes to be commited:
@@ -74,7 +73,7 @@ cmd> git status
 The `git status` command shows that there are 3 new files waiting to be added to the repository.
 
 To save the files to the repository use `git commit`.  You must write a log message (-m) with a short explanation:
-```
+``` command-line
 cmd> git commit -m "Initial code checkin"
   3 files changed, 3 insertions, 0 deletions
 cmd> git status
@@ -99,7 +98,7 @@ A **revision** is one snapshot of a project, created by running "git commit".  E
 #### Example
 
 In the example above, we added 3 files to the repository.  You can see a history of all commits (revisions) by typing `git history`:
-```bash
+``` command-line
 cmd> git history
 git history
 * 5d1ab24 - (2 minutes ago) initial code checkin - fatalaijon (HEAD -> master)
@@ -154,5 +153,3 @@ nb-configuration.xml
 cmd> git add .gitignore
 cmd> git commit -m "Add .gitignore"
 ```
-
-

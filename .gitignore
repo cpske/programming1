@@ -1,6 +1,7 @@
 # Files not to commit to git
 # Should we ignore Gemfile (used to build site with Jekyll)?
 misc
+Schedule.xlsx
 _site
 old/
 bin/
