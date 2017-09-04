@@ -31,15 +31,15 @@ This explanation uses the command line git.  It describes how to use a local `gi
 A git repository stores a collection of files for one project.  You designate which files you want git to save.  To create a local git repostory:
 
 1. Change to the directory containing the project:
-``` command-line
+```shell
 cmd> cd workspace/myproject
 ```
 2. Run `git init` to create an empty repository
-``` command-line
+```shell
 cmd> git init
 ```
 This creates a subdirectory named `.git` containing the repository. Don't edit files in that directory! Let git manage it.  Now you should have:
-```
+```shell
 myproject/
     .git/ 
     (your project files)
@@ -57,12 +57,12 @@ You must tell git which files it should save or "track" by using the `git add` c
 </blockquote>
 
 Add this file to the repository using:
-``` command-line
+```shell
 cmd> git add README.md
 ```
 `git add` marks the file for adding (or updating) to the repository, but does not actually save it.
 You can add as many files as you want.
-``` command-line
+```shell
 cmd> git add Problem1.java  Problem2.java
 cmd> git status
   Changes to be commited:
@@ -73,11 +73,11 @@ cmd> git status
 The `git status` command shows that there are 3 new files waiting to be added to the repository.
 
 To save the files to the repository use `git commit`.  You must write a log message (-m) with a short explanation:
-``` command-line
+```shell
 cmd> git commit -m "Initial code checkin"
   3 files changed, 3 insertions, 0 deletions
 cmd> git status
-nothing to commit, working directory clean
+  nothing to commit, working directory clean
 ```
 
 ## Important Concepts
@@ -97,8 +97,8 @@ A **revision** is one snapshot of a project, created by running "git commit".  E
 
 #### Example
 
-In the example above, we added 3 files to the repository.  You can see a history of all commits (revisions) by typing `git history`:
-``` command-line
+In the example above, we added 3 files to the repository.  View the history of all commits (revisions) by typing `git history`:
+```shell
 cmd> git history
 git history
 * 5d1ab24 - (2 minutes ago) initial code checkin - fatalaijon (HEAD -> master)
@@ -109,9 +109,9 @@ This shows there was 1 commit with revision code 5d1ab24 and message "initial co
 
 Most git projects include 2 special files:
 <dl>
-<dt><code>README.md</code></dt>
+<dt><b>README.md</b></dt>
 <dd>A description of the project, formatted using Markdown syntax</dd>
-<dt><code>.gitignore</code></dt>
+<dt><b>.gitignore</b></dt>
 <dd>List of files and wildcard patterns for files that git should <b>ignore</b> (not add to the repo)</dd>
 </dl>
 
@@ -123,7 +123,7 @@ You usually don't want to commit the IDE project files. Your IDE can recreate th
 if needed.  For Eclipse, the project files to ignore are .classpath, .project, and .settings.
 
 Here is an example `.gitignore` file for a Java project:
-```
+```shell
 # compiler output and build directories
 *.class
 *.temp
@@ -138,7 +138,6 @@ build/
 # Netbeans project files
 nbproject/private
 nbbuild/
-dist/
 nbdist/
 nb-configuration.xml
 
@@ -148,8 +147,40 @@ nb-configuration.xml
 *.iws
 *.ipr
 ```
-**Note:** You **should** add `.gitignore` to the repository:
-```
+
+**Note:** You **should add** `.gitignore` to the repository:
+```shell
 cmd> git add .gitignore
 cmd> git commit -m "Add .gitignore"
 ```
+
+## Why Use Git? (An Example)
+
+You **work all week** on the final project for your Programming 1 course. You write source code (in /src) and a report (Report.docx), so you project looks like this:
+```shell
+myproject/
+    .gitignore
+    README.md
+    Report.docx
+    bin/   (compiler output)
+    dist/  (runnable application)
+    src/   (many source code files)
+```
+You commit everything except "bin" to git, and go to lunch.
+
+When you come back from lunch you see that your **cat has deleted Report.docx** by walking on the keyboard!
+![](cat-on-keyboard.jpg?raw=true)
+
+Since you saved it using git, you can recover the most recent version of the report from the git repository. Use:
+```shell
+cmd> git checkout -- Report.docx
+```
+
+If your cat is really mean and deletes (or edits) lots of files, you can revert your working copy to the most recent (HEAD) revision in git. This will discard all changes to the working copy since the last "git commit":
+```shell
+cmd> git reset --hard
+```
+
+## Why Use Github (An Example)
+
+T.B.A.

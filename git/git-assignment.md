@@ -10,8 +10,8 @@ description: Git Assignment
     * Windows and MacOS: download from [https://git-scm.com/downloads][git-scm]
     * Ubuntu: run `sudo apt-get install git`
     * Other Linux: see instructions at [https://git-scm.com/download/linux](https://git-scm.com/download/linux)
-2. **Run** these **git** commands in a command prompt window (*aka* a terminal or shell) to verify git is working on your computer:
-```
+2. **Run** these **git** commands in a command window (*aka* a terminal or shell) to verify git is working on your computer:
+```shell
 cmd>  git --version
 git version 2.14.x (your version may be different) 
 cmd>  git help config
@@ -19,7 +19,7 @@ cmd>  git help config
 ```
 3. Before you can use Git with Github or Bitbucket you must tell git **who you are**. This info is including in commit messages.  
 Enter these commands (just one time) on your local computer:
-```
+```shell
 cmd>  git config --global user.name "Your Name"
 cmd>  git config --global user.email "youremail@ku.th"
 cmd>  git config --list
