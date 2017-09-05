@@ -26,21 +26,21 @@ If you have a class named `Person` then it should be in a file named `Person.jav
 ### Compiling and Running a Program
 
 You must compile Java code before you can run it.  An IDE will compile for you, or you can compile code in a command window using the command **javac**. First verify that `javac` is on your shell (or command window) PATH by typing:
-```
+```shell
 cmd>  javac -version
 ```
 The output print the version number (e.g., `java 1.8.0_121`).
 If you get "command not found", it means the JDK programs directory isn't on your command interpreter (or "shell") PATH.  The Java commands are in the directory `JAVA_INSTALL_DIR/bin`.  You should add this directory to your path. This depends on OS.
 
 To compile the Greeter class on the command line enter:
-```
+```shell
 cmd>  javac Greeter.java
 ```
 
 The compiler (javac) will create a file named `Greeter.class` containing Java "byte code" for your class. Java byte code files always have `.class` extension.
 
 Run the byte code in the Java Virtual Machine (JVM).  The command is `java`.  Just type:
-```
+```shell
 cmd>  java Greeter
 ```
 note that you type just the class name (Greeter), **not** Greeter.class.
@@ -65,10 +65,10 @@ then it won't run. But you can correct this by specifying optional flags to the 
 (e.g. if you have a PC running Windows, give it to someone using a Mac).
 Verify that they can run it!
 
-2. Modify Greeter.java to display the Java version (see below). Compile it for an older version of java using the `-source` and `-target` flags.  Install an old version of the JRE (or find a computer with one) and run it.
+2. Modify Greeter.java to display the Java version (see below). Compile it for an **old version** of java using the `-source` and `-target` flags.  Install an old version of the JRE (or find a computer with one) and run it.
 
 Modified Greeter to show OS and Java version:
-```
+```java
 public class Greeter {
     public static void main(String[] args) {
         String ver = System.getProperty("java.version");
@@ -79,16 +79,16 @@ public class Greeter {
 }
 ```
 To compile for Java 1.6 (aka Java 6) use:
-```
+```shell
 cmd> javac -source 1.6 -target 1.6 Greeter
 ```
 
 Suppose Java 6 JRE is in the directory /java/jdk6/jre/bin (Java 7 would also work) then you can run Greeter.class using:
-```
+```shell
 cmd> /java/jdk6/jre/bin/java  Greeter
 ```
 It should print:
-```
+```shell
 Hello, Human. You are running Java 1.6.0_24 on Windows 
 ```
 The update (24) and OS (Windows) may vary.

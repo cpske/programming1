@@ -40,8 +40,7 @@ Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java synt
 <tr valign="top">
 <td align="center"> Good Code </td>
 <td markdown="span">
-Writing Good Code, part 1   
-Guidelines
+Guidelines for Writing Good Code, part 1
 </td>
 <td markdown="span">
 Lab05 1.1-Factoring (rewrite this using guidelines)

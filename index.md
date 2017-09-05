@@ -14,7 +14,7 @@ description: Index page
 <td markdown="span">
 [Review](week2/Review.md) of week1 lessons from [code.org](http://code.org).   
 [Intro to Java](week2/Intro-to-Java.md) and [slides](week2/0-Intro-to-Java.pdf)   
-[Tools](Tools.md) you need: Java JDK, Java Documentation, IDE, and Git.  
+[Tools](Resources.md) you need: Java JDK, Java Documentation, IDE, and Git.  
 [Program Structure](week2/Program-Structure.md) and how to compile; [slides](week2/1-Program-Structure.pdf).  
 [Variables](week2/2-Variables.pdf) how to define variables, rules for names.  
 [Primitive Data Types](week2/3-Primitive-Datatypes.pdf)  
@@ -40,14 +40,13 @@ Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java synt
 <tr valign="top">
 <td align="center"> Good Code </td>
 <td markdown="span">
-Writing Good Code, part 1   
-Guidelines
+Guidelines for Writing Good Code, part 1
 </td>
 <td markdown="span">
 Lab05 1.1-Factoring (rewrite this using guidelines)
 </td>
 </tr>
-<!-- -->
+<!-- arrays -->
 <tr valign="top">
 <td align="center"> 9 <br/> Oct 2 </td>
 <td markdown="span">
@@ -62,13 +61,14 @@ Multi-dimensional arrays.
 **Programming**: tba   
 </td>
 </tr>
-
 </table>
+
+*This table contains only topics presented by Jim. Aj. Jitti's schedule and teaching materials are on [elab](https://elab.cpe.ku.ac.th) and [Maxlearn](https://course.ku.ac.th).*
 
 ---
 ### Recommended Book
 
-*Big Java, 5th Ed.* by Cay Horstmann.  Book is easy to read, but long.  Horstmann has written many popular Java books, including *Core Java* (favorite of programmers) and *Object-oriented Design & Patterns* (favorite among SKE students).
+<font color="blue"><i>Big Java, 5th Ed.</i></font> by Cay Horstmann.  Book is easy to read, but long.  Horstmann has written many popular Java books, including *Core Java* (favorite of programmers) and *Object-oriented Design & Patterns* (favorite among SKE students).
 
 [Contact me](Contact.md) for how to get *Big Java*.
 
