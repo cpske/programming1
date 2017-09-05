@@ -27,7 +27,7 @@ cmd>  git config --list
 ```
 You can change this info anytime by running `git config` again.
 4. Complete this tutorial to learn about git: [https://try.github.io](https://try.github.io)
-5. Create an account on [Github](https://github.com), and complete the following in your profile:
+5. Create an account on [Github](https://github.com). **Add these things to your Github profile**:
     * Your **full name in English**, with proper case of letters, e.g. Bill Gates.
     * A **photograph** *clearly* showing your *face*.
     * Your **KU-Gmail** address.

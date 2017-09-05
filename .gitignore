@@ -9,3 +9,5 @@ bin/
 *.ctxt
 *.lock
 !.gitignore
+# index.html is generated from index.md
+index.html
