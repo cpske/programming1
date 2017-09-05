@@ -26,7 +26,7 @@ Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java synt
 2. [elab](https://elab.cpe.ku.ac.th) - must be done by next week.
 </td>
 </tr>
-<!-- -->
+<!-- git -->
 <tr valign="top">
 <td align="center"> Using Git </td>
 <td markdown="span">
@@ -34,6 +34,17 @@ Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java synt
 </td>
 <td markdown="span">
 [Git Assignment](git/git-assignment) there will be a quiz on this next week.
+</td>
+</tr>
+<!-- clean code -->
+<tr valign="top">
+<td align="center"> Good Code </td>
+<td markdown="span">
+Writing Good Code, part 1   
+Guidelines
+</td>
+<td markdown="span">
+Lab05 1.1-Factoring (rewrite this using guidelines)
 </td>
 </tr>
 <!-- -->
