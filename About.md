@@ -8,7 +8,7 @@ Programming skill is **essential** for the Software and Knowledge Engineering cu
 
 ## Topics
 
-See Aj. Jitti's syllabus.
+See [Syllabus](https://docs.google.com/spreadsheets/d/1TtB570lBPvBNc24HnSgFh6RQhTb3taxR21Ooa703rZk/).
 
 ---
 ### Requirement for Individual Work
