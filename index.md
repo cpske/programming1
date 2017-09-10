@@ -4,6 +4,8 @@ title:
 description: Index page
 ---
 
+*This table contains only topics presented by Jim. Aj. Jitti's schedule and materials are on [elab](https://elab.cpe.ku.ac.th) and [Maxlearn](https://course.ku.ac.th).*
+
 <table border="1">
 <tr valign="top">
 <th> Week  </th> <th> Topics </th><th>  Assignment   </th>
@@ -63,7 +65,6 @@ Multi-dimensional arrays.
 </tr>
 </table>
 
-*This table contains only topics presented by Jim. Aj. Jitti's schedule and teaching materials are on [elab](https://elab.cpe.ku.ac.th) and [Maxlearn](https://course.ku.ac.th).*
 
 ---
 ### Recommended Book

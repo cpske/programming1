@@ -36,7 +36,7 @@ We suggest you [download the tutorial](http://www.oracle.com/technetwork/java/ja
 
 * [elab](http://elab.cpe.ku.ac.th) for lab work in this course.
 * [codingbat.com](http://codingbat.com/java) - many short problems, with explanation and solutions. Enter code into browser window and see test results immediately. Students can share their progress with instructor.
-* [stepik.org](https://stepik.org) has a nice "[Adaptive Java](https://stepik.org/2403)" course created by JetBrains.  It chooses problems based on your past answers, so problems get progressively harder.  You can write code in browser or upload a file. Has hundreds of problems.
+* [Adaptive Java](https://stepik.org/2403) by JetBrains at [stepik.org](https://stepik.org) is very nice.  It chooses problems based on your past answers (adaptive), so problems get progressively harder.  You can write code in browser or upload a file. Has hundreds of problems.
     * Stepik also has a Python course integrated into PyCharm Edu edition. codingbat.com also has Python problems. 
 
 
@@ -51,8 +51,8 @@ Some tools for drawing UML diagrams are:
 
 * [Violet](https://sourceforge.net/projects/violet/files/violetumleditor/) is a simple, easy-to-use UML editor written in Java. I use version 2.0.1 (not the newest) because it inserts less space.  
 * Eclipse plugin - draw UML or generate UML class diagram from Java code.
-* Netbeans and IDEA also have UML extensions.
-* Paper and pencil. :-)
+* Netbeans and IntelliJ IDEA also have UML extensions.
+* A whiteboard, or paper and pencil. :-)
 
 
 ## For Instructors
