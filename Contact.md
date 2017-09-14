@@ -1,3 +1,7 @@
+---
+layout: page
+title: Contact
+---
 ## Email 
 
 For Jim's email, invoke this method:

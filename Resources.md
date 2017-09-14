@@ -1,3 +1,8 @@
+---
+layout: page
+title: Resources
+description: Java Resources
+---
 #### Please install the JDK and JDK docs in a path without spaces
 
 > To avoid path problems and for convenience adding new versions of the JDK, you should install Java in a **short path without spaces**.
