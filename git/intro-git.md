@@ -27,7 +27,7 @@ This explanation uses the command line git.  It describes how to use a local `gi
 
 ### Creating a Local Git Repository
 
-A git **repository** stores a collection of files for one project.  To create a git repostory:
+A git **repository** stores a collection of files for **one project**.  Create a git repostory for a project:
 
 1. Change to the directory containing the project:
 ```shell
@@ -37,7 +37,7 @@ cmd> cd workspace/myproject
 ```shell
 cmd> git init
 ```
-This creates a subdirectory named `.git` containing the repository. Don't edit files in that directory! Let git manage it.  Now you should have:
+This creates a subdirectory named `.git` containing the repository. Don't edit files in that directory! Let git manage it.  Now your directory will contain something like:
 ```shell
 myproject/
     .git/ 
@@ -45,9 +45,9 @@ myproject/
     src/ (your project source code)
     other project files
 ```
-3. This creates an empty repository. You must add files, as described below.
+3. The new repository is empty. You must add files, as described below.
 
-### Add files to Repository and Check Status
+### Add files to the Repository and Check Status
 
 You must tell git which files it should save in the repository using the `git add` command.  These are called **tracked files**.  Suppose your project has a file README.md containing this text:
 <blockquote>
@@ -62,10 +62,13 @@ Add this file to the repository using:
 ```shell
 cmd> git add README.md
 ```
-`git add` marks the file for adding (or updating) to the repository, but does not actually save it.
-You can add as many files as you want.
+You can add as many files as you want. Add some source code files:
 ```shell
 cmd> git add src/Problem1.java  src/Problem2.java
+```
+
+`git add` marks the files for add (or update) to the repository, but does not actually save them.  You can check the status using:
+```shell
 cmd> git status
   Changes to be commited:
      new file:  README.md
@@ -84,31 +87,21 @@ cmd> git status
 
 ## Adding a Directory to the Repository
 
-Most projects have the source code in a directory named `src`. If you want to add **everything** in the `src` directory to git, use:
+You can use `git add` to add a directory. too.  That will add **everything** in the directory -- so be careful when adding directories.
+If you want to add **everything** in the project's `src` directory to git, use:
 ```shell
 cmd> git add src
+```
+**Note**:  **After** you add the `src` dir to git, if you create new files in the "src" directory then you must add those new files to git yourself. Its not automatic.
+
+As usual, to save the directory and its contents to the repository, run `git commit`:
+```shell
 cmd> git commit -m "add source code dir"
 ```
-**Note**:  **After** you add the `src` dir to git, if you create new files in the "src" directory then you must add those files to git yourself. Its not automatic.
 
-### Important Concepts
+### View History
 
-Git uses 4 storage areas:
-
-1. **Working Copy** is the files in your project directory (and its subdirectories). These are the files you edit during your work; it includes **tracked** files (files you have added to repo using *git add*) and untracked files.  
-2. **Staging Area** files waiting to be committed to the repository. Use `git add` to add files to the staging area.
-3. Local **Repository** contains all revisions of all files "added" and "committed" to the repository, along with dates and log messages.  When a file is updated, only the changes are stored, so a repository does not require much space.
-4. (Optional) **Remote Repository** is a git repository on another host, like Github.  You can synchronize your local repository with the remote.
-
-A **Revision** is one snapshot of a project, created using "git commit".  Each revision is identified by a code like 58eb09c. This revision id is based on a hashcode of the committed files.
-
-**HEAD** refers the most recent version (revision) of files in the repository.
-
-**master branch** (or **master**) is the main branch of revisions in a repository. 
-
-### Example: View History
-
-View the history of all commits (revisions) in a repository by typing `git history`.
+View the history of all commits (revisions) to a repository by typing `git history`.
 For the example above:
 ```shell
 cmd> git history
@@ -117,6 +110,21 @@ git history
 * 5d1ab24 - (5 minutes ago) initial code checkin - fatalaijon 
 ```
 This shows there were 2 commits. The most recent commit has revision code 992a0c5 and message "add source code dir". It is also the HEAD revision on the master branch.
+
+### Important Concepts
+
+Git uses 4 storage areas:
+
+1. **Working Copy** is the files in your project directory (and its subdirectories). These are the files you edit during your work; it includes **tracked** files (files you have added to repo using *git add*) and **untracked** files.  
+2. **Staging Area** of files waiting to be committed to the repository. `git add` adds files to the staging area.
+3. Local **Repository** contains all revisions of all files "added" and "committed" to the repository, along with dates and log messages.  When a file is updated, only the changes are stored, so a repository does not require much space.
+4. (Optional) **Remote Repository** is a git repository on another host, like Github.  You can synchronize your local repository with the remote repository.
+
+A **Revision** is one snapshot of a project, created using "git commit".  Each revision is identified by a code like 58eb09c. This revision id is based on a hashcode of the committed files.
+
+**HEAD** refers the most recent version (revision) of files in the repository.
+
+**master branch** (or **master**) is the main branch of revisions in a repository. 
 
 ### Two Important Files: README.md and .gitignore
 

@@ -3,7 +3,7 @@ layout: page
 title: Git Assignment
 ---
 
-## Learning to use Git and Github
+## Prelim: Learn to use Git and Github
 
 1. **Install git** on your computer.
     * Windows and MacOS: download from [https://git-scm.com/downloads][git-scm]
@@ -25,8 +25,7 @@ cmd>  git config --list
 (shows the config values)
 ```
 You can change this info anytime by running `git config` again.
-4. Complete this tutorial to learn about git: [https://try.github.io](https://try.github.io)
-5. Create an account on [Github](https://github.com). **Add these things to your Github profile**:
+4. Create an account on [Github](https://github.com). **Add these things to your Github profile**:
     * Your **full name in English**, with proper case of letters, e.g. Bill Gates.
     * A **photograph** *clearly* showing your *face*.
     * Your **KU-Gmail** address.
@@ -36,7 +35,7 @@ You can change this info anytime by running `git config` again.
 
 ## Problem 1: Complete this Simple Form
 
-Answer these questions: [Git Sign-up](https://goo.gl/hvGgLD) (https://goo.gl/hvGgLD)
+Answer these questions: [Git Sign-up](https://goo.gl/cwrBbW) (https://goo.gl/cwrBbW) 
 
 * Your score will include completeness information in your Github account.
 
@@ -46,20 +45,44 @@ Answer these questions: [Git Sign-up](https://goo.gl/hvGgLD) (https://goo.gl/hvG
 2. Create a git repository in that directory by running `git init`.
 3. Create a `.gitignore` file in the SKE Restaurant project directory to to ignore Java class files and IDE project files. See the [Introduction to Git](git-intro) for what to put in `.gitignore`.
 >  `.gitignore` **must** be in the top-level project directory, **not** in the src/ directory.
-4. Add a `README.md` file describing the project. It must contain at least this info:
+4. Create a `README.md` file describing the project. It must contain at least this info:
 
     ```
     # SKE Restaurant
     by Fatalai Jon
 
     A command line interface for a simple food ordering application.
-    Displays a menu of food items for user to choose from.
     (If you write only this, it means you are LAZY.)
     ```
-4. Add `.gitignore`, `README.md`, and your source code (`src`) to the repository, of course.
+5. Add `.gitignore`, `README.md`, and your **source code** (`src`) to the repository, of course.
 5. Commit everything using `git commit -m "initial code checkin"`.
 6. On **Github** create an *empty* repository named `ske-restaurant`.  It must be empty because you want to upload ("push") your local project to here.
-7. Back in your local project, add the Github repo as a "remote" repository.  Note that the Github repo name can be different from your local project name.
+7. Back in your local project, add the Github repo as a "remote" repository and "push" your repository to Github:
+    ```shell
+    cmd> git remote add origin https://github.com/your_github_name/ske-restaurant
+    cmd> git push -u origin master
+    ```
+8. In a web browser, view your project on Github.
+    * Are all the source files there (in a src/ dir)?
+    * Does it have a .gitignore and README.md?
+    * Is the formatting of README.md correct?
+
+**Note:** that the Github repo name (ske-restaurant) can be different from your local project name!
+
+## Problem 3: Code Improvement
+
+For this problem you will clone a project from Github, make some improvements in the code, and then "push" your work back to Github.
+
+We are using **Github Classroom** for this, instead of your personal github account.  The Github URL for the project will look like:
+
+(to be completed)
+
+## Homework
+
+Please complete these tutorials. There will be a **Git Quiz** which may include anything from these tutorials.
+
+1. Learn more about git: [https://try.github.io](https://try.github.io)
+2. [Using Git on Github](https://guides.github.com/activities/hello-world/).
 
 ---
-[git-scm]: https://git-scm.com/downloads   
+[git-scm]: https://git-scm.com/downloads 
