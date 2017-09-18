@@ -3,7 +3,7 @@ layout: page
 title: Git Assignment
 ---
 
-## Prelim: Learn to use Git and Github
+## Preparation: Learn to use Git and Github
 
 1. **Install git** on your computer.
     * Windows and MacOS: download from [https://git-scm.com/downloads][git-scm]

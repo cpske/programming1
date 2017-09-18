@@ -34,6 +34,8 @@ Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java synt
 <td markdown="span">
 [Introduction to Git](git/intro-git)   
 [Introduction to Github](git/intro-github)   
+Using Github and Github Classroom for assignments. [PPT](git/Github-Classroom.pdf)
+[Student Projects](project://skeoop.github.io/projects) by [SKE in 2017](https://github.com/orgs/OOP2017/people)
 </td>
 <td markdown="span">
 [Git Assignment](git/git-assignment) there will be a quiz on this next week.
