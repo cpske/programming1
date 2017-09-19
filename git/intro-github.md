@@ -100,3 +100,10 @@ Suppose the project already exists on Github. Navigate to the project and copy t
 ### Student Developer Pack on Github
 
 A free [student developer pack](https://education.github.com/pack) gives you free private repositories, free builds on Travis CI, and other resources.  Some of the offers are limited to 1 year (starts the first time you use them), so you should read the details before activating a special offer.
+
+
+### Use SSH Keys instead of your Github password
+
+Every time you `push` an update to Github or Bitbucket, it prompts you for your username and password.  You can eliminate this by setting up a public/private key pair for Github.
+
+The steps are described in [Connecting to Github with ssh](https://help.github.com/articles/connecting-to-github-with-ssh/).

@@ -12,7 +12,7 @@ description: Index page
 </tr>
 <!-- -->
 <tr valign="top">
-<td align="center"> 2 </td>
+<td align="center"> Aug 8 </td>
 <td markdown="span">
 [Review](week2/Review.md) of week1 lessons from [code.org](http://code.org).   
 [Intro to Java](week2/Intro-to-Java.md) and [slides](week2/0-Intro-to-Java.pdf)   
@@ -27,15 +27,16 @@ Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java synt
 1. [Intro to Java](week2/Lab1-Intro.pdf) with Greeter program. **New:** added 2 optional problems using dialog boxes.  
 2. [elab](https://elab.cpe.ku.ac.th) - must be done by next week.
 </td>
+<!-- Sep 26: git, coding -->
 </tr>
-<!-- git -->
 <tr valign="top">
-<td align="center"> Using Git </td>
+<td align="center"> Sep 26 </td>
 <td markdown="span">
 [Introduction to Git](git/intro-git)   
-[Introduction to Github](git/intro-github)   
-Using Github and Github Classroom for assignments. [PPT](git/Github-Classroom.pdf)    
-Example: [Student Projects](project://skeoop.github.io/projects) from [OOP2](https://github.com/orgs/OOP2017/people)
+[Introduction to Github](git/intro-github) and [PPT presentation](
+git/Using-Github.pdf)    
+Example: [Student Projects](project://skeoop.github.io/projects) from [OOP2](https://github.com/orgs/OOP2017/people)    
+[Github Organization](git/github-organization.pdf) for OOP
 </td>
 <td markdown="span">
 [Git Assignment](git/git-assignment) there will be a quiz on this next week.
@@ -43,9 +44,9 @@ Example: [Student Projects](project://skeoop.github.io/projects) from [OOP2](htt
 </tr>
 <!-- clean code -->
 <tr valign="top">
-<td align="center"> Good Code </td>
+<td align="center"> Sep 26<br/>(cont.) </td>
 <td markdown="span">
-Guidelines for Writing Good Code, part 1
+Coding: Guidelines for Writing Good Code, part 1
 </td>
 <td markdown="span">
 Lab05 1.1-Factoring (rewrite this using guidelines)
@@ -66,6 +67,67 @@ Multi-dimensional arrays.
 **Programming**: tba   
 </td>
 </tr>
+<!-- OOP 1 -->
+<tr valign="top">
+<td align="center"> Oct 24 </td>
+<td markdown="span">
+Introduction to Objects
+</td>
+<td markdown="span">
+Lab TBA    
+Assignment: SKE Restaurant with objects
+</td>
+</tr>
+<!-- OOP 2 -->
+<tr valign="top">
+<td align="center"> Oct 31 </td>
+<td markdown="span">
+More Objects and OOP Concepts    
+Polymorphism
+</td>
+<td markdown="span">
+Lab TBA
+</td>
+</tr>
+<!-- OOP 3 -->
+<tr valign="top">
+<td align="center"> Nov 7 </td>
+<td markdown="span">
+Objects and Design    
+Factories for Object Creation   
+</td>
+<td markdown="span">
+Lab TBA
+</td>
+</tr>
+<!-- Project Prep -->
+<tr valign="top">
+<td align="center"> Nov 14 </td>
+<td markdown="span">
+Summary and Project Preparation    
+Iterative and Incremental Dev't Method
+</td>
+<td markdown="span">
+Summit 1 page project proposal   
+Study technology you need for project    
+Ask for individual help
+</td>
+</tr>
+<!-- Project -->
+<tr valign="top">
+<td align="center"> Nov 21<br/>Nov 21<br/>Nov 28 </td>
+<td markdown="span">
+Project Development with    
+weekly demo and review
+</td>
+<td markdown="span">
+You must have code in Github and    
+something to demonstrate each week.    
+Ask TAs and instructor for help with    
+things you don't know.   
+</td>
+</tr>
+
 </table>
 
 
