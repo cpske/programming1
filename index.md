@@ -35,8 +35,8 @@ Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java synt
 [Introduction to Git](git/intro-git)   
 [Introduction to Github](git/intro-github) and [PPT presentation](
 git/Using-Github.pdf)    
-Example: [Student Projects](project://skeoop.github.io/projects) from [OOP2](https://github.com/orgs/OOP2017/people)    
-[Github Organization](git/github-organization.pdf) for OOP
+Example: [Student Projects](https://skeoop.github.io/projects) from OOP2    
+[Github Organization](git/github-organization.pdf) for OOP. Example: [OOP2](https://github.com/orgs/OOP2017/people)    
 </td>
 <td markdown="span">
 [Git Assignment](git/git-assignment) there will be a quiz on this next week.
