@@ -136,12 +136,11 @@ Most git projects include 2 special files:
 <dd>List of files and wildcard patterns for files that git should <b>ignore</b> (not add to the repo)</dd>
 </dl>
 
-### Files You Should Not Save in a Git Repository
+### Files You Should Not Save in a Git Repository (.gitignore)
 
-Don't commit files that can be created from other files, or easily downloaded from the Internet.  For a Java project, don't commit `*.class` files because these are output from the Java compiler. Every time you compile the Java source code, the \*.class files are recreated.
+Don't commit files that can be recreated from other files, or libraries easily downloaded from the Internet.  For a Java project, don't commit `*.class` files because these are output from the Java compiler. Every time you compile the Java source code, the \*.class files are recreated.
 
-You usually don't want to commit the IDE project files. Your IDE can recreate these
-if needed.  For Eclipse, the project files to ignore are .classpath, .project, and .settings.
+You usually don't want to commit IDE project files. Your IDE will recreate these when you create a new project (even a project with existing source code).  For Eclipse, the project files to ignore are .classpath, .project, and .settings.
 
 Here is an example `.gitignore` file for a Java project:
 ```shell
@@ -177,6 +176,8 @@ out/
 cmd> git add .gitignore
 cmd> git commit -m "Add .gitignore"
 ```
+
+**Note:** Github has examples of `.gitignore` for different programming languages.
 
 ## Why Use Git? (An Example)
 
