@@ -20,23 +20,23 @@ Using a git hosting site (such as Github) you can:
 
 ### Two Ways to Use Github
 
-How you **initialize** a project with Github has 2 cases:
+How you **start** a project with Github has 2 cases:
 
-1. You already have code on your computer.
-2. You don't have any code on your computer, or the project already exists on Github.
+**Case 1**: You already have code on your computer; you want to copy it to Github.   
+**Case 2**: A project exists on Github; you want to copy it to your computer.
 
-The only thing that varies is how you create your local repository and connect it with Github.
+The only thing that differs is how you create your local project repository and connect it with Github.  After that, your normal workflow is the same in both cases.
 
 ### Case 1: You already have code on your computer. Copy it to Github.
 
 In this case, there are 3 steps
 
-1. Create a local repository for your and add code to it.
+1. Create a local repository for your project.  Then commit code to it.
     ```shell
     cmd> cd workspace/myproject
     cmd> git init
     cmd> git add README.md .gitignore  (create these files yourself)
-    cmd> git add src
+    cmd> git add src                   (add your source code)
     cmd> git commit -m "initial code checkin"
     ```
 2. On Github, create an **empty** repository for the project.
@@ -49,18 +49,18 @@ In this case, there are 3 steps
    cmd> git remote add origin https://github.com/fatalaijon/assignment1.git
    cmd> git push -u origin master
    ```
-   This adds the Github repo (assignment1) as a remote named "origin". There is nothing special about "origin", but it is the standard name.  `git push` means to copy your local repository to the remote (github), `-u origin master` means that it shoud "push" the "master" branch to the remote named "origin".
+   This adds the Github repo (assignment1) as a remote repository named "origin".  "origin" is the standard name for the default remote, but there is nothing special about the name "origin".  `git push` means to copy your local repository to the remote (github), `-u origin master` means to make "origin" the default target and "master" the default branch for a "push" command.
 
 You only need to type `git push -u origin master` the **first time** you connect to Github.  After that, when you want to update Github you just type:
 ```shell
-cmd> git push
+    cmd> git push
 ```
 
-### Case 2: You don't have a project on your computer. Copy from Github.
+### Case 2: A project already exists on Github, but not on your computer.
 
 If the project already exists on Github then do:
 
-1. In web browser, go to the project page on github so you can get the URL
+1. Using a web browser, go to the project page on github so you can get the URL
 2. Click the "Clone or Download" button. This will show the URL of the project. It also gives instructions.
     * There is a button to copy this URL directly to your clipboard 
 3. In the **parent directory** of where you want to clone the project, enter the `git clone` command:
@@ -68,7 +68,7 @@ If the project already exists on Github then do:
     cmd> git clone https://github.com/fatalaijon/someproject.git
     ```
     This creates a local directory having the same name as remote repository ("someproject" in this example) and copies the Github repo into it.
-4. If you want to use a different name for your copy of the repository, then type:
+4. If you want to use a **different name** for your copy of the repository, then type:
     ```shell
     cmd> git clone https://github.com/fatalaijon/someproject.git  myproject
     ```
@@ -79,7 +79,7 @@ local changes using `git push`.
 
 ### Case 3: You don't have ANYTHING yet
 
-In this case you can start from either side (local or Github).  But Case 2 (clone from Github) requires less typing. Just create a new repo on Github, let Github create a README and .gitignore for you, and then clone it.
+In this case you can start from either side (local or Github).  But Case 2 (clone from Github) requires less typing. Just create a new repo on Github, let Github add a README.md and .gitignore file for you, and then clone it.
 
 ### Pushing Local Changes to a Remote (Github)
 
@@ -89,8 +89,38 @@ is saved in the local git configuration.  You can "upload" your changes to Githu
 cmd> git push
 ```
 
-You can start a project by copying it from Github. This is called **cloning**.
-Suppose the project already exists on Github. Navigate to the project and copy the 
+### Normal Workflow Using Git and Github
+
+When using git with Github, after you have created both a local repository and Github remote repository, you need to follow a pattern to ensure that everything is kept up-to-date.
+
+If you are working alone (single person project) its pretty easy. If you work on a team, with everyone pushing work to Github, then you need to be more careful.
+
+Here are the usual steps for an individual project (you are the only one committing to Github):
+
+* Check status of your working copy: `git status`.  If you need to commit some work, then do so.  If the local repository is *newer* than your working copy, use `git checkout` to refresh your working copy.
+* Do some work (programming).
+* Test your work.  Fix any errors.
+* Check status (again): `git status`
+* Add and commit any changed files:
+    ```shell
+    cmd> git add src/file1.java src/file2.java
+    # if you renamed a file in the IDE then you must tell git:
+    cmd> git mv src/oldfilename src/newfilename
+    # commit everything
+    cmd> git commit -m  "describe what you did"
+    ```
+* **Shortcut:** after checking the status, if you want to commit **all** changed files then you skip "git add" and use the "-a" (all) flag:
+    ```shell
+    cmd> git commit -am "describe what you did"
+    ```
+* Push your work to Github:
+    ```
+   cmd> git push
+   ```
+
+k
+     
+
 
 ### Learn Github
 
