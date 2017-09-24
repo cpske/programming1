@@ -21,9 +21,11 @@ There are many tools for using git, including:
 2. **Git GUI client** such [SourceTree](https://www.sourcetreeapp.com/).
 3. **IDE builtin Git feature** Eclipse, Netbeans, IntelliJ, and BlueJ all include git tools. After you thoroughly understand git, these tools are a fast, easy way to use git while programming; but if you *don't* know git well it is easy to make mistakes or be confused.
 
-## Git Concepts and Basic Usage
+### Git Concepts and Basic Usage
 
-This explanation uses the command line git.  It describes how to use a local `git` repository. How to use Github as a remote repository is introduced later.
+This explanation uses the command line `git` program.  It describes how to use a local git repository. 
+
+How to use Github as a remote repository is introduced in a separate document.
 
 ### Creating a Local Git Repository
 
@@ -37,19 +39,19 @@ cmd> cd workspace/myproject
 ```shell
 cmd> git init
 ```
-This creates a subdirectory named `.git` containing the repository. Don't edit files in that directory! Let git manage it.  Now your directory will contain something like:
+This creates a subdirectory named `.git` for the repository. Don't edit files in that directory! Let git manage it.  Now your project will look something like:
 ```shell
 myproject/
-    .git/ 
-    bin/ (directory for compiler output. May be "build/" or "out/")
-    src/ (your project source code)
+    .git/  (git local repository)
+    bin/   (directory for compiler output. May be "build/" or "out/")
+    src/   (your project source code)
     other project files
 ```
 3. The new repository is empty. You must add files, as described below.
 
 ### Add files to the Repository and Check Status
 
-You must tell git which files it should save in the repository using the `git add` command.  These are called **tracked files**.  Suppose your project has a file README.md containing this text:
+You must tell git which files it should save in the repository using the `git add` command.  Suppose your project has a file README.md containing this text:
 <blockquote>
 <pre>
     # My Project  
@@ -84,6 +86,7 @@ cmd> git commit -m "Initial code checkin"
 cmd> git status
   nothing to commit, working directory clean
 ```
+Now your repository contains 3 files (called **tracked files**).
 
 ## Adding a Directory to the Repository
 
@@ -119,16 +122,20 @@ Each time you make changes to a previously commited file (called a **tracked fil
 cmd>  git status
 On branch master
 Changes not staged for commit:
-
-	modified:   src/Problem1.java
-    modified:   README.md
+   modified:   src/Problem1.java
+   modified:   README.md
 ```
-This shows that `src/Problem1.java` and `README.md` have been modified since the last commit. If you want to update the repository, enter:
+This shows that `src/Problem1.java` and `README.md` have been modified since the last commit. To update the repository, enter:
 ```shell
 cmd>  git add src/Problem1.java README.md
-cmd>  git commit -m "fixed bug in Problem 1, document in README"
+cmd>  git commit -m "fixed bugs in Problem 1"
+  [master 7cb3e90] fixed bugs in Problem1
+  2 files changed, 35 insertions(+), 11 deletions(-)
 ```
-
+**Shortcut**: if you want to commit all modifications to tracked files, you can skip "git add" and use `git commit -am` ("-a" means "all"):
+```shell
+cmd>  git commit -am "fixed bugs in Problem 1"
+```
 
 ### Important Concepts
 
@@ -145,12 +152,14 @@ A **Revision** is one snapshot of a project, created using "git commit".  Each r
 
 **master branch** (or **master**) is the main branch of revisions in a repository. 
 
+**Tracked files** refers to files that you have committed to the repository. Git constantly checks for changes to these files, every time you run `git status` or other commands.
+
 ### Two Important Files: README.md and .gitignore
 
 Most git projects include 2 special files:
 <dl>
 <dt><b>README.md</b></dt>
-<dd>A description of the project, formatted using Markdown syntax</dd>
+<dd>A description of the project, formatted using Markdown syntax. Github and Bitbucket display these files (formatted) when someone visits your project</dd>
 <dt><b>.gitignore</b></dt>
 <dd>List of files and wildcard patterns for files that git should <b>ignore</b> (not add to the repository)</dd>
 </dl>
@@ -197,6 +206,21 @@ cmd> git commit -m "Add .gitignore"
 ```
 
 **Note:** Github has examples of `.gitignore` for different programming languages.
+
+### Example README.md
+
+README.md is text with [Markdown] formatting.  Github and Bitbucket show a web page from this file (after formatting it) when someone visits your repository. Use the README to describe the project and anything the viewer needs to know.
+```markdown
+# Bus Ticket Counter
+by Bill Gates
+
+Counts the number of tickets sold for a collection of buses.
+Written in Java. Input is read from System.in or a file.
+```
+Markdown is widely used for formatting web pages, and the syntax is simple.  
+
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) on Github explains Markdown in one page
+* [Markdown Tutorial](https://www.markdowntutorial.com/lesson/2/) interactive tutorial.
 
 ## Why Use Git? (An Example)
 
