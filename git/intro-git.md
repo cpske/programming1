@@ -41,7 +41,7 @@ This creates a subdirectory named `.git` containing the repository. Don't edit f
 ```shell
 myproject/
     .git/ 
-    bin/ (compiler output -- may be "build/" or "out/")
+    bin/ (directory for compiler output. May be "build/" or "out/")
     src/ (your project source code)
     other project files
 ```
@@ -87,12 +87,13 @@ cmd> git status
 
 ## Adding a Directory to the Repository
 
-You can use `git add` to add a directory. too.  That will add **everything** in the directory -- so be careful when adding directories.
-If you want to add **everything** in the project's `src` directory to git, use:
+You can use `git add` to add a directory and all its files.  Git will add **everything** in the directory and its subdirectories -- so be careful.
+
+If you want to add **everything** in the project `src` directory to git, use:
 ```shell
 cmd> git add src
 ```
-**Note**:  **After** you add the `src` dir to git, if you create new files in the "src" directory then you must add those new files to git yourself. Its not automatic.
+**Note**:  **After** you add the `src` dir to git, if you later create new files in the "src" directory then you must add those files to git yourself. Its not automatic.
 
 As usual, to save the directory and its contents to the repository, run `git commit`:
 ```shell
@@ -111,6 +112,24 @@ git history
 ```
 This shows there were 2 commits. The most recent commit has revision code 992a0c5 and message "add source code dir". It is also the HEAD revision on the master branch.
 
+### Updating Your Files
+
+Each time you make changes to a previously commited file (called a **tracked file**), you need to commit those changes to the repository.  First, check the status of your working copy:
+```shell
+cmd>  git status
+On branch master
+Changes not staged for commit:
+
+	modified:   src/Problem1.java
+    modified:   README.md
+```
+This shows that `src/Problem1.java` and `README.md` have been modified since the last commit. If you want to update the repository, enter:
+```shell
+cmd>  git add src/Problem1.java README.md
+cmd>  git commit -m "fixed bug in Problem 1, document in README"
+```
+
+
 ### Important Concepts
 
 Git uses 4 storage areas:
@@ -118,9 +137,9 @@ Git uses 4 storage areas:
 1. **Working Copy** is the files in your project directory (and its subdirectories). These are the files you edit during your work; it includes **tracked** files (files you have added to repo using *git add*) and **untracked** files.  
 2. **Staging Area** of files waiting to be committed to the repository. `git add` adds files to the staging area.
 3. Local **Repository** contains all revisions of all files "added" and "committed" to the repository, along with dates and log messages.  When a file is updated, only the changes are stored, so a repository does not require much space.
-4. (Optional) **Remote Repository** is a git repository on another host, like Github.  You can synchronize your local repository with the remote repository.
+4. **Remote Repository** (optional) is a git repository on another host, like Github.  You can synchronize your local repository with the remote repository.
 
-A **Revision** is one snapshot of a project, created using "git commit".  Each revision is identified by a code like 58eb09c. This revision id is based on a hashcode of the committed files.
+A **Revision** is one snapshot of a project, created using "git commit".  Each revision is identified by a code like 58eb09c. This code (the revision id) is based on a hashcode of the committed files.
 
 **HEAD** refers the most recent version (revision) of files in the repository.
 
@@ -133,7 +152,7 @@ Most git projects include 2 special files:
 <dt><b>README.md</b></dt>
 <dd>A description of the project, formatted using Markdown syntax</dd>
 <dt><b>.gitignore</b></dt>
-<dd>List of files and wildcard patterns for files that git should <b>ignore</b> (not add to the repo)</dd>
+<dd>List of files and wildcard patterns for files that git should <b>ignore</b> (not add to the repository)</dd>
 </dl>
 
 ### Files You Should Not Save in a Git Repository (.gitignore)
@@ -167,7 +186,7 @@ out/
 *.iws
 *.ipr
 
-# MacOS junk (helpful if you use a MacBook)
+# MacOS junk (if you use a Mac)
 .DS_Store
 ```
 
@@ -193,16 +212,21 @@ myproject/
 ```
 You commit everything except "bin" to git, and go to lunch.
 
-When you come back from lunch you see that your **cat has deleted Report.docx** by walking on the keyboard!
+When you come back from lunch you find that your **cat has deleted Report.docx** by walking on the keyboard!  Your project report is gone!
+
 ![](cat-on-keyboard.jpg?raw=true)
 
-Since you saved it using git, you can recover the most recent version of the report from the git repository. Use:
+What to do?
+
+Since you saved the report using git, you can **recover** the most recent version of the report from the repository. Use:
 ```shell
 cmd> git checkout -- Report.docx
 ```
 
-If your cat deletes (or edits) lots of files, you can revert your working copy to the most recent (HEAD) revision in git. This will discard all changes to the working copy since the last "git commit":
+If your cat deletes (or edits) lots of files, you can revert *everything* your working copy to the most recent (HEAD) revision in git. This will discard all changes to your working copy since the last "git commit".
 ```shell
+# Be careful. This will overwrite your working copy 
+# with the most recent revision commited to git.
 cmd> git reset --hard
 ```
 
