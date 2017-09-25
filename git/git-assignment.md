@@ -43,13 +43,13 @@ Your score is based on completeness information in your Github account.
 
 1. Find your project for Homework 1 ("SKE Restaurant", elab #10).
 2. Create a git repository in that directory by running `git init`.
-3. Create a `.gitignore` file in the SKE Restaurant project directory to to ignore Java class files and IDE project files.     
+3. Create a `.gitignore` file in your project directory to ignore Java class files and IDE project files.     
     See [Introduction to Git](intro-git) for what to put in `.gitignore`.   
     **Note:** `.gitignore` **must** be in the top-level project directory, **not** in the src/ directory.
 4. Create a `README.md` file describing the project. It must contain at least this info:
     ```
     # SKE Restaurant
-    by Fatalai Jon
+    by Your Name
 
     A command line interface for a simple food ordering application.
     (Add more info about your project.)
@@ -62,7 +62,7 @@ Your score is based on completeness information in your Github account.
 6. On **Github** create an *empty* repository named `ske-restaurant`.  It must be empty because you want to upload your local project repository to here.
 7. Back in your local project, add the Github as a "remote" repository and "push" your repository to Github:
     ```shell
-    cmd> git remote add origin https://github.com/your_github_name/ske-restaurant
+    cmd> git remote add origin https://github.com/your_github_name/ske-restaurant.git
     cmd> git push -u origin master
     ```
 8. In a web browser, view your project on Github.

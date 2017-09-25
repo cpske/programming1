@@ -36,7 +36,7 @@ Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java synt
 [Introduction to Github](git/intro-github) and [PPT presentation](
 git/Using-Github.pdf)    
 Example: [Student Projects](https://skeoop.github.io/projects) from OOP2    
-[Github Organization](git/github-organization.pdf) for OOP. Example: [OOP2](https://github.com/orgs/OOP2017/people)    
+[Github Organization](git/Github-Organization.pdf) for this course. Example: [OOP2 last semester](https://github.com/orgs/OOP2017/people)    
 </td>
 <td markdown="span">
 [Git Assignment](git/git-assignment) there will be a quiz on this next week.
@@ -46,10 +46,11 @@ Example: [Student Projects](https://skeoop.github.io/projects) from OOP2
 <tr valign="top">
 <td align="center"> Sep 26<br/>(cont.) </td>
 <td markdown="span">
-Coding: Guidelines for Writing Good Code, part 1
+Guidelines for Writing Good Code, part 1
 </td>
 <td markdown="span">
-Lab05 1.1-Factoring (rewrite this using guidelines)
+[Code Improvement Assignment](coding/code-improvement-assignment)    
+This assignment uses Github. You must complete the git assignment first.
 </td>
 </tr>
 <!-- arrays -->
