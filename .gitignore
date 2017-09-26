@@ -11,3 +11,5 @@ bin/
 !.gitignore
 # index.html is generated from index.md
 index.html
+# labs is for lab assignments, deployed via Github classroom
+labs/
