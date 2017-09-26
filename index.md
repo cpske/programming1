@@ -51,7 +51,7 @@ Guidelines for Writing Good Code, part 1 [slides](coding/Coding-Guidelines.pdf)
 <td markdown="span">
 [Code Improvement Lab](coding/code-improvement-assignment)    
 This assignment uses Github. You must complete the git assignment first.    
-Code Improvement Lab: [https://classroom.github.com/a/A0HAJsTW](https://classroom.github.com/a/A0HAJsTW)     
+Problem 3 (fixcode): [https://classroom.github.com/a/A0HAJsTW](https://classroom.github.com/a/A0HAJsTW)     
 Read:  [Java Coding Standard](coding/Java-Coding-Standard.pdf)
 </td>
 </tr>
