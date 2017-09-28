@@ -52,9 +52,9 @@ Example: [Student Projects](https://skeoop.github.io/projects) from OOP2
 Guidelines for Writing Good Code, part 1 [slides](coding/Coding-Guidelines.pdf) 
 </td>
 <td markdown="span">
-[Code Improvement Lab](coding/code-improvement-assignment)    
-This assignment uses Github. You must complete the git assignment first.    
-Problem 3 (fixcode): [https://classroom.github.com/a/A0HAJsTW](https://classroom.github.com/a/A0HAJsTW) **Due:** Saturday, 30 Sept, 24:00 on Github.    
+[Code Improvement Lab](coding/code-improvement-assignment)
+This assignment uses Github. **Due:** Sunday, 1 Oct, 20:00 on Github.    
+Problem 3 (fixcode): [https://classroom.github.com/a/A0HAJsTW](https://classroom.github.com/a/A0HAJsTW)    
 Study:  [Java Coding Standard](coding/Java-Coding-Standard.pdf)
 </td>
 </tr>
