@@ -11,31 +11,40 @@ to a collection of files, such as files in a project.
 Git records every change to a collection of files, along with who made the change and why. Git lets you view changes and recover any previous version of any file (even deleted files!).  This is similar to the way Google Docs keeps a history of changes to a Google Doc,
 except git operates on a collection of files rather than just individual files.
 
-Git also lets you control who has read or write access to files in a repository.
+Some things you can do with Git are:
+
+* easily make a copy of a project on another machine
+* view a history of all changes to project files, and compare revisions
+* checkout any past revision of a project, even files that have been deleted!
+* control who has read and write access to the project
+* quickly update the repository when you make changes to your "working copy" of the files. Only the modifications are saved, so its fast and efficient.
+
+This introduction describes how to create and use a local git repository, using the `git` command line program.  
+How to use Github is introduced in a separate document.
 
 ## Git Software
 
 There are many tools for using git, including:
 
 1. **Git command line tool** - what we will use and the best way to learn git. Download from [http://git-scm.com/downloads](http://git-scm.com/downloads). For Ubuntu, use `apt-get install git`.
-2. **Git GUI client** such [SourceTree](https://www.sourcetreeapp.com/).
-3. **IDE builtin Git feature** Eclipse, Netbeans, IntelliJ, and BlueJ all include git tools. After you thoroughly understand git, these tools are a fast, easy way to use git while programming; but if you *don't* know git well it is easy to make mistakes or be confused.
+2. **Git GUI client** such as [SourceTree](https://www.sourcetreeapp.com/) or Github Desktop for Windows.
+3. **IDE builtin Git feature** Eclipse, Netbeans, IntelliJ, and BlueJ all include git tools. After you understand git, these tools are a fast, easy way to use git while programming; but if you *don't* know git well it is easy to make mistakes or be confused.
 
-### Git Concepts and Basic Usage
-
-This explanation uses the command line `git` program.  It describes how to use a local git repository. 
-
-How to use Github as a remote repository is introduced in a separate document.
+For this introduction, we will use the Git command line.
 
 ### Creating a Local Git Repository
 
-A git **repository** stores a collection of files for **one project**.  Create a git repostory for a project:
+A git **repository** stores the files for **one project**.  To create a git repository for a project:
 
-1. Change to the directory containing the project:
+1. Open a **command line window** where you can type commands:
+    * MS Windows: its called a "command prompt" (cmd) or "bash shell".
+    * Mac OSX: open a "terminal". Just type "term" in the search box.
+    * Linux: open a "terminal". Sometimes also called Xterm.
+2. Change to the directory containing the project:
 ```shell
 cmd> cd workspace/myproject
 ```
-2. Run `git init` to create an empty repository
+3. Run `git init` to create an empty repository
 ```shell
 cmd> git init
 ```
@@ -47,11 +56,11 @@ myproject/
     src/   (your project source code)
     other project files
 ```
-3. The new repository is empty. You must add files, as described below.
+4. The new git repository is empty. You must add files, as described below.
 
 ### Add files to the Repository and Check Status
 
-You must tell git which files it should save in the repository using the `git add` command.  Suppose your project has a file README.md containing this text:
+You tell git which files it should save in the repository using the `git add` command.  Suppose your project has a file README.md containing this text:
 <blockquote>
 <pre>
     # My Project  
@@ -69,7 +78,7 @@ You can add as many files as you want. Add some source code files:
 cmd> git add src/Problem1.java  src/Problem2.java
 ```
 
-`git add` marks the files for add (or update) to the repository, but does not actually save them.  You can check the status using:
+`git add` marks the files for adding (or update) to the repository, but does not actually save them.  You can check the status using:
 ```shell
 cmd> git status
   Changes to be commited:
@@ -90,22 +99,22 @@ Now your repository contains 3 files (called **tracked files**).
 
 ## Adding a Directory to the Repository
 
-You can use `git add` to add a directory and all its files.  Git will add **everything** in the directory and its subdirectories -- so be careful.
+You can use `git add` to add a directory and all its contents.  Git will add **everything** in the directory and its subdirectories -- so be careful.
 
 If you want to add **everything** in the project `src` directory to git, use:
 ```shell
 cmd> git add src
 ```
-**Note**:  **After** you add the `src` dir to git, if you later create new files in the "src" directory then you must add those files to git yourself. Its not automatic.
+**Note**:  **After** you add the `src` dir to git, if you later create a new file in the "src" directory then you must add that file to git yourself. Its not automatic.
 
-As usual, to save the directory and its contents to the repository, run `git commit`:
+To save the directory and its contents to the repository, run `git commit`:
 ```shell
 cmd> git commit -m "add source code dir"
 ```
 
 ### View History
 
-View the history of all commits (revisions) to a repository by typing `git history`.
+View the history of all commits (revisions) to a repository by typing `git history` or `git log --oneline` (the "--oneline" is optional).
 For the example above:
 ```shell
 cmd> git history
@@ -137,7 +146,7 @@ cmd>  git commit -m "fixed bugs in Problem 1"
 cmd>  git commit -am "fixed bugs in Problem 1"
 ```
 
-### Important Concepts
+### Important Git Concepts
 
 Git uses 4 storage areas:
 
@@ -154,21 +163,104 @@ A **Revision** is one snapshot of a project, created using "git commit".  Each r
 
 **Tracked files** refers to files that you have committed to the repository. Git constantly checks for changes to these files, every time you run `git status` or other commands.
 
-### Two Important Files: README.md and .gitignore
+### Files You Should Save in Git
 
-Most git projects include 2 special files:
-<dl>
-<dt><b>README.md</b></dt>
-<dd>A description of the project, formatted using Markdown syntax. Github and Bitbucket display these files (formatted) when someone visits your project</dd>
-<dt><b>.gitignore</b></dt>
-<dd>List of files and wildcard patterns for files that git should <b>ignore</b> (not add to the repository)</dd>
-</dl>
+For a programming project, you should save the files needed to build and run your project, plus documentation.  This includes Java source code (`*.java`), configuration files, and icons.  But, you **do not** need to save files that can be recreated, such as compiler output (`*.class` files).
 
-### Files You Should Not Save in a Git Repository (.gitignore)
+Here is a common list of files and directories to save (commit) in a Git repository, and some files not to commit:
 
-Don't commit files that can be recreated from other files, or libraries easily downloaded from the Internet.  For a Java project, don't commit `*.class` files because these are output from the Java compiler. Every time you compile the Java source code, the \*.class files are recreated.
+<table align="center">
+<tr valign="top">
+<th width="50%" markdown="span"> Files to Save in Git Repository </th>
+<th wdith="50%" markdown="span"> Files to <u>Not</u> Save in Git Repository </th>
+</tr>
+<tr valign="top">
+<td markdown="span"> 
+<em>Anything needed to build the project</em>
+</td>
+<td markdown="span">
+<em>Anything that can be recreated from other files</em>
+</td>
+</tr>
+<tr valign="top">
+<td markdown="span"> 
+Source code in `src/` dir      
+`*.java`    
+icons and config files    
+`README.md` and other documentation
+</td>
+<td markdown="span"> 
+Compiler output in `bin` or `build` dir    
+`*.class`    
+IDE Project files (see below)
+</td>
+</tr>
+</table>
 
-You usually don't want to commit IDE project files. Your IDE will recreate these when you create a new project (even a project with existing source code).  For Eclipse, the project files to ignore are .classpath, .project, and .settings.
+### What are IDE Project Files?
+
+When you create a "project" using Eclipse, Netbeans, Intellij, etc (IDEs) these programs create some files that describe the project configuration.  Programmers usually don't save these files in the repository because a) they can be easily recreated by the IDE, and b) for a *team* project, your IDE settings might conflict with another team member's settings.
+
+Here are the project files created by common IDEs:
+
+* Eclipse
+    ```
+    .classpath
+    .project
+    .settings/ (directory)
+    ```
+* Netbeans
+    ```
+    nbproject/
+    nbdist/
+    nb-configuration.xml
+    ```
+* IntelliJ
+    ```
+    .idea/
+    out/
+    *.iml
+    *.iws
+    *.ipr
+    ```
+
+### The README.md File
+
+README.md is a text file with Markdown formatting.  Github and Bitbucket show a web page from this file (after formatting it) when someone visits your repository. Use README.md to describe the project and anything the viewer needs to know (like how to build it).  Most projects on Github have a README.md.
+
+For examples, look at the Github repositories for the [2017 SKE OOP Student Projects](https://skeoop.github.io/projects). In particular, the [Course Feedback](https://github.com/guitarpawat/course-feedback) README has an excellent introduction to some technology they used.
+
+Here is a simple example of README.md:
+
+### Example README.md
+```markdown
+# Bus Ticket Counter
+by Bill Gates
+
+Counts the number of tickets sold for a collection of buses.
+Written in Java and requires Java version 8 or newer.
+Based on my [elab](https://elab.cpe.ku.ac.th) program.
+```
+Markdown is widely used to create web pages and the syntax is simple.  Learn Markdown here:
+
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) on Github explains Markdown in one page
+* [Markdown Tutorial](https://www.markdowntutorial.com/lesson/2/) interactive tutorial.
+
+### How to Create README.md?
+
+You can use any text editor to create it, *or* use your IDE!  In Eclipse, just choose New -> File and enter the name (README.md). Be sure to put it in the top directory of your project, not in src/.
+
+Some good free text editors are:
+* Atom - has Markdown preview
+* Sublime
+* Notepad++ for Windows only
+* Vim - a standard Linux editor. The GUI version is easier to use.
+
+### Using .gitignore to "Ignore" Unwanted Files
+
+Every time you type `git status` it will display all the untracked files, including files you **don't** want to commit to git.  You can tell git that it should not commit certain files by creating a file named `.gitignore` in your project (top-level) directory.  `git status` won't show these files and you won't accidentally commit them.
+
+The `.gitignore` file is optional, but very useful.  You only need to write it once, then copy it from one project to another.
 
 Here is an example `.gitignore` file for a Java project:
 ```shell
@@ -206,21 +298,6 @@ cmd> git commit -m "Add .gitignore"
 ```
 
 **Note:** Github has examples of `.gitignore` for different programming languages.
-
-### Example README.md
-
-README.md is text with [Markdown] formatting.  Github and Bitbucket show a web page from this file (after formatting it) when someone visits your repository. Use the README to describe the project and anything the viewer needs to know.
-```markdown
-# Bus Ticket Counter
-by Bill Gates
-
-Counts the number of tickets sold for a collection of buses.
-Written in Java. Input is read from System.in or a file.
-```
-Markdown is widely used for formatting web pages, and the syntax is simple.  
-
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) on Github explains Markdown in one page
-* [Markdown Tutorial](https://www.markdowntutorial.com/lesson/2/) interactive tutorial.
 
 ## Why Use Git? (An Example)
 

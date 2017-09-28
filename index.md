@@ -8,7 +8,9 @@ description: Index page
 
 <table border="1">
 <tr valign="top">
-<th> Week  </th> <th> Topics </th><th>  Assignment   </th>
+  <th> Week  </th> 
+  <th width="46%"> Topics </th>
+  <th width="46%"> Assignment </th>
 </tr>
 <!-- -->
 <tr valign="top">
@@ -24,7 +26,7 @@ Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java synt
 </td>
 <td markdown="span">
 **Lab**  
-1. [Intro to Java](week2/Lab1-Intro.pdf) with Greeter program. **New:** added 2 optional problems using dialog boxes.  
+1. [Intro to Java](week2/Lab1-Intro.pdf) with Greeter program. **New:** added optional problems using dialog boxes.  
 2. [elab](https://elab.cpe.ku.ac.th) - must be done by next week.
 </td>
 <!-- Sep 26: git, coding -->
@@ -39,7 +41,8 @@ Example: [Student Projects](https://skeoop.github.io/projects) from OOP2
 [Github Organization](git/Github-Organization.pdf) for this course. Example: [OOP2 last semester](https://github.com/orgs/OOP2017/people)    
 </td>
 <td markdown="span">
-[Git Assignment](git/git-assignment) there will be a quiz on this next week.
+[Git Assignment](git/git-assignment) there will be a quiz on this next week.    
+**Homework:**  Learn to use the command line on your computer. Know how to: a) change directory, b) list files, c) list all files including hidden files, d) rename or move files, e) run a program.
 </td>
 </tr>
 <!-- clean code -->
@@ -51,8 +54,8 @@ Guidelines for Writing Good Code, part 1 [slides](coding/Coding-Guidelines.pdf)
 <td markdown="span">
 [Code Improvement Lab](coding/code-improvement-assignment)    
 This assignment uses Github. You must complete the git assignment first.    
-Problem 3 (fixcode): [https://classroom.github.com/a/A0HAJsTW](https://classroom.github.com/a/A0HAJsTW)     
-Read:  [Java Coding Standard](coding/Java-Coding-Standard.pdf)
+Problem 3 (fixcode): [https://classroom.github.com/a/A0HAJsTW](https://classroom.github.com/a/A0HAJsTW) **Due:** Saturday, 30 Sept, 24:00 on Github.    
+Study:  [Java Coding Standard](coding/Java-Coding-Standard.pdf)
 </td>
 </tr>
 <!-- arrays -->
