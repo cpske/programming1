@@ -264,7 +264,7 @@ Some good, free text editors are:
 * [Atom](https://atom.io) editor that understands syntax of many languages. Has Markdown preview.
 * [Sublime](https://www.sublimetext.com) similar features to Atom
 * [Notepad++](https://notepad-plus-plus.org) for Windows only. A great replacement for the crummy "Notepad" in Windows.
-* [Vim](https://vim.sourceforge.io) the standard Linux editor, also part of Apple OSX.  Vim is a keyboard-efficient editor that runs in a terminal window. The GUI version is easier to learn. 
+* [Vim](https://vim.sourceforge.io) the standard Linux editor, also part of Apple OSX.  Vim is a keystroke-efficient editor that runs in a terminal window. The GUI version is easier to learn. 
 
 ### Using .gitignore to "Ignore" Unwanted Files (Optional)
 
