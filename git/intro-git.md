@@ -26,11 +26,20 @@ How to use Github is introduced in a separate document.
 
 There are many tools for using git, including:
 
-1. **Git command line tool** - what we will use and the best way to learn git. Download from [http://git-scm.com/downloads](http://git-scm.com/downloads). For Ubuntu, use `apt-get install git`.
-2. **Git GUI client** such as [SourceTree](https://www.sourcetreeapp.com/) or Github Desktop for Windows.
-3. **IDE builtin Git feature** Eclipse, Netbeans, IntelliJ, and BlueJ all include git tools. After you understand git, these tools are a fast, easy way to use git while programming; but if you *don't* know git well it is easy to make mistakes or be confused.
+1. **Git command line tool** - the basic "git" we will use. This is the best way to learn git. 
+2. **Git GUI client** such as [Github Desktop](https://desktop.github.com/) for Windows and OSX, [SourceTree](https://www.sourcetreeapp.com/), or
+[SmartGit](https://www.syntevo.com/smartgit/).
+3. **IDE builtin Git feature** Eclipse, Netbeans, IntelliJ, and BlueJ all include git tools. After you understand git, these tools are an easy way to use git while programming; but if you *don't* know git well it is easy to make mistakes or be confused.
 
 For this introduction, we will use the Git command line.
+
+### Installing Git
+
+**Windows**:  Download from [http://git-scm.com/downloads](http://git-scm.com/downloads).   
+**Mac OSX**:  Includes "git".  Open a Terminal window and type `git`.  The OS might prompt you to install Git from XCode.  If `git` is already installed, it will print a help message.    
+**Old Mac OSX**:  If your OSX is old and does not have "git", then download Git from [http://git-scm.com/downloads](http://git-scm.com/downloads).   
+**Ubuntu or Debian**:  in a terminal window, enter `sudo apt-get install git`.    
+**Other Linux**: see [install commands for Linux](https://git-scm.com/download/linux)
 
 ### Creating a Local Git Repository
 
@@ -44,17 +53,17 @@ A git **repository** stores the files for **one project**.  To create a git repo
 ```shell
 cmd> cd workspace/myproject
 ```
-3. Run `git init` to create an empty repository
+3. Run `git init` to create an empty repository. You must do this **inside the project directory**.
 ```shell
 cmd> git init
 ```
 This creates a subdirectory named `.git` for the repository. Don't edit files in that directory! Let git manage it.  Now your project will look something like:
 ```shell
 myproject/
-    .git/  (git local repository)
-    bin/   (directory for compiler output. May be "build/" or "out/")
-    src/   (your project source code)
-    other project files
+      .git/  (git local repository)
+      bin/   (directory for compiler output. May be "build/" or "out/")
+      src/   (your project source code)
+      other project files
 ```
 4. The new git repository is empty. You must add files, as described below.
 
@@ -78,7 +87,7 @@ You can add as many files as you want. Add some source code files:
 cmd> git add src/Problem1.java  src/Problem2.java
 ```
 
-`git add` marks the files for adding (or update) to the repository, but does not actually save them.  You can check the status using:
+`git add` marks the files for adding to the repository, but does not actually put them in the repository.  You can check the status using:
 ```shell
 cmd> git status
   Changes to be commited:
@@ -105,12 +114,13 @@ If you want to add **everything** in the project `src` directory to git, use:
 ```shell
 cmd> git add src
 ```
-**Note**:  **After** you add the `src` dir to git, if you later create a new file in the "src" directory then you must add that file to git yourself. Its not automatic.
 
 To save the directory and its contents to the repository, run `git commit`:
 ```shell
 cmd> git commit -m "add source code dir"
 ```
+
+**Note**:  **After** you add the `src` dir to git, if you later create a new file in the "src" directory then you must add that file to git yourself. Its not automatic.
 
 ### View History
 
@@ -124,9 +134,9 @@ git history
 ```
 This shows there were 2 commits. The most recent commit has revision code 992a0c5 and message "add source code dir". It is also the HEAD revision on the master branch.
 
-### Updating Your Files
+### Updating Files in the Repository
 
-Each time you make changes to a previously commited file (called a **tracked file**), you need to commit those changes to the repository.  First, check the status of your working copy:
+When you make changes to a previously commited file (called a **tracked file**), you should update the file in the repository. That is, "commit" the changes.   After finishing some work (editing files, adding files), check the status of your working copy:
 ```shell
 cmd>  git status
 On branch master
@@ -165,7 +175,7 @@ A **Revision** is one snapshot of a project, created using "git commit".  Each r
 
 ### Files You Should Save in Git
 
-For a programming project, you should save the files needed to build and run your project, plus documentation.  This includes Java source code (`*.java`), configuration files, and icons.  But, you **do not** need to save files that can be recreated, such as compiler output (`*.class` files).
+For a programming project, save the files needed to build and run your project, plus documentation.  This includes Java source code (`*.java`), configuration files, and icons.  But, you **do not** need to save files that can be recreated, such as compiler output (`*.class` files).
 
 Here is a common list of files and directories to save (commit) in a Git repository, and some files not to commit:
 
@@ -228,7 +238,7 @@ Here are the project files created by common IDEs:
 
 README.md is a text file with Markdown formatting.  Github and Bitbucket show a web page from this file (after formatting it) when someone visits your repository. Use README.md to describe the project and anything the viewer needs to know (like how to build it).  Most projects on Github have a README.md.
 
-For examples, look at the Github repositories for the [2017 SKE OOP Student Projects](https://skeoop.github.io/projects). In particular, the [Course Feedback](https://github.com/guitarpawat/course-feedback) README has an excellent introduction to some technology they used.
+For examples, look at the Github repositories for the [2017 SKE OOP Student Projects](https://skeoop.github.io/projects). In particular, the [Course Feedback](https://github.com/guitarpawat/course-feedback) README has an excellent introduction to some technology they used.  The [Atom Editor](https://github.com/atom/atom) on Github also has a good README.md.
 
 Here is a simple example of README.md:
 
@@ -248,17 +258,17 @@ Markdown is widely used to create web pages and the syntax is simple.  Learn Mar
 
 ### How to Create README.md?
 
-You can use any text editor to create it, *or* use your IDE!  In Eclipse, just choose New -> File and enter the name (README.md). Be sure to put it in the top directory of your project, not in src/.
+You can use any text editor to create it, *or* use your IDE.  In Eclipse, choose New -> File and enter the name (README.md). Be sure to put it in the top directory of your project, _not_ inside the src/ dir.
 
-Some good free text editors are:
-* Atom - has Markdown preview
-* Sublime
-* Notepad++ for Windows only
-* Vim - a standard Linux editor. The GUI version is easier to use.
+Some good, free text editors are:
+* [Atom](https://atom.io) editor that understands syntax of many languages. Has Markdown preview.
+* [Sublime](https://www.sublimetext.com) similar features to Atom
+* [Notepad++](https://notepad-plus-plus.org) for Windows only. A great replacement for the crummy "Notepad" in Windows.
+* [Vim](https://vim.sourceforge.io) the standard Linux editor, also part of Apple OSX.  Vim is a keyboard-efficient editor that runs in a terminal window. The GUI version is easier to learn. 
 
-### Using .gitignore to "Ignore" Unwanted Files
+### Using .gitignore to "Ignore" Unwanted Files (Optional)
 
-Every time you type `git status` it will display all the untracked files, including files you **don't** want to commit to git.  You can tell git that it should not commit certain files by creating a file named `.gitignore` in your project (top-level) directory.  `git status` won't show these files and you won't accidentally commit them.
+Every time you type `git status` it will display all the untracked files, including files you **don't** want to commit to git.  You can tell git that it should not commit certain files by creating a file named `.gitignore` in your project top-level directory.  `git status` won't show these files and you won't accidentally commit them.
 
 The `.gitignore` file is optional, but very useful.  You only need to write it once, then copy it from one project to another.
 
@@ -324,7 +334,7 @@ Since you saved the report using git, you can **recover** the most recent versio
 cmd> git checkout -- Report.docx
 ```
 
-If your cat deletes (or edits) lots of files, you can revert *everything* your working copy to the most recent (HEAD) revision in git. This will discard all changes to your working copy since the last "git commit".
+If your cat deletes (or edits) lots of files, you can revert *everything* in  working copy to the most recent revision in git. This will discard all changes to your working copy since the last "git commit".
 ```shell
 # Be careful. This will overwrite your working copy 
 # with the most recent revision commited to git.
