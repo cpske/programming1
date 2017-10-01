@@ -71,7 +71,7 @@ Maybe: multi-dimensional arrays.
 <td markdown="span">
 **Lab:**  [Arrays Lab](arrays/lab-arrays) using Github.    
 **Read**: Big Java, Ch. 7 *Arrays*. Only 40 pages, easy to read.    
-**Programming**:  Revise SKE Restaurant to use arrays for the menu items, prices, and the customer's order.  Details to be provided later.     
+**Homework**:  Revise SKE Restaurant to use arrays for the menu items, prices, and the customer's order.  Details to be provided later.     
 </td>
 </tr>
 <!-- OOP 1 -->
