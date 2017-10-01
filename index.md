@@ -60,17 +60,18 @@ Study:  [Java Coding Standard](coding/Java-Coding-Standard.pdf)
 </tr>
 <!-- arrays -->
 <tr valign="top">
-<td align="center"> 9 <br/> Oct 2 </td>
+<td align="center"> Oct 3 </td>
 <td markdown="span">
 [Introduction to Arrays](java-basics/17-Arrays.pdf).   
 [Using arrays](java-basics/18-Using-Arrays.md) idioms and useful methods.   
 Practice with arrays.   
-Multi-dimensional arrays.   
+Review of [Git concepts](git/git-transport-commands.pdf), rethink about .gitignore.    
+Maybe: multi-dimensional arrays.   
 </td>
 <td markdown="span">
-**Lab:**  tba     
+**Lab:**  [Arrays Lab](arrays/lab-arrays) using Github.    
 **Read**: Big Java, Ch. 7 *Arrays*. Only 40 pages, easy to read.    
-**Programming**: tba   
+**Programming**:  Revise SKE Restaurant to use arrays for the menu items, prices, and the customer's order.  Details to be provided later.     
 </td>
 </tr>
 <!-- OOP 1 -->
@@ -121,7 +122,7 @@ Ask for individual help
 </tr>
 <!-- Project -->
 <tr valign="top">
-<td align="center"> Nov 21<br/>Nov 21<br/>Nov 28 </td>
+<td align="center"> Nov 21<br/>Nov 28 </td>
 <td markdown="span">
 Project Development with    
 weekly demo and review
