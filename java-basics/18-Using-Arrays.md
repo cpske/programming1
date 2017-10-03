@@ -15,7 +15,7 @@ foreach element in array
     process this element
 }
 
-compute the result
+process the result
 ```
 Here are 3 kinds of loops for arrays.
 
@@ -34,18 +34,21 @@ double[] array = new double[] { 10.0, 20.0, 5.0 };
 double sum = 0.0;
 for(int k=0; k<array.length; k++) {
     System.out.printf("[%d] = %f\n", k, array[k]);
-    sum = sum + array[k];
 }
 ```
 
-**Example**: Sum the squares of values in an array.
+**Example**: Sum the values and squares of values in an array.
 ```java
-double[] array = new double[] { 10.0, 20.0, 5.0, 99.0 };
+double[] x = new double[] { 10.0, 20.0, 5.0, 99.0 };
 double sumSquares = 0; // initialization
-for(int k=0; k<array.length; k++) {
-    sumSquares += array[k]*array[k];
+for(int k=0; k<x.length; k++) {
+    sum = sum + x[k];
+    sumSquares += x[k]*x[k];
 }
+// Now you can compute average:
+double average = sum/size;
 ```
+
 **Example**: evaluate this polynomial
 ![a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{0}](https://latex.codecogs.com/gif.latex?a_{n}x^{n}&plus;a_{n-1}x^{n-1}&plus;...&plus;a_{0})
 where the array `a[]` contains coefficients of a polynomial. `a[]={5,10}` means the polynomial 5*x + 10.
@@ -82,7 +85,8 @@ for( double x: array ) {
 }
 ```
 The loop is much easier to read with the index (k).
-Another example: print each element in an array of names.
+
+**Example:** print each element in an array of names.
 ```java
 String[] animals = {"Cat", "Bird", "Horse" };
 // "for-each who in names"
@@ -103,6 +107,19 @@ int k = 0;
 while( k < array.length ) {
     sum = sum + array[k];
     k++;                   // Don't forget this!
+}
+```
+---
+### Filtering out some Elements
+
+Use `continue` to skip some iteration of a loop.
+
+**Example:** Print the **positive** values in an array.
+```java
+double[] x = { 10.0, 0, 3.0, -2, -5, 7.0};
+for( double value: x ) {
+    if (value <= 0) continue; // skip it!
+    System.out.println( value );
 }
 ```
 
