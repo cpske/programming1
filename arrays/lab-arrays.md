@@ -61,7 +61,7 @@ Complete these methods in the class **ArrayUtil.java**. They are all **public st
     ```
 3. **void printUnique(Object[] array)** - print the elements of an array one per line, but omit duplicate values. Example:
     ```java
-    //
+    // "fig" and new String("fig") are equal, but different objects
     String[] fruit = {"fig", "apple", new String("fig"), "orange", "apple"};
     printUnique(fruit);
     ```
@@ -71,7 +71,7 @@ Complete these methods in the class **ArrayUtil.java**. They are all **public st
     apple
     orange
     ```
-    **Hint:** To compare two Objects **x** and **y**  you should: (a) check if they are null (x == null), then (b) use **x.equals(y)** to compare them.  Do not use x==y (tests only if x and y refer to *same* object).
+    **Hint:** To compare two Objects **x** and **y**  you should: (a) check that they are not null (x != null). (b) If not null, then use **x.equals(y)** to compare them.  Do not use x==y (tests only if x and y refer to *same* object).
 4. **void reverse(Object[] array)** - reverse the elements in the array. Example:
     ```java
     String[] fruit = {"apple", "banana", "orange"};
