@@ -11,7 +11,7 @@ You will submit this assignment using git and Github.
    cmd> cd someplace/workspace
    # Clone the project. This will clone arraylab-yourlogin into a
    # new directory named arraylab.
-   cmd> git clone http://github.com/OOP2018/arraylab-yourlogin arraylab
+   cmd> git clone  http://github.com/OOP2018/arraylab-yourlogin.git  arraylab
    ```
 3. Complete the problems below.  Periodically "commit" your work to your local repository.
 4. Test your work.  Review your code.  Is it well formatted and easy to read?
