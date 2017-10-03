@@ -2,7 +2,9 @@
 
 You will submit this assignment using git and Github.
 
-1. Go to this URL to accept the assignment and create a repository.
+### Instructions
+
+1. Go to the URL given in class; accept the assignment and create a repository.
 2. Clone the repository to your computer.
    ```
    # Change directory to your workspace for Programming 1 labs:
@@ -21,7 +23,7 @@ You will submit this assignment using git and Github.
 
 ### Problem1: ArrayUtil.java
 
-Complete these methods in the class **ArrayUtil.java**. They are all **public static**.
+Complete these methods in the class **ArrayUtil.java**. They are all **public static**.  Some of the methods have array of Object as parameter.  That way they can be used for arrays of any kind of object (but not array of primitives).
 
 1. **String[] readArray()** - read Strings from the console and return them in an array.  Ask the user how many strings, then create an array, and use a loop to read each element from the console. Note that **scanner.next()** can read words on the same line or different lines -- it doesn't care. Here is example of what happens when you call **readArray()**:
     ```shell
@@ -32,7 +34,7 @@ Complete these methods in the class **ArrayUtil.java**. They are all **public st
     fixed length
     ```
     **readArray()** should return array: ["Java","arrays","have","fixed","length"]
-2. **void printArray(String[] array)** - print the elements of an array, one per line.  Example:
+2. **void printArray(Object[] array)** - print the elements of an array, one per line.  The parameter is array of **Object** so it can print array of any kind of Object.   Example:
     ```java
     String[] fruit = {"apple", "banana", "orange"};
     printArray(fruit);
@@ -43,9 +45,16 @@ Complete these methods in the class **ArrayUtil.java**. They are all **public st
     banana
     orange
     ```
-3. **void printUnique(String[] array)** - print the elements of an array one per line, but omit duplicate values. Example:
+    How to print an object?  Just use System.out.println. Example:
     ```java
-    String[] fruit = {"fig", "apple", "fig", "orange", "apple"};
+    Object now = java.util.Calendar.getInstance();
+    System.out.println( now );
+    // prints the current date and time
+    ```
+3. **void printUnique(Object[] array)** - print the elements of an array one per line, but omit duplicate values. Example:
+    ```java
+    //
+    String[] fruit = {"fig", "apple", new String("fig"), "orange", "apple"};
     printUnique(fruit);
     ```
     should print only:
@@ -53,6 +62,26 @@ Complete these methods in the class **ArrayUtil.java**. They are all **public st
     fig
     apple
     orange
+    ```
+    **Hint:** To compare two Objects **x** and **y**  you should: (a) check if they are null (x == null), then (b) use **x.equals(y)** to compare them.  Do not use x==y (tests only if x and y refer to *same* object).
+4. **void reverse(Object[] array)** - reverse the elements in the array. Example:
+    ```java
+    String[] fruit = {"apple", "banana", "orange"};
+    reverse(fruit);
+    printArray(fruit);
+    ```
+    should print:
+    ```
+    orange
+    banana
+    apple
+    ```
+5. Test that **reverse** and **printArray** work with other kinds of objects.  For example:
+    ```java
+    Integer[] numbers = {new Integer(2), new Integer(2), new Integer(50)};
+    reverse(numbers);
+    printArray(numbers);
+    printUnique(numbers);
     ```
 
 ## Problem 2: Fibonacci.java
@@ -80,13 +109,13 @@ No lab about arrays would be complete without some linear algebra problems! Writ
    double[] c = {4, 20};
    prod = dotProduct(a,c);  // prod = 2x4 + 5x20 = 108, since c is shorter
    ```
-2. **saxpy(double a, double[] x, double b, double[] y)** - SAXPY means "Scalar A\*X Plus Y". It is a basic linear algebra method included in many libraries. **saxpy** returns a new array of double containing the vector product a \* **x** + b \* **y**.  
+2. **saxpy(double a, double[] x, double b, double[] y)** - SAXPY means "Scalar A\*X Plus Y". It is a widely used linear algebra operation. **saxpy** returns a new array of double containing the vector product a \* **x** + b \* **y**.  
    ```java
    double[] x = {2, 7, 8};
-   double[] y = {3, 0, 10};
+   double[] y = {6, 0, 10};
    double[] z = saxpy(2.0, x, -1.0, y);
    System.out.println("z = " + Arrays.toString(z) );
-   // prints z = [1, 14, 6]
+   // prints z = [-2, 14, 6]
    ```
 3. **norm(double[] a)** - return the Euclidean length of double vector `a`.  It is the square root of the sum of squares of elements: Math.sqrt(a0^2 + a1^2 + a2^3 ...). **Hint:** To compute the square of x, `x*x` is faster than calling Math.pow()!
    ```java
@@ -95,19 +124,19 @@ No lab about arrays would be complete without some linear algebra problems! Writ
    double[] b = {2E6, 3E6, 5E6};
    double big = norm(b); // is 6.164414E+6
    ```
-4. **long[] makePrimes(int howMany)** - return an array containing the first **howMany** prime numbers. The first prime number is 2 (not 1, sorry).
+4. **double min(double[] x)** return the minimum value in array x.
+5. **int argmin(double[] x)** return the index of the element in x which has the smallest value.  For example:
+   ```java
+   double[] x = {5.0, 3.0, 0.1, 2.98E+8};
+   int n = argmin(x);   // n = 2
+   ```
+6. **long[] makePrimes(int howMany)** - return an array containing the first **howMany** prime numbers. The first prime number is 2 (not 1, sorry).
     **Hint:** Suppose you are using a loop k=3,5,7,... to search for prime numbers and have already found primes p[0], p[1]..., p[n].  To test if k is prime, you only need to test if k can be divided by p[0], p[1]..., p[n].
    ```java
    long[] primes = makePrimes(5);
    System.out.println("First 5 prime numbers are:");
    // you could use a for-each loop here
    for(int j=0; j<primes.length; j++) System.out.println(primes[j]);
-   ```
-5. **double min(double[] x)** return the minimum value in x.
-6. **int argmin(double[] x)** return the index of the element in x which has the smallest value.  For example:
-   ```java
-   double[] x = {5.0, 3.0, 0.1, 2.98E+8};
-   int n = argmin(x);   // n = 2
    ```
 7. Use the **ArrayMathTest** class to test your code.  This class contains some tests for each method. They should all pass (of course).
 
@@ -144,13 +173,3 @@ Do geese see God
     Enter a phrase: 
     [Quit]
     ``` 
-
-## Challenge (Optional): Array substitution
-
-Add these static methods to **ArrayUtil**.  The parameters are declared as **Object** so we can use these methods with arrays of any kind of object (like String), but they won't work with array of primitives (like double).
-
-1. **void remove(Object[] array, int index)** - remove the element at index and shift the remaining array elements down.  Set the last element of the array to null after shifting. If index is larger than the last element in the array then do nothing.
-2. **void swap(Object[] array, int j, int k)** - swap elements i and j.
-3. **void reverse(Object[] array)** - reverse the order of elements in the array.
-
-
