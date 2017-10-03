@@ -25,7 +25,12 @@ You will submit this assignment using git and Github.
 
 Complete these methods in the class **ArrayUtil.java**. They are all **public static**.  Some of the methods have array of Object as parameter.  That way they can be used for arrays of any kind of object (but not array of primitives).
 
-1. **String[] readArray()** - read Strings from the console and return them in an array.  Ask the user how many strings, then create an array, and use a loop to read each element from the console. Note that **scanner.next()** can read words on the same line or different lines -- it doesn't care. Here is example of what happens when you call **readArray()**:
+1. **String[] readArray()** - read Strings from the console and return them in an array.  Ask the user how many strings, then create an array, and use a loop to read each element from the console. Note that **scanner.next()** can read words on the same line or different lines -- it doesn't care.    
+    Example:
+    ```java
+    String[] array = readArray();
+    ```
+    it will ask the user how many strings and then read the strings:
     ```shell
     How many strings to input?  5
     Input 5 strings separated by space or newline:
@@ -33,7 +38,10 @@ Complete these methods in the class **ArrayUtil.java**. They are all **public st
     have
     fixed length
     ```
-    **readArray()** should return array: ["Java","arrays","have","fixed","length"]
+    This example would return:
+    ```
+    array =  ["Java", "arrays", "have", "fixed", "length"]
+    ```
 2. **void printArray(Object[] array)** - print the elements of an array, one per line.  The parameter is array of **Object** so it can print array of any kind of Object.   Example:
     ```java
     String[] fruit = {"apple", "banana", "orange"};
