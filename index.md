@@ -70,9 +70,9 @@ Maybe: multi-dimensional arrays.
 </td>
 <td markdown="span">
 **Lab:**  [Arrays Lab](arrays/lab-arrays) using Github.    
-Lab URL: [https://classroom.github.com/a/fRBMqAfi](https://classroom.github.com/a/fRBMqAfi) to create your repository.
+Lab URL: [https://classroom.github.com/a/fRBMqAfi](https://classroom.github.com/a/fRBMqAfi) to create your repository.    
 **Read**: Big Java, Ch. 7 *Arrays*. Only 40 pages, easy to read.    
-**Homework**:  Revise SKE Restaurant to use **arrays** for the menu items, prices, and the customer's order.  Commit revised code to Github by Sunday, 8 Oct 22:00.     
+**Homework**:  Revise SKE Restaurant to use **arrays** for the menu items, prices, and the customer's order.  Commit revised code to Github by Sunday, 8 Oct 24:00.     
 </td>
 </tr>
 <!-- OOP 1 -->
