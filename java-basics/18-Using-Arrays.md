@@ -30,14 +30,17 @@ for(int index=start; test_condition; increment_operation) {
 ```
 **Example**: print the index and the array element value.
 ```java
-double[] array = /* some array of values */;
+double[] array = new double[] { 10.0, 20.0, 5.0 };
+double sum = 0.0;
 for(int k=0; k<array.length; k++) {
     System.out.printf("[%d] = %f\n", k, array[k]);
+    sum = sum + array[k];
+}
 ```
 
 **Example**: Sum the squares of values in an array.
 ```java
-double[] array = /* some array of values */;
+double[] array = new double[] { 10.0, 20.0, 5.0, 99.0 };
 double sumSquares = 0; // initialization
 for(int k=0; k<array.length; k++) {
     sumSquares += array[k]*array[k];
@@ -71,10 +74,10 @@ The `Datatype` should be the type of elements in the array, and `x` is the name 
 
 **Example:** sum squares of array elements using a for-each loop
 ```java
-double[] array = /* some array */;
+double[] array = { 10.0, 20.0, 5.0, 99.0 };
 double sumSquares = 0;
 // "foreach x in array"
-for(double x: array) {
+for( double x: array ) {
     sumSquares += x*x;
 }
 ```
@@ -83,7 +86,7 @@ Another example: print each element in an array of names.
 ```java
 String[] animals = {"Cat", "Bird", "Horse" };
 // "for-each who in names"
-for(String who: animals) {
+for( String who: animals ) {
     System.out.println( who );
 }
 ```
@@ -91,6 +94,17 @@ for(String who: animals) {
 #### 3. while loop or do-while loop
 
 These can also be used with arrays, of course.
+
+**Example:** sum elements of array elements using a while loop
+```java
+double[] array = { 10.0, 20.0, 5.0, 99.0 };
+double sum = 0;
+int k = 0;
+while( k < array.length ) {
+    sum = sum + array[k];
+    k++;                   // Don't forget this!
+}
+```
 
 ---
 ### Useful Methods for Arrays
@@ -100,6 +114,10 @@ The [Arrays](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html) cl
 #### Arrays.copyOf: copy an array to a new array
 
 ```java
+import java.util.Arrays;
+  .
+  .
+  .
 String[] fruit = {"apple","banana","grape"};
 // make a copy
 String[] copy = Arrays.copyOf(fruit, fruit.length);
@@ -162,6 +180,6 @@ Arrays.fill(x, 1.0);
 You can fill just part of the array by specifying extra parameters.
 
 
+### More Useful Methods in Arrays class
 
-
-
+The **java.util.Arrays** class has many useful methods.  See the [Javadoc](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html).
