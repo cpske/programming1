@@ -72,10 +72,12 @@ Complete these methods in the class **ArrayUtil.java**. They are all **public st
     orange
     ```
     **Hint:** To compare two Objects **x** and **y**  you should: (a) check that they are not null (x != null). (b) If not null, then use **x.equals(y)** to compare them.  Do not use x==y (tests only if x and y refer to *same* object).
-4. **void reverse(Object[] array)** - reverse the elements in the array. Example:
+4. **void reverse(Object[] array)** - reverse the order elements in the array. This method **does not print** anything. Example:
     ```java
     String[] fruit = {"apple", "banana", "orange"};
     reverse(fruit);
+    // now you should have:
+    // fruit = ["orange", "banana", "apple"]
     printArray(fruit);
     ```
     should print:
@@ -88,22 +90,24 @@ Complete these methods in the class **ArrayUtil.java**. They are all **public st
     ```java
     Integer[] numbers = {new Integer(2), new Integer(2), new Integer(50)};
     reverse(numbers);
-    printArray(numbers);
-    printUnique(numbers);
+    printArray(numbers);   // prints 50  2  2
+    printUnique(numbers);  // prints 50  2
     ```
 
 ## Problem 2: Fibonacci.java
 
-1. In the **Fibonacci** class, write a method **long[] makeFibonacci(int n)** that returns an array of the first **n** Fibonacci numbers. Fibonacci numbers are defined by the formula:    
+The Fibonacci numbers are the series: 1, 1, 2, 3, 5, 8, 13, 21 ... defined by the relationship: 
     f[0] = f[1] = 1     
     f[k] = f[k-1] + f[k-2] for k > 1.    
+
+1. In the **Fibonacci** class, write a method **long[] makeFibonacci(int n)** that returns an array of the first **n** Fibonacci numbers.  Be careful of the case n=1 (array of size 1).
 2. Write a **main** method to test the makeFibonacci method. You must test **at least** these cases:
     * makeFibonacci(1) returns an array of size 1 containing [1]
     * makeFibonacci(5) returns an array of size 5 containing [1, 1, 2, 3, 5]
     * makeFibonacci(50) returns an array of size 50 and fib[49] is 12,586,269,025.
     There is a test method in the class that you can use.
 
-**Note:** If you want to Java to print numbers with "," (12,345) use the "%,d" format: `System.out.printf("%,d", n)`
+**Note:** If you want Java to print numbers with "," (12,345) use the format "%,d": `System.out.printf("%,d", n)`
     
 ## Problem 3: ArrayMath
 
@@ -127,9 +131,9 @@ No lab about arrays would be complete without some linear algebra problems! Writ
    ```
 3. **norm(double[] a)** - return the Euclidean length of double vector `a`.  It is the square root of the sum of squares of elements: Math.sqrt(a0^2 + a1^2 + a2^3 ...). **Hint:** To compute the square of x, `x*x` is faster than calling Math.pow()!
    ```java
-   double[] a = {3.0,4.0};
+   double[] a = {3.0, 4.0};
    double z = norm(a);  // is 5.0
-   double[] b = {2E6, 3E6, 5E6};
+   double[] b = {2.0E6, 3.0E6, 5.0E6};
    double big = norm(b); // is 6.164414E+6
    ```
 4. **double min(double[] x)** return the minimum value in array x.
@@ -145,6 +149,15 @@ No lab about arrays would be complete without some linear algebra problems! Writ
    System.out.println("First 5 prime numbers are:");
    // you could use a for-each loop here
    for(int j=0; j<primes.length; j++) System.out.println(primes[j]);
+   ```
+    Should print:
+   ```shell
+   First 5 prime numbers are:
+   2
+   3
+   5
+   7
+   11
    ```
 7. Use the **ArrayMathTest** class to test your code.  This class contains some tests for each method. They should all pass (of course).
 
@@ -178,6 +191,6 @@ Do geese see God
     dog is not a palindrome
     Enter a phrase:  Race car
     Race car is a palindrome
-    Enter a phrase: 
+    Enter a phrase: [Enter]
     [Quit]
     ``` 
