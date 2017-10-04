@@ -39,14 +39,11 @@ You can change this info anytime by running `git config` again.
 Answer these questions: [Git Sign-up](https://goo.gl/cwrBbW) (https://goo.gl/cwrBbW).    
 Your score is based on completeness information in your Github account.
 
-## Problem 2: Create a Local Git Repo for Homework 1 and Push it to Github
+## Problem 2: Create a Git Repo for Homework 1 and Push it to Github
 
 1. Find your project for Homework 1 ("SKE Restaurant", elab #10).
 2. Create a git repository in that directory by running `git init`.
-3. Create a `.gitignore` file in your project directory to ignore Java class files and IDE project files.     
-    See [Introduction to Git](intro-git) for what to put in `.gitignore`.   
-    **Note:** `.gitignore` **must** be in the top-level project directory, **not** in the src/ directory.
-4. Create a `README.md` file describing the project. It must contain at least this info:
+3. Create a `README.md` file describing the project. It must contain at least this info:
     ```
     # SKE Restaurant
     by Your Name
@@ -54,28 +51,31 @@ Your score is based on completeness information in your Github account.
     A command line interface for a simple food ordering application.
     (Add more info about your project.)
     ```
-5. Add to the repository: a) `.gitignore`, b) `README.md`, c) your **source code** (`src`) directory:
+4. Add to the repository: a) `README.md`, b) `.gitignore`, c) your **source code** (`src`) directory:
     ```shell
-    cmd> git add .gitignore README.md src
+    cmd> git add README.md .gitignore src
     ```
 5. Commit the files to the repository using `git commit -m "initial code checkin"`.
-6. On **Github** create an *empty* repository named `ske-restaurant`.  It must be empty because you want to upload your local project repository to here.
-7. Back in your local project, add the Github as a "remote" repository and "push" your repository to Github:
+6. On **Github** create an **empty** repository named **ske-restaurant**. (Must be empty.)    
+7. Back in your local project, add the Github repo as a "remote" repository and "push" your repository to Github:
     ```shell
     cmd> git remote add origin https://github.com/your_github_name/ske-restaurant.git
     cmd> git push -u origin master
     ```
 8. In a web browser, view your project on Github.
+    * Is the Github repository named **ske-restaurant**?
     * Are all the source files there (in a src/ dir)?
-    * Does it have a .gitignore and README.md?
+    * Does it have a README.md?
     * Is the formatting of README.md correct?
 
-**Note:** your local project name **can be different** from the Github repository name (ske-restaurant)!  Git doesn't care.
+
+**Note:** your local project name **can be different** from the Github repository name (**ske-restaurant**)!  Git doesn't care.
+But the Github repository **must** be named **ske-restaurant**.
 
 
 ## Homework
 
-Please complete these tutorials. There will be a **Git Quiz** which may include anything from these tutorials.
+Please complete a Git tutorial. There will be a **Git Quiz** which may include anything from these tutorials.
 
 1. Learn more about git: [https://try.github.io](https://try.github.io)
 2. [Using Git on Github](https://guides.github.com/activities/hello-world/).
