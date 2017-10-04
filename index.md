@@ -73,7 +73,8 @@ Maybe: multi-dimensional arrays.
 **Lab:**  [Arrays Lab](arrays/lab-arrays) using Github.    
 Lab URL: [https://classroom.github.com/a/fRBMqAfi](https://classroom.github.com/a/fRBMqAfi) to create your repository.    
 **Read**: Big Java, Ch. 7 *Arrays*. Only 40 pages, easy to read.    
-**Homework**:  Revise SKE Restaurant to use **arrays** for the menu items, prices, and the customer's order.  Commit revised code to Github (repo name **ske-restaurant**) by Sunday, 8 Oct 24:00.  No credit if Github repo name is wrong.     
+**Homework**:  Revise SKE Restaurant to use **arrays** for the menu items, prices, and the customer's order.  Commit revised code to Github (repo name **ske-restaurant**) by Sunday, 8 Oct 24:00.     
+No credit if Github repo name is not **ske-restaurant**.  
 </td>
 </tr>
 <!-- OOP 1 -->
