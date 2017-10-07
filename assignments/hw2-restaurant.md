@@ -2,10 +2,21 @@
 
 ### Assignment
 
-Modify the SKE Restaurant project to use arrays for menu items, prices, and the customer's order.
+1. Modify the SKE Restaurant project to use arrays for menu items, prices, and the customer's order.
+2. The only place where the menu items and prices should appear is in the arrays -- don't duplicate it.
+3. Use methods for common tasks such as computing the total price of an order.
 
 The menu items and prices can be attributes of the class, but the customer's order array
-should be a **local variable**.  (See item 6 for details.)
+should be a **local variable**.  (See item 7 for details.)
+
+### Example
+
+This kind of code is error-prone.
+```java
+private double totalPrice;
+
+public static double addToOrder(int itemNumber, int quantity, 
+           int[] 
 
 ### Checklist for a Good Project
 
