@@ -41,7 +41,7 @@ Example: [Student Projects](https://skeoop.github.io/projects) from OOP2
 [Github Organization](git/Github-Organization.pdf) for this course. Example: [OOP2 last semester](https://github.com/orgs/OOP2017/people)    
 </td>
 <td markdown="span">
-**Lab:** [Git Assignment](git/git-assignment) there will be a quiz on this next week.    
+**Lab:** [Git Assignment](git/lab-git) there will be a quiz on this next week.    
 **SKE Restaurant:** You must create a Github repository named **ske-restaurant** and commit your code there.  Use that name **exactly**.   
 **Homework:**  Learn to use the command line on your computer. Know how to: a) change directory, b) list files, c) list all files including hidden files, d) rename or move files, e) run a program.
 </td>
@@ -53,7 +53,7 @@ Example: [Student Projects](https://skeoop.github.io/projects) from OOP2
 Guidelines for Writing Good Code, part 1 [slides](coding/Coding-Guidelines.pdf) 
 </td>
 <td markdown="span">
-**Lab:** [Code Improvement Lab](coding/code-improvement-assignment)
+**Lab:** [Code Improvement Lab](coding/lab-code-improvement)
 This assignment uses Github. **Due:** Sunday, 1 Oct, 20:00 on Github.    
 Problem 3 (fixcode): [https://classroom.github.com/a/A0HAJsTW](https://classroom.github.com/a/A0HAJsTW)    
 Study:  [Java Coding Standard](coding/Java-Coding-Standard.pdf)
@@ -74,7 +74,8 @@ Maybe: multi-dimensional arrays.
 Lab URL: [https://classroom.github.com/a/fRBMqAfi](https://classroom.github.com/a/fRBMqAfi) to create your repository.    
 **Read**: Big Java, Ch. 7 *Arrays*. Only 40 pages, easy to read.    
 **Homework**:  Revise SKE Restaurant to use **arrays** for the menu items, prices, and the customer's order.  Commit revised code to Github (repo name **ske-restaurant**) by Sunday, 8 Oct 24:00.     
-No credit if Github repo name is not **ske-restaurant**.  
+No credit if Github repo name is not **ske-restaurant**.    
+[**Checklist** for **Homework**](assignments/hw2-restaurant) make sure your project has these features.
 </td>
 </tr>
 <!-- OOP 1 -->

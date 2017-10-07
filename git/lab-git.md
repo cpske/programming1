@@ -41,7 +41,10 @@ Your score is based on completeness information in your Github account.
 
 ## Problem 2: Create a Git Repo for Homework 1 and Push it to Github
 
-1. Find your project for Homework 1 ("SKE Restaurant", elab #10).
+Use Git to submit your SKE Restaurant code to Github.
+On Github, the repository must be named **ske-restaurant**.
+
+1. Find your project for Homework 1 ("SKE Restaurant", elab 10).
 2. Create a git repository in that directory by running `git init`.
 3. Create a `README.md` file describing the project. It must contain at least this info:
     ```
@@ -57,19 +60,19 @@ Your score is based on completeness information in your Github account.
     ```
 5. Commit the files to the repository using `git commit -m "initial code checkin"`.
 6. On **Github** create an **empty** repository named **ske-restaurant**. (Must be empty.)    
-7. Back in your local project, add the Github repo as a "remote" repository and "push" your repository to Github:
+7. Back in your local project, add the Github **ske-restaurant** repo as a "remote" repository and "push" your repository to Github:
     ```shell
     cmd> git remote add origin https://github.com/your_github_name/ske-restaurant.git
     cmd> git push -u origin master
     ```
 8. In a web browser, view your project on Github.
     * Is the Github repository named **ske-restaurant**?
-    * Are all the source files there (in a src/ dir)?
-    * Does it have a README.md?
+    * Are all the source files there (in a **src/** dir)?
+    * Does it have a **README.md**?
     * Is the formatting of README.md correct?
 
 
-**Note:** your local project name **can be different** from the Github repository name (**ske-restaurant**)!  Git doesn't care.
+**Note:** your local project name **can be different** from the Github repository name.  Git doesn't care.
 But the Github repository **must** be named **ske-restaurant**.
 
 
