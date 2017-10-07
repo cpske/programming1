@@ -11,7 +11,7 @@ You will submit this assignment using git and Github.
    cmd> cd someplace/workspace
    # Clone the project. This will clone arraylab-yourlogin into a
    # new directory named arraylab.
-   cmd> git clone  http://github.com/OOP2018/arraylab-yourlogin.git  arraylab
+   cmd> git clone  https://github.com/OOP2018/arraylab-yourlogin.git  arraylab
    ```
 3. Complete the problems below.  Periodically "commit" your work to your local repository.
 4. Test your work.  Review your code.  Is it well formatted and easy to read?
@@ -21,7 +21,7 @@ You will submit this assignment using git and Github.
    ```
 6. Ask the instructor or TA to review your code!  You might get some good ideas for improving it.  You can "push" again (and again) if you make changes.
 
-### Problem1: ArrayUtil.java
+### Problem 1: ArrayUtil.java
 
 Complete these methods in the class **ArrayUtil.java**. They are all **public static**.  Some of the methods have array of Object as parameter.  That way they can be used for arrays of any kind of object (but not array of primitives).
 
