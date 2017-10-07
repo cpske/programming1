@@ -96,12 +96,14 @@ Complete these methods in the class **ArrayUtil.java**. They are all **public st
 
 ## Problem 2: Fibonacci.java
 
-The Fibonacci numbers are the series: 1, 1, 2, 3, 5, 8, 13, 21 ... defined by the relationship: 
+The Fibonacci numbers are the series: 1, 1, 2, 3, 5, 8, 13, 21 ... defined by the formula:    
     f[0] = f[1] = 1     
     f[k] = f[k-1] + f[k-2] for k > 1.    
 
-1. In the **Fibonacci** class, write a method **long[] makeFibonacci(int n)** that returns an array of the first **n** Fibonacci numbers.  Be careful of the case n=1 (array of size 1).
-2. Write a **main** method to test the makeFibonacci method. You must test **at least** these cases:
+In the **Fibonacci** class, write these methods:
+
+1. **long[] makeFibonacci(int n)** - return an array of the first **n** Fibonacci numbers.  Be careful of the case n=1 (array of size 1).
+2. **main** - test the makeFibonacci method. You must test **at least** these cases:
     * makeFibonacci(1) returns an array of size 1 containing [1]
     * makeFibonacci(5) returns an array of size 5 containing [1, 1, 2, 3, 5]
     * makeFibonacci(50) returns an array of size 50 and fib[49] is 12,586,269,025.
@@ -109,7 +111,7 @@ The Fibonacci numbers are the series: 1, 1, 2, 3, 5, 8, 13, 21 ... defined by th
 
 **Note:** If you want Java to print numbers with "," (12,345) use the format "%,d": `System.out.printf("%,d", n)`
     
-## Problem 3: ArrayMath
+## Problem 3: ArrayMath.java
 
 No lab about arrays would be complete without some linear algebra problems! Write these **public static** methods in the **ArrayMath** class:
 
@@ -161,7 +163,7 @@ No lab about arrays would be complete without some linear algebra problems! Writ
    ```
 7. Use the **ArrayMathTest** class to test your code.  This class contains some tests for each method. They should all pass (of course).
 
-## Problem 4: Palindrome
+## Problem 4: Palindrome.java
 
 A Palindrome is a word or phrase that is the same when read left-to-right and right-to-left.  These words are palindromes:
 ```
@@ -176,13 +178,15 @@ race car
 Do geese see God
 กา ฝาก
 ```
-1. In the **Palindrome** class write a static method **isPalindrome(String word)** that returns **true** if the parameter is a palindrome, **false** otherwise.    
+Write these static methods:
+
+1. **boolean isPalindrome(String word)** - returns **true** if the parameter is a palindrome, **false** otherwise.    
     **Hint**: The String class has some methods that may help:
     * **replaceAll(old,new)** replaces the **old** value with the **new** value, and returns the result as a string:  `s = "i love space".replaceAll(" ","");` returns "ilovespace".
     * **toLowerCase()** returns a **copy** of the string in lowercase.
     * **toCharArray()** splits a String into array of char. `char[] c = "hello".toCharArray()` returns ['h','e','l','l','o'] (array of char).
     
-2. Write a **main** method that asks user to input a phrase and then tells him whether or not it is a palindrome.  Loop until user enters a blank line.
+2. **main** - ask user to input a phrase and then tells him whether or not it is a palindrome.  Loop until user enters a blank line.
     ```
     Enter a blank line to quit.
     Enter a phrase:  mom

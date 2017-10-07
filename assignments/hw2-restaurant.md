@@ -30,7 +30,7 @@
      */
     public class Restaurant
     ```
-4. For good code, write **method Javadoc** comments for important methods.  See the Arrays lab for examples.
+4. For really good code, write **Javadoc method comments** for important methods.  See the Arrays lab for examples.
 5. Use arrays for the menu items and prices.  Example (use your own variable names):
     ```java
     // This is a vegetarian restaurant!
