@@ -67,15 +67,32 @@ Study:  [Java Coding Standard](coding/Java-Coding-Standard.pdf)
 [Using arrays](java-basics/18-Using-Arrays.md) idioms and useful methods.   
 Practice with arrays.   
 Review of [Git concepts](git/git-transport-commands.pdf), rethink about .gitignore.    
-Maybe: multi-dimensional arrays.   
 </td>
 <td markdown="span">
 **Lab:**  [Arrays Lab](arrays/lab-arrays) using Github.    
 Lab URL: [https://classroom.github.com/a/fRBMqAfi](https://classroom.github.com/a/fRBMqAfi) to create your repository.    
-**Read**: Big Java, Ch. 7 *Arrays*. Only 40 pages, easy to read.    
+**Read**: *Big Java*, Ch. 7 *Arrays*. Only 40 pages, easy to read.    
 **Homework**:  Revise SKE Restaurant to use **arrays** for the menu items, prices, and the customer's order.  Commit revised code to Github (repo name **ske-restaurant**) by Sunday, 8 Oct 24:00.     
 No credit if Github repo name is not **ske-restaurant**.    
 [**Checklist** for **Homework**](assignments/hw2-restaurant) make sure your project has these features.
+</td>
+</tr>
+<!-- 2d-arrays and more -->
+<tr valign="top">
+<td align="center"> Oct 10 </td>
+<td markdown="span">
+[Review of Arrays](arrays/Review.pdf)        
+[2-Dimensional Arrays](java-basics/19-Arrays-2D.pdf)   
+How to Read the [Java API](https://docs.oracle.com/javase/7/docs/api/) (Javadoc) - [Dummies Guide](http://www.dummies.com/programming/java/making-sense-of-javas-api-documentation/) and [tutorial](http://www.otherwise.com/Lessons/ReadingTheJavadoc.html)    
+List and ArrayList
+</td>
+<td markdown="span">
+**Quiz**    
+**Lab:**      
+Lab URL:    
+**Read**: *Big Java*, Ch. 7 *Arrays*  covers 2D arrays and ArrayList.    
+**Suggested**: [Java Tutorial on ArrayList](https://docs.oracle.com/javase/tutorial/collections/implementations/list.html) and very brief [Beginners Book](https://beginnersbook.com/2013/12/java-arraylist/).    
+**Homework**: 
 </td>
 </tr>
 <!-- OOP 1 -->
@@ -86,7 +103,9 @@ Introduction to Objects
 </td>
 <td markdown="span">
 Lab TBA    
-Assignment: SKE Restaurant with objects
+**Read**: *Big Java*, Ch. 2 (Using Objects) and Ch. 3 (Implementing Classes)    
+**Suggested**: Java Tutorial on [Classes and Objects](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)    
+**Assignment**: SKE Restaurant with objects
 </td>
 </tr>
 <!-- OOP 2 -->
@@ -97,7 +116,10 @@ More Objects and OOP Concepts
 Polymorphism
 </td>
 <td markdown="span">
-Lab TBA
+**Lab**: TBA    
+**Read**: *Big Java*, Ch. 3 (Implementing Classes) and Java Tutorial on [Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)      
+**Suggested**: *Big Java*, Ch. 9 (Inheritance)     
+**Note:** Polymorphism is key to the power of OOP. Make sure you understand it.
 </td>
 </tr>
 <!-- OOP 3 -->
@@ -108,7 +130,8 @@ Objects and Design
 Factories for Object Creation   
 </td>
 <td markdown="span">
-Lab TBA
+**Lab**: TBA    
+**Read**:    
 </td>
 </tr>
 <!-- Project Prep -->
