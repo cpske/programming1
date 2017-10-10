@@ -89,6 +89,7 @@ How to Read the [Java API](https://docs.oracle.com/javase/7/docs/api/) (Javadoc)
 <td markdown="span">
 **Quiz**    
 **Lab:**      
+**Lab:**  [ArrayList Lab](arrays/lab-arraylist) using Github.    
 Lab URL:    
 **Read**: *Big Java*, Ch. 7 *Arrays*  covers 2D arrays and ArrayList.    
 **Suggested**: [Java Tutorial on ArrayList](https://docs.oracle.com/javase/tutorial/collections/implementations/list.html) and very brief [Beginners Book](https://beginnersbook.com/2013/12/java-arraylist/).    
