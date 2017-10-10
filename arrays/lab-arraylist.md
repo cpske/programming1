@@ -25,7 +25,7 @@ You will submit this assignment using git and Github.
 
 Complete these methods.  The Javadoc comments in code describe what each method should do.
 
-1. **printList(ArrayList<String> list)** prints contents of list on the console like this:
+1. **printList(ArrayList\<String\> list)** prints contents of the list on the console like this:
     ```shell
     list = { first, second, third, fourth }
     ```
@@ -34,9 +34,9 @@ Complete these methods.  The Javadoc comments in code describe what each method 
     list = { }
     ```
     Print only 10 elements per line. Add newline after each 10th element.
-2. **append(String value, ArrayList<String> list)** append value to the list. Don't print anything.
-3. **insert(String value, int index, ArrayList<String> list)** insert **value** at position **index** in the list.  If successful, don't print anything.  If index is too large then print a message like: `8 is too large. Last index is 5`.
-4. **remove(int index, ArrayList<String> list)** remove one element from list at **index** and print it on the console.  For example:
+2. **append(String value, ArrayList\<String\> list)** append value to the list. Don't print anything.
+3. **insert(String value, int index, ArrayList\<String\> list)** insert **value** at position **index** in the list.  If successful, don't print anything.  If index is too large then print a message like: `8 is too large. Last index is 5`.
+4. **remove(int index, ArrayList\<String\> list)** remove one element from list at **index** and print it on the console.  For example:
     ```
     Removed Banana
     ```
@@ -44,8 +44,8 @@ Complete these methods.  The Javadoc comments in code describe what each method 
     ```
     8 is too large. Last index is 5.
     ```
-5. **find(String value, ArrayList<String> list)** find **value** in the list and print index of its position: `Banana is element 5`.  If value is not found, print: `Banana not in list`.
-6. Run the application.  Use the console dialog to see what the ArrayList methods do. 
+5. **find(String value, ArrayList\<String\> list)** find **value** in the list and print index of its position. For example `find("Banana",list)` might print: `Banana is element 5`.  If it is not in list, print: `Banana not in list`.
+6. **Run** the application.  Use the console dialog to see what the ArrayList methods do. 
 
 Example of running program:
 ```shell
