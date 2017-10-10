@@ -84,7 +84,7 @@ No credit if Github repo name is not **ske-restaurant**.
 [Review of Arrays](arrays/Review.pdf)        
 [2-Dimensional Arrays](java-basics/19-Arrays-2D.pdf)   
 How to Read the [Java API](https://docs.oracle.com/javase/7/docs/api/) (Javadoc) - [Dummies Guide](http://www.dummies.com/programming/java/making-sense-of-javas-api-documentation/) and [tutorial](http://www.otherwise.com/Lessons/ReadingTheJavadoc.html)    
-List and ArrayList
+[List and ArrayList](java-basics/20-ArrayList.pdf) (slides)
 </td>
 <td markdown="span">
 **Quiz**    
