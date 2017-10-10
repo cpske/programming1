@@ -88,12 +88,15 @@ How to Read the [Java API](https://docs.oracle.com/javase/7/docs/api/) (Javadoc)
 </td>
 <td markdown="span">
 **Quiz**    
-**Lab:**      
 **Lab:**  [ArrayList Lab](arrays/lab-arraylist) using Github.    
 Lab URL:    
 **Read**: *Big Java*, Ch. 7 *Arrays*  covers 2D arrays and ArrayList.    
 **Suggested**: [Java Tutorial on ArrayList](https://docs.oracle.com/javase/tutorial/collections/implementations/list.html) and very brief [Beginners Book](https://beginnersbook.com/2013/12/java-arraylist/).    
-**Homework**: 
+**Homework**:     
+1. Resubmit **fixcode** by Wednesday, 11 Oct, 22:00. No more late assignments.
+2. Resubmit **arraylab** by Saturday.  Try the JUnit tests. (to be posted)
+3. Modify SKE Restaurant to read menu from a file. Due: Monday, 16 Oct. Details:
+4. Do ArrayList lab (above).  Due: Tuesday, 17 Oct.
 </td>
 </tr>
 <!-- OOP 1 -->
