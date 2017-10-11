@@ -102,7 +102,23 @@ Lab URL: [https://classroom.github.com/a/-cZ1ppg-](https://classroom.github.com/
 Everyone must do this next week.
 </td>
 </tr>
-<!-- OOP 1 -->
+<!-- Week 11 -->
+<tr valign="top">
+<td align="center"> Oct 17 </td>
+<td markdown="span">
+Review: last assignment    
+Method Parameters & Pass by Value    
+Input and Output Classes    
+</td>
+<td markdown="span">
+**Quiz** - coding problem using arrays   
+Lab: some input/output practice    
+Review and correction of SKE Restaurant    
+**Read**: *Big Java*, Ch. 11.1-11.2 (Input/Output), 11.4 (Exceptions)
+**Assignment**: SKE Restaurant with Menu Data in File
+</td>
+</tr>
+<!-- Week 12: OOP 1 -->
 <tr valign="top">
 <td align="center"> Oct 24 </td>
 <td markdown="span">
