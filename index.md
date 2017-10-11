@@ -93,10 +93,13 @@ Lab URL: [https://classroom.github.com/a/-cZ1ppg-](https://classroom.github.com/
 **Read**: *Big Java*, Ch. 7 *Arrays*  covers 2D arrays and ArrayList.    
 **Suggested**: [Java Tutorial on ArrayList](https://docs.oracle.com/javase/tutorial/collections/implementations/list.html) and very brief [Beginners Book](https://beginnersbook.com/2013/12/java-arraylist/).    
 **Homework**:     
-1. Resubmit **fixcode** by Wednesday, 11 Oct, 22:00. No more late assignments.
-2. Resubmit **arraylab** by Saturday, 8:00 (AM).  Try the JUnit tests. (to be posted)
-3. Modify SKE Restaurant to read menu from a file. Due: Monday, 16 Oct. Details:
-4. Do ArrayList lab (above).  Due: Tuesday, 17 Oct.
+1. Resubmit **fixcode** by Wednesday, 11 Oct, 22:00. Last chance.   
+2. Resubmit **arraylab** by Friday, 22:00.    
+3. ArrayList lab (above). Due: Sunday, 15 Oct.    
+4. SKE Restaurant using Arrays - it must *really* use array. See testing critieria in spreadsheet.    
+**For Programmers**:    
+5.  SKE Restaurant with Menu Data in File.
+Everyone must do this next week.
 </td>
 </tr>
 <!-- OOP 1 -->
