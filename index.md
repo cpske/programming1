@@ -71,7 +71,7 @@ Practice with arrays.
 Review of [Git concepts](git/git-transport-commands.pdf), rethink about .gitignore.    
 </td>
 <td markdown="span">
-**Lab:**  [Arrays Lab](arrays/lab-arrays) using Github.    
+**Lab:**  [Arrays Lab](arrays/lab-arrays) using Github.   [JUnit Test Cases](https://github.com/OOP2018/arraylab-test).    
 Lab URL: [https://classroom.github.com/a/fRBMqAfi](https://classroom.github.com/a/fRBMqAfi) to create your repository.    
 **Read**: *Big Java*, Ch. 7 *Arrays*. Only 40 pages, easy to read.    
 **Homework 2**:  [SKE Restaurant with Arrays](assignments/homework2) Revise SKE Restaurant to use **arrays** for menu items, prices, and customer's order.  Commit the code to Github (repo name **ske-restaurant**) by Sunday, 8 Oct 24:00.     
