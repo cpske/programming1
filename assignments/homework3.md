@@ -33,11 +33,11 @@ The menu file name is `menu.txt` in a subdirectory of the project named `data`. 
 ```
 ske-restaurant/
       README.md
-      data/
-           menu.txt
       src/ 
            OrderTaker.java        (your code may have a different class name)
            RestaurantManager.java (must use this name)
+           data/
+                 menu.txt
 ```
 
 ### 2. RestaurantManager class
