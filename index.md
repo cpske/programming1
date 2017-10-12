@@ -99,8 +99,6 @@ Lab URL: [https://classroom.github.com/a/-cZ1ppg-](https://classroom.github.com/
 2. Resubmit **arraylab** by Friday, 22:00.    
 3. ArrayList lab (above). Due: Sunday, 15 Oct. 8:00 (AM).    
 4. [SKE Restaurant using Arrays](assignments/homework2) - must *really* use array. Details: see [assignment](assignments/homework2) and testing critieria in Google spreadsheet.       
-**For Programmers**:    
-5.  [SKE Restaurant with Menu File](assignments/homework3).  Everyone must do this next week.    
 **Grading Criteria**:    
 See the [Course Spreadsheet](https://goo.gl/y4xqaS) "Grading Criteria" sheet on Google Docs.
 </td>
