@@ -41,9 +41,9 @@ Modify the SKE Restaurant code so that it uses arrays for the menu items, prices
 Submit your code to a Github repository named **ske-restaurant** in your own Github account (not the class account).  This is the same repository as you already submitted code.  Just commit and "push" your updates.
 
 > **What About My Old Code?**    
-> Github keeps every commit to a repository.  You can view and "checkout" any previous version.  There is no need to create a backup copies.  The old versions are still there!
+> Github keeps every commit to a repository.  You can view and "checkout" any previous version.  There is no need to create backup copies.  The old versions are still there!
 >
-> Please *don't* create directories like "old", "version1", "homework1", etc!  There should be **only one set of source files** in the repository.  If you really want to keep a "backup", then copy it someplace else on your computer.
+> Please **don't** create backup directories like "old", "version1", in your repository!  There should be **only one set of source files** in the repository.  If you really want to keep a "backup", then copy it someplace else on your computer.
 
 ### Programming Hints
 
