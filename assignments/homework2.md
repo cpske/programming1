@@ -5,8 +5,6 @@ Modify the SKE Restaurant code so that it uses arrays for the menu items, prices
 
 ### Requirements
 
-* Use methods for common tasks such as computing the total price of an order.
-
 1. Use arrays for menu item names (Strings) and prices (double).  Use an array for the customer's order.
 2. The menu items and prices are specified **only** in the arrays -- don't duplicate the information.
 3. The menu items and prices arrays may be **static attributes** of the class, because they are fixed.  
