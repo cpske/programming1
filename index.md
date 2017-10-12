@@ -4,7 +4,9 @@ title:
 description: Index page
 ---
 
-*This table contains only topics presented by Jim. Aj. Jitti's schedule and materials are on [elab](https://elab.cpe.ku.ac.th) and [Maxlearn](https://course.ku.ac.th).*
+[Course Spreadsheet](https://goo.gl/y4xqaS) - Schedule, Links, and Scores.    
+Aj. Jitti's Material is on [E-lab](https://elab.cpe.ku.ac.th) and [Maxlearn](https://course.ku.ac.th)
+
 
 <table border="1">
 <tr valign="top">
@@ -72,9 +74,9 @@ Review of [Git concepts](git/git-transport-commands.pdf), rethink about .gitigno
 **Lab:**  [Arrays Lab](arrays/lab-arrays) using Github.    
 Lab URL: [https://classroom.github.com/a/fRBMqAfi](https://classroom.github.com/a/fRBMqAfi) to create your repository.    
 **Read**: *Big Java*, Ch. 7 *Arrays*. Only 40 pages, easy to read.    
-**Homework**:  Revise SKE Restaurant to use **arrays** for the menu items, prices, and the customer's order.  Commit revised code to Github (repo name **ske-restaurant**) by Sunday, 8 Oct 24:00.     
-No credit if Github repo name is not **ske-restaurant**.    
-[**Checklist** for **Homework**](assignments/hw2-restaurant) make sure your project has these features.
+**Homework 2**:  [SKE Restaurant with Arrays](assignments/homework2) Revise SKE Restaurant to use **arrays** for menu items, prices, and customer's order.  Commit the code to Github (repo name **ske-restaurant**) by Sunday, 8 Oct 24:00.     
+No credit if Github repo name is not **ske-restaurant**.     
+See the **Checklist** at end of [Homework2](assignments/homework2).
 </td>
 </tr>
 <!-- 2d-arrays and more -->
@@ -96,7 +98,7 @@ Lab URL: [https://classroom.github.com/a/-cZ1ppg-](https://classroom.github.com/
 1. Resubmit **fixcode** by Wednesday, 11 Oct, 22:00. Last chance.   
 2. Resubmit **arraylab** by Friday, 22:00.    
 3. ArrayList lab (above). Due: Sunday, 15 Oct. 8:00 (AM).    
-4. SKE Restaurant using Arrays - it must *really* use array. See testing critieria in spreadsheet.    
+4. [SKE Restaurant using Arrays](assignments/homework2) - must *really* use array. Details: see [assignment](assignments/homework2) and testing critieria in Google spreadsheet.       
 **For Programmers**:    
 5.  SKE Restaurant with Menu Data in File.
 Everyone must do this next week.    
