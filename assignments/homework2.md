@@ -126,8 +126,22 @@ Total                              640.00
     private static final double[] unitPrice = {20.0, 35.0, 20.0, 25.0};
     ```
     OK to use an array of objects for menu items (each object has both the description and unit price), provided you know what you're doing.
-6. **Don't** "hard code" the menu items or prices in code.       
-
+7. The array for the customer's order is a **local variable**, not an attribute.
+    * This avoids lots of subtle bugs, avoids side effects, and reduces complexity of the code. 
+    * It makes it easier to test each method of the code.
+    * Each time you start a new order, either create a new array or reset ("fill") existing array with 0.    
+    **GOOD** (order is local variable, pass it to methods as parameter)
+    ```java
+    public void makeOrder() {
+        int[] order = new int[menuItems.length];
+        ...
+    ```
+    **BAD** (order is attribute)
+    ```java
+    public class Restaurant {
+        private static int[] order;
+    ```
+6. **Don't** "hard code" the menu items or prices in code.      
    **GOOD**    
     ```java
     public static void printMenu() {
@@ -140,12 +154,8 @@ Total                              640.00
         ...
         System.out.printf("Tofu          20.0 Baht%n"); // hard-coding data into code
     ```
-7. The array for the customer's order is a **local variable**, not an attribute.
-    * This avoids lots of subtle bugs, avoids side effects, and reduces complexity of the code. 
-    * It makes it easier to test parts of the code.
-    * Create a new array for each customer, or reset ("fill") array with 0 at start of new order.
 8. Use **methods** for tasks.  For example, computing the total price of order:    
-   **GOOD**
+   **GOOD** (a separate method to compute the total, as needed)
    ```java
    public static double getTotal(int[] order) {
         double total = 0.0;

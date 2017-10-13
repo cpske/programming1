@@ -52,7 +52,7 @@ Example: [Student Projects](https://skeoop.github.io/projects) from OOP2
 <tr valign="top">
 <td align="center"> Sep 26<br/>(cont.) </td>
 <td markdown="span">
-Guidelines for Writing Good Code, part 1 [slides](coding/Coding-Guidelines.pdf) 
+Guidelines for Writing Good Code [slides](coding/Coding-Guidelines.pdf) 
 </td>
 <td markdown="span">
 **Lab:** [Code Improvement Lab](coding/lab-code-improvement)
