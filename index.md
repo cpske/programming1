@@ -108,7 +108,7 @@ See the [Course Spreadsheet](https://goo.gl/y4xqaS) "Grading Criteria" sheet on 
 <td align="center"> Oct 17 </td>
 <td markdown="span">
 Review: last assignment    
-Method Parameters & Pass by Value    
+Method Parameters & Pass by Value [slides](java-basics/14-Method-Parameters.pdf)    
 Input and Output Classes    
 </td>
 <td markdown="span">
