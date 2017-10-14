@@ -107,7 +107,9 @@ In the **Fibonacci** class, write these methods:
     * makeFibonacci(1) returns an array of size 1 containing [1]
     * makeFibonacci(5) returns an array of size 5 containing [1, 1, 2, 3, 5]
     * makeFibonacci(50) returns an array of size 50 and fib[49] is 12,586,269,025.
-    There is a test method in the class that you can use.
+3. In **makeFibonacci** use a good name for the array, not `fake`.
+
+There is a test method in the class that you can use.
 
 **Note:** If you want Java to print numbers with "," (12,345) use the format "%,d": `System.out.printf("%,d", n)`
     
@@ -198,3 +200,4 @@ Write these static methods:
     Enter a phrase: [Enter]
     [Quit]
     ``` 
+

@@ -176,13 +176,12 @@ Ask for individual help
 <td align="center"> Nov 21<br/>Nov 28 </td>
 <td markdown="span">
 Project Development with    
-weekly demo and review
+weekly review, possible demo
 </td>
 <td markdown="span">
-You must have code in Github and    
-something to demonstrate each week.    
-Ask TAs and instructor for help with    
-things you don't know.   
+You must have code in Github and something
+to demonstrate each week.
+Ask TAs and instructor for help!
 </td>
 </tr>
 
