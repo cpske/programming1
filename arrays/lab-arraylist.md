@@ -81,12 +81,19 @@ Input: q
 
 **ArrayList** implements the **List** interface.  That means ArrayList is a kind of *List*.  All kinds of *List* have the same methods, so the ListExplorer methods should work with any List -- not just ArrayList.
 
-When you write a parameter, it is more flexible to use the Interface type instead of a specific class name. In this problem, we should use "List" instead of "ArrayList" as parameter type.
+When you use a List as method parameter, it is more flexible to use the Interface type (List) instead of a specific class name (ArrayList). In this problem, we should use "List" instead of "ArrayList" as parameter type.  For example:
+```java
+public void findStudent( List<String> students, String name )
+```
+is better than:
+```java
+public void findStudent( ArrayList<String> students, String name )
+```
 
 1. In all the methods that have `ArrayList<String>` as a **parameter**, change the parameter type to `List<String>`.  (But don't change the local `list` variable in consoleDialog.)
 2. Add the import `import java.util.List;`.
-3. Verify that the program works correctly.
+3. Verify that the program still works correctly.
 
-Any method that expects a "List" as parameter should accept an ArrayList object as the value when the method is invoked.  It is a form of *polymorphism*.
+Any method that expects a "List" as parameter will accept an "ArrayList" object as the actual value when you invoke the method.  It is a form of *polymorphism*.
 
 
