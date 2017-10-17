@@ -68,12 +68,16 @@ Write a new class named **RestaurantManager** that is responsible for informatio
 </tr>
 <tr valign="top">
 <td markdown="span">
-<tt>static void loadMenu(String filename)</tt>
+<tt>static void setMenu(String filename)</tt>
 </td>
-<td>(**Optional**) Method that causes the menu to be loaded from a named file.
-By default, RestaurantManger will load the menu itself.
-This method gives you a way to override the default menu with another menu.
-This method has default (package) scope, not "public".
+<td>Set the name of the menu file.  The default menu file is "data/menu.txt", but the application can set the name of the menu file. After this method is called, the RestaurantManger will reload the menu data from the file.
+</td>
+</tr>
+<tr valign="top">
+<td markdown="span">
+<tt>static void init()</tt>
+</td>
+<td>This method causes RestaurantManager to read menu data from the menu file and open the orders log file.
 </td>
 </tr>
 </table>
@@ -157,9 +161,27 @@ Here are 2 ways to split a String at a character:
 
 The String class also has a `lastIndexOf(char)` method that is sometimes useful.
 
-#### How to Load the Menu at Startup
+#### How to Read Data of Unknown Length
 
-The RestaurantManager should read the menu file only once, but we need the menu data before the app can do anything.  A simple solution is to make RestaurantManager read the data when the program starts.  
+The menu may contain an arbitrary number of items, so we cannot directly save the data into an array.  Instead, use two ArrayLists: one for the item names and one for prices.  Append all the menu items to the ArrayLists.
+
+When you are finished reading the data, create arrays from the ArrayList.  Use the method `arrayList.toArray()`.  For a String ArrayList:
+```java
+List<String> list = new ArrayList<String>();
+list.add("something");
+...   // add more items
+
+// create an array 
+String[] array = new String[ list.size() ];
+list.toArray( array );
+// return the array to caller, or set an attribute
+// of the class so your app can use it later
+return array;
+```
+
+#### How to Initialize RestaurantManager at Startup
+
+The RestaurantManager should read the menu file only once, but we need the menu data before the app can do anything.  We **might** also need to open the orders file for recording orders (or open the orders file each time you write an order and then close it). A simple solution is to make RestaurantManager read the data when the program starts.  
 
 Suppose you have a method named **init()** that initializes everything the RestaurantManager needs:
 ```java
@@ -177,4 +199,5 @@ From your application's "main" method (probably in the SKE Restaurant class), ju
 ```java
     RestaurantManager.init();
 ```
+
 
