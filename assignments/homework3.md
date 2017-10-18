@@ -40,6 +40,7 @@ ske-restaurant/
                  menu.txt
 ```
 
+
 ### 2. RestaurantManager class
 
 Write a new class named **RestaurantManager** that is responsible for information about the restaurant.  **RestaurantManager** will have these methods:
@@ -177,6 +178,21 @@ list.toArray( array );
 // return the array to caller, or set an attribute
 // of the class so your app can use it later
 return array;
+``` 
+#### Closing a File
+
+When you are done using an InputStream or OutputStream, it is a good idea
+to close it.  It frees resources.  For the InputStream, if you are using a `Scanner` to read it, then just close the Scanner.
+Scanner will close the InputStream for you.
+
+```java
+Scanner scanner = new Scanner( inputStream );
+// read the data using Scanner
+while( scanner.hasNextLine() ) {
+   ...
+}
+// done reading the data, close it
+scanner.close();
 ```
 
 #### How to Initialize RestaurantManager at Startup

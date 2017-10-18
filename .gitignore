@@ -8,6 +8,7 @@ bin/
 *.bak
 *.ctxt
 *.lock
+.~lock*
 !.gitignore
 # index.html is generated from index.md
 index.html

@@ -107,9 +107,9 @@ See the [Course Spreadsheet](https://goo.gl/y4xqaS) "Grading Criteria" sheet on 
 <tr valign="top">
 <td align="center"> Oct 17 </td>
 <td markdown="span">
-Review: last assignment    
+[Review of ArrayList](review/Review-Arraylist.pdf)   
 Method Parameters & Pass by Value [slides](java-basics/14-Method-Parameters.pdf)    
-Input and Output Classes    
+Input and Output Classes (I'm revising this material) - [slides from OOP](input-output/Input-Output.pdf)    
 </td>
 <td markdown="span">
 **Quiz** - coding problem using arrays   
