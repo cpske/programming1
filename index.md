@@ -126,6 +126,7 @@ Review and correction of SKE Restaurant
 Introduction to Objects
 </td>
 <td markdown="span">
+**Quiz** reading from a file, using Arrays and ArrayList    
 Lab TBA    
 **Read**: *Big Java*, Ch. 2 (Using Objects) and Ch. 3 (Implementing Classes)    
 **Suggested**: Java Tutorial on [Classes and Objects](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)    

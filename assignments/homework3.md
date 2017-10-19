@@ -93,6 +93,18 @@ When an order is completed, the SKE Restaurant should call the **recordOrder** m
 
 **Coming Soon:** instructions on how to write the sale to a file.
 
+### 4. (Optional) Command Line Argument for Menu: -m menufile
+
+How can the user tell the application what file he wants to use for menu data?  For testing, we might have a separate file (`testmenu.txt`) and the restaurant might have a different breakfast menu and lunch menu. Or a special menu for the vegetarian festival.
+
+Many applications let you specify *command line arguments* to pass optional values to the application.  In Java, the command line arguments are put into the String array in `main(String[] args)`.
+
+1. Modify the `main` method to check for command line arguments "-m *menufile*", where the *menufile* is the actual filename of the restaurant menu.
+2. The user might input a relative or absolute path for the file, and it may be relative to the SKE Restaurant application.  To handle both possibilities do this:
+    * Try to open the file as a file in the filesystem using `new FileInputStream(filename)`. If that works, you are done.
+    * Try to open the file as a a classpath resource (using ClassLoader, described above).  
+
+
 ### How to Submit
 
 Commit your source code to your Github repository named **ske-restaurant**.
@@ -195,6 +207,35 @@ while( scanner.hasNextLine() ) {
 scanner.close();
 ```
 
+#### Writing Text to a File
+
+To read text (strings, numbers, etc) from a file we first open an InputStream (reads bytes) and then create a Scanner or BufferedReader to read text. 
+
+Similarly, to **write** to a file we first open an OutputStream (writes bytes) and then create a PrintWriter (or PrintStream) to write formatted text.
+
+Here is one way to do that using a file for the output.  First we open a **FileOutputStream** object, then create a **PrintStream** object to handle writing of text and formatting.  Opening a file for input or output may cause an Exception to be thrown if the file cannot be read or written, so the code uses a try - catch block to handle the exception.  If an exception occurs, the code will jump into the "catch" block.  If everything is OK, it will skip over the catch block.   See *Big Java* section 11.3 for info about handling exceptions.
+
+```java
+String outputfile = "text.txt";
+OutputStream out = null;
+try {
+    out = new FileOutputStream( outputfile );
+} catch (FileNotFoundException ex) {
+    System.out.println("Couldn't open output file "+outputfile);
+    return;
+}
+// now we have an OutputStream.  Create a PrintStream for text output.
+PrintStream pout = new PrintStream(out);
+
+// PrintStream works just like System.out.
+// You can use print(), println(), and printf().
+pout.println("Some test output");
+pout.printf("The time is %tT\n", System.currentTimeMillis());
+
+// Close the file when you are done
+pout.close();
+```
+
 #### How to Initialize RestaurantManager at Startup
 
 The RestaurantManager should read the menu file only once, but we need the menu data before the app can do anything.  We **might** also need to open the orders file for recording orders (or open the orders file each time you write an order and then close it). A simple solution is to make RestaurantManager read the data when the program starts.  
@@ -215,5 +256,3 @@ From your application's "main" method (probably in the SKE Restaurant class), ju
 ```java
     RestaurantManager.init();
 ```
-
-
