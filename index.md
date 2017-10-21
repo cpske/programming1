@@ -123,7 +123,7 @@ Review and correction of SKE Restaurant
 <tr valign="top">
 <td align="center"> Oct 24 </td>
 <td markdown="span">
-[Introduction to Objects](object/introduction-objects.md) and [slides](objects/1-Introductiion-to-Objects.pdf)    
+[Introduction to Objects](object/introduction-objects.md) and [slides](objects/1-Introduction-to-Objects.pdf)    
 </td>
 <td markdown="span">
 **Quiz** reading from a file, using Arrays and ArrayList    
