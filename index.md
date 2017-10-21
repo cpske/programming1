@@ -123,7 +123,7 @@ Review and correction of SKE Restaurant
 <tr valign="top">
 <td align="center"> Oct 24 </td>
 <td markdown="span">
-Introduction to Objects
+[Introduction to Objects](object/introduction-objects.md) and [slides](objects/1-Introductiion-to-Objects.pdf)    
 </td>
 <td markdown="span">
 **Quiz** reading from a file, using Arrays and ArrayList    
@@ -133,7 +133,7 @@ Lab TBA
 **Assignment**: SKE Restaurant with objects
 </td>
 </tr>
-<!-- OOP 2 -->
+<!-- Week 13: OOP 2 -->
 <tr valign="top">
 <td align="center"> Oct 31 </td>
 <td markdown="span">
