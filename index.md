@@ -130,7 +130,8 @@ TBA: Summary of Object concepts
 </td>
 <td markdown="span">
 **Quiz** reading from a file, using Arrays and ArrayList    
-Lab TBA    
+Lab: [Objects Lab](objects/lab-objects.md)    
+Lab URL: [https://classroom.github.com/a/ubpc4JQ8](https://classroom.github.com/a/ubpc4JQ8)    
 **Read**: *Big Java*, Ch. 2 (Using Objects) and Ch. 3 (Implementing Classes)    
 **Suggested**: Java Tutorial on [Classes and Objects](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)    
 **Assignment**: SKE Restaurant with objects
