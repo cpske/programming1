@@ -132,7 +132,7 @@ TBA: Summary of Object concepts
 **Quiz** reading from a file, using Arrays and ArrayList    
 Lab: [Objects Lab](objects/lab-objects.md)    
 Lab URL: [https://classroom.github.com/a/ubpc4JQ8](https://classroom.github.com/a/ubpc4JQ8)    
-**Read**: *Big Java*, Ch. 2 (Using Objects) and Ch. 3 (Implementing Classes)    
+**Read**: *Big Java*, Ch. 2 (Objects) and Ch. 3 (Implementing Classes)    
 **Suggested**: Java Tutorial on [Classes and Objects](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)    
 **Assignment**: SKE Restaurant with objects
 </td>
@@ -141,14 +141,17 @@ Lab URL: [https://classroom.github.com/a/ubpc4JQ8](https://classroom.github.com/
 <tr valign="top">
 <td align="center"> Oct 31 </td>
 <td markdown="span">
-More Objects and OOP Concepts    
-Polymorphism
+O-O Concepts: Inheritance and Polymorphism   
+More About Objects    
+Controlling object creation
 </td>
 <td markdown="span">
-**Lab**: TBA    
-**Read**: *Big Java*, Ch. 3 (Implementing Classes) and Java Tutorial on [Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)      
-**Suggested**: *Big Java*, Ch. 9 (Inheritance)     
-**Note:** Polymorphism is key to the power of OOP. Make sure you understand it.
+**Quiz**:  computer-based quiz using Github classroom    
+**Lab**: Will extend Person and BankAccount from last week.    
+**Extra**: Movie reviews?    
+**Read**: *Big Java*, Ch. 9 (Inheritance and Polymorphism).   
+**Suggested**: Java Tutorial on [Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)     
+**Note:** Polymorphism is key to the power of OOP. Inheritance enables polymorphism and code reuse.  Try to understand them thoroughly.
 </td>
 </tr>
 <!-- OOP 3 -->
@@ -187,6 +190,16 @@ weekly review, possible demo
 You must have code in Github and something
 to demonstrate each week.
 Ask TAs and instructor for help!
+</td>
+</tr>
+<!-- Review -->
+<tr valign="top">
+<td align="center">Review</td>
+<td markdown="span">
+Review of Java and OO Concepts
+</td>
+<td markdown="span">
+[Java Tutorial on Udemy](https://www.udemy.com/java-tutorial/) nice online course starts easy, covers a lot.
 </td>
 </tr>
 
