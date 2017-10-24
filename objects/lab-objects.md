@@ -118,17 +118,17 @@ Use the package **banking** for Problems 2-4.
 <th width="30%">Member</th> <th>Description</th>
 </tr>
 <tr valign="top">
-<td markdown="span">Long accountNumber</td><td>the bank account number.</td>
+<td markdown="span">Long accountNumber</td><td>the bank account number</td>
 </tr>
 <tr valign="top">
 <td markdown="span">String accountName</td><td>the account name. Usually a person's name.</td>
 </tr>
 <tr valign="top">
-<td markdown="span">double balance</td><td>the account balance, initially 0.0.</td>
+<td markdown="span">double balance</td><td>account balance, initially 0.0.</td>
 </tr>
 <tr valign="top">
 <td markdown="span">BankAccount(String name)</td>
-<td markdown="span">constructor with a bank account name.  It gets an accountNumber from the Bank. The balance should be 0.  Get an account number from the **Bank** (using starter code) like this: <br/>
+<td markdown="span">constructor with a bank account name. The balance is 0. Get an accountNumber from the **Bank** (use starter code) like this: <br/>
 ```
 accountNumber = Bank.getNextAccountNumber();
 ```
@@ -136,7 +136,7 @@ accountNumber = Bank.getNextAccountNumber();
 </tr>
 <tr valign="top">
 <td markdown="span">BankAccount(String name, long accountNum)</td>
-<td markdown="span">constructor for BankAccount using the specified account name and account number (doesn't get accountNumber from Bank).
+<td markdown="span">constructor for BankAccount with a specified account name and account number (don't get accountNumber from Bank).
 </td>
 </tr>
 <tr valign="top">
@@ -149,20 +149,21 @@ accountNumber = Bank.getNextAccountNumber();
 </tr>
 <tr valign="top">
 <td markdown="span">double getBalance()</td>
-<td>Get the balance. <b>No</b> setBalance method.</td>
+<td>Return the balance. <b>No</b> setBalance method.</td>
 </tr>
 <tr valign="top">
 <td markdown="span">void deposit(double amount)</td>
-<td>Deposit money to account. Parameter must be positive.</td>
+<td>Deposit money to account. amount must be positive.</td>
 </tr>
 <tr valign="top">
 <td markdown="span">boolean withdraw(double amount)</td>
-<td markdown="span">Withdraw money from account. Parameter must be postive and not exceed balance. Return **true** if withdraw succeeds, **false** if not allowed (amount not valid).
+<td markdown="span">Withdraw money from account. amount must be postive and not exceed the balance. Return **true** if withdraw succeeds, **false** if not allowed (amount not valid).
 </td>
 </tr>
 <tr valign="top">
 <td markdown="span">String toString()</td>
-<td>Return description in the format: "[1234567890] Bill Gates, balance: 2,000,000,000.00 Bt" </td>
+<td>Return description of account in the format:<br/> "[1234567890] Bill Gates, balance: 2,000,000,000.00 Bt" 
+</td>
 </tr>
 </table>
 <p></p>
