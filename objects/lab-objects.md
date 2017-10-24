@@ -204,7 +204,7 @@ Deposit (+) or withdraw (-): -1000005.99    (try to withdraw everything)
 
 The Bank is responsible for knowing about all bank accounts, adding accounts, finding accounts, and assigning account numbers. Starter code is provided.
 
-There should only be one Bank class.  For now, you will let the Bank behavior be **static**.
+There should only be one Bank.  So, let the Bank behavior be **static**.
 
 <table border="1">
 <tr>
@@ -231,8 +231,8 @@ There should only be one Bank class.  For now, you will let the Bank behavior be
 <td>Add a new bank account to List of accounts.  If another account with same account number is already in List, then don't add it! (Account numbers should be unique.)</td>
 </tr>
 <tr valign="top">
-<td markdown="span">static BankAccount getAccount(long accountNum)</td>
-<td>Find account with requested account number and return it. null if no match.</td>
+<td markdown="span">static BankAccount getAccount(long accountNumber)</td>
+<td>Find a BankAccount with the requested account number and return it. If no account with requested accountNumber, return **null**.</td>
 </tr>
 <tr valign="top">
 <td markdown="span">static List&lt;BankAccount&gt; getAccounts()</td>
@@ -241,14 +241,14 @@ There should only be one Bank class.  For now, you will let the Bank behavior be
 </table>
 <p></p>
 
-Note: There is a better design that avoids using static, called the *Singleton Pattern*. You'll learn that later.
+Note: We could design the Bank without using static. Its called the *Singleton Pattern* (allows you to create only 1 object of a class). You'll learn that later.
 
 3.2 **BankTest**: Write a BankTest class with a `main` method to test the Bank. Starter code is provided, but you must write more tests.  Test every Bank method:
   * Bank.getNextAccountNumber() always increases by 1
   * Bank.addAccount( bankAccount ) really adds accounts
-  * Bank.addAccount( bankAccount ) won't let you add 2 accounts (or same account twice) with same account number
-  * Bank.getAccount(number) returns the correct account, or null if no such account number
-  * Bank.getAccounts() returns all accounts
+  * Bank.addAccount( bankAccount ) won't let you add same account twice, or 2 accounts with same account number.
+  * Bank.getAccount(number) returns the correct account, or null if no such account number.
+  * Bank.getAccounts() returns all the BankAccounts
 
 
 ## Problem 4. **BankApp**  
