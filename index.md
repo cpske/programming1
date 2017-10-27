@@ -115,18 +115,17 @@ Input and Output Classes (I'm revising this material) - [slides from OOP](input-
 **Quiz** - coding problem using arrays   
 Lab: some input/output practice    
 Review and correction of SKE Restaurant    
-**Read**: *Big Java*, Ch. 11.1-11.2 (Input/Output), 11.4 (Exceptions)
+**Read**: *Big Java*, Ch. 11.1-11.2 (Input/Output), 11.4    
 **Homework 3**: [SKE Restaurant with Menu File and Restaurant Manager](assignments/homework3).
 </td>
 </tr>
 <!-- Week 12: OOP 1 -->
 <tr valign="top">
-<td align="center"> Oct 24 </td>
+<td align="center"> Oct 24 <br/> OOP </td>
 <td markdown="span">
 [Introduction to Objects](objects/1-Introduction-to-Objects.pdf)    
 [Defining Classes](objects/2-Defining-Classes.pdf) for objects    
 (Optional) [Review](review/Review-Package-Import.pdf) packages and import    
-TBA: Summary of Object concepts
 </td>
 <td markdown="span">
 **Quiz** reading from a file, using Arrays and ArrayList    
@@ -134,16 +133,17 @@ Lab: [Objects Lab](objects/lab-objects.md)
 Lab URL: [https://classroom.github.com/a/ubpc4JQ8](https://classroom.github.com/a/ubpc4JQ8)    
 **Read**: *Big Java*, Ch. 2 (Objects) and Ch. 3 (Implementing Classes)    
 **Suggested**: Java Tutorial on [Classes and Objects](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)    
-**Assignment**: SKE Restaurant with objects
 </td>
 </tr>
 <!-- Week 13: OOP 2 -->
 <tr valign="top">
-<td align="center"> Oct 31 </td>
+<td align="center"> Oct 31 <br/>OOP </td>
 <td markdown="span">
-O-O Concepts: Inheritance and Polymorphism   
+[Inheritance](objects/Inheritance) and Polymorphism   
+[Inheritance slides](objects/4-Inheritance.pdf)    
 More About Objects    
-Controlling object creation
+Controlling object creation    
+TBA: Summary of Object concepts
 </td>
 <td markdown="span">
 **Quiz**:  computer-based quiz using Github classroom    
@@ -151,6 +151,7 @@ Controlling object creation
 **Extra**: Movie reviews?    
 **Read**: *Big Java*, Ch. 9 (Inheritance and Polymorphism).   
 **Suggested**: Java Tutorial on [Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)     
+**Assignment**: SKE Restaurant with objects    
 **Note:** Polymorphism is key to the power of OOP. Inheritance enables polymorphism and code reuse.  Try to understand them thoroughly.
 </td>
 </tr>
