@@ -139,7 +139,7 @@ Lab URL: [https://classroom.github.com/a/ubpc4JQ8](https://classroom.github.com/
 <tr valign="top">
 <td align="center"> Oct 31 <br/>OOP </td>
 <td markdown="span">
-[Inheritance](objects/Inheritance-Practice) and Polymorphism   
+[Inheritance](objects/Inheritance-Practice.pdf) and Polymorphism   
 [Inheritance slides](objects/4-Inheritance.pdf)    
 More About Objects    
 Controlling object creation    
