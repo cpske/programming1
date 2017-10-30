@@ -29,11 +29,11 @@ description: Java Resources
 
 ## Recommended Book and Tutorial
 
-*Big Java, 5th Edn* by Cay Horstmann.
-Book is easy to read, but long. Horstmann has written many popular Java books, including *Core Java* and *Object-oriented Design & Patterns* (favorite among SKE students).
+*Big Java, 5th Ed* by Cay Horstmann.
+Book is easy to read and covers a lot. Horstmann has written many popular Java books, including *Core Java* and *Object-oriented Design & Patterns*.
 
 Oracle's [Java Tutorial](https://docs.oracle.com/javase/tutorial/)
-is *very* comprehensive and covers beginning to advanced topics. The [Really Big Index](https://docs.oracle.com/javase/tutorial/reallybigindex.html) page is the best way to find specific material (bookmark it).  
+is *very* comprehensive and covers beginning to advanced topics. The [Really Big Index](https://docs.oracle.com/javase/tutorial/reallybigindex.html) page is the best way to find specific material (so bookmark it).  
 
 We suggest you [download the tutorial](http://www.oracle.com/technetwork/java/javase/java-tutorial-downloads-2005894.html) and install it on your computer.  You can download the tutorial as HTML or ebooks (ePub).
 
@@ -50,14 +50,14 @@ We suggest you [download the tutorial](http://www.oracle.com/technetwork/java/ja
 Unified Modeling Language (UML) is a standard for diagrams that describe software -- like circuit diagrams for software.
 In Programming 2 (OOP) you will use UML a lot.
 
-The most useful diagrams are **class diagram** and **sequence diagram**, which are easy to learn and really help with design and coding.
+The UML **class diagram** and **sequence diagram** are very helpful for design and coding; they are also easy to learn.
 
 Some tools for drawing UML diagrams are: 
 
 * [Violet](https://sourceforge.net/projects/violet/files/violetumleditor/) is a simple, easy-to-use UML editor written in Java. I use version 2.0.1 (not the newest) because it inserts less space.  
 * Eclipse plugin - draw UML or generate UML class diagram from Java code.
 * Netbeans and IntelliJ IDEA also have UML extensions.
-* A whiteboard, or paper and pencil. :-)
+* Paper and pencil. :-)
 
 
 ## For Instructors

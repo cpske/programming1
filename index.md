@@ -133,6 +133,7 @@ Lab: [Objects Lab](objects/lab-objects.md)
 Lab URL: [https://classroom.github.com/a/ubpc4JQ8](https://classroom.github.com/a/ubpc4JQ8)    
 **Read**: *Big Java*, Ch. 2 (Objects) and Ch. 3 (Implementing Classes)    
 **Suggested**: Java Tutorial on [Classes and Objects](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)    
+**Project Proposal**:  [Instructions and Template](https://goo.gl/hegYGY) and [Sign-up Form](https://goo.gl/BUhK9k).
 </td>
 </tr>
 <!-- Week 13: OOP 2 -->
