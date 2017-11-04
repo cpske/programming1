@@ -143,16 +143,14 @@ Lab URL: [https://classroom.github.com/a/ubpc4JQ8](https://classroom.github.com/
 [Inheritance](objects/Inheritance-Practice.pdf) and Polymorphism   
 [Inheritance slides](objects/4-Inheritance.pdf)    
 More About Objects    
-Controlling object creation    
-TBA: Summary of Object concepts
+[Review of Object Basics](review/Review-Object.pdf)   
 </td>
 <td markdown="span">
 **Quiz**:  computer-based quiz using Github classroom    
 **Lab**: Will extend Person and BankAccount from last week.    
-**Extra**: Movie reviews?    
 **Read**: *Big Java*, Ch. 9 (Inheritance and Polymorphism).   
 **Suggested**: Java Tutorial on [Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)     
-**Assignment**: SKE Restaurant with objects    
+**Assignment**: postponed
 **Note:** Polymorphism is key to the power of OOP. Inheritance enables polymorphism and code reuse.  Try to understand them thoroughly.
 </td>
 </tr>
@@ -160,12 +158,13 @@ TBA: Summary of Object concepts
 <tr valign="top">
 <td align="center"> Nov 7 </td>
 <td markdown="span">
-Objects and Design    
-Factories for Object Creation   
+[Writing equals and toString](objects/7-Fundamental-Methods.pdf)    
+Factories for Object Creation  
 </td>
 <td markdown="span">
+**Quiz** anything covered so far       
+**Assignment**: SKE Restaurant with objects    
 **Lab**: TBA    
-**Read**:    
 </td>
 </tr>
 <!-- Project Prep -->
