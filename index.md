@@ -18,10 +18,10 @@ Aj. Jitti's Material is on [E-lab](https://elab.cpe.ku.ac.th) and [Maxlearn](htt
 <tr valign="top">
 <td align="center"> Aug 8 </td>
 <td markdown="span">
-[Review](week2/Review.md) of week1 lessons from [code.org](http://code.org).   
-[Intro to Java](week2/Intro-to-Java.md) and [slides](week2/0-Intro-to-Java.pdf)   
-[Tools](Resources.md) you need: Java JDK, Java Documentation, IDE, and Git.  
-[Program Structure](week2/Program-Structure.md) and how to compile; [slides](week2/1-Program-Structure.pdf).  
+[Review](week2/Review) of week1 lessons from [code.org](http://code.org).   
+[Intro to Java](week2/Intro-to-Java) and [slides](week2/0-Intro-to-Java.pdf)   
+[Tools](Resources) you need: Java JDK, Java Documentation, IDE, and Git.  
+[Program Structure](week2/Program-Structure) and how to compile; [slides](week2/1-Program-Structure.pdf).  
 [Variables](week2/2-Variables.pdf) how to define variables, rules for names.  
 [Primitive Data Types](week2/3-Primitive-Datatypes.pdf)  
 Optional [Java Basics](week2/X-Java-Basics.pdf) quick summary of basic Java syntax for students who already know how to code.  
@@ -66,7 +66,7 @@ Study:  [Java Coding Standard](coding/Java-Coding-Standard.pdf)
 <td align="center"> Oct 3 </td>
 <td markdown="span">
 [Introduction to Arrays](java-basics/17-Arrays.pdf).   
-[Using arrays](java-basics/18-Using-Arrays.md) idioms and useful methods.   
+[Using arrays](java-basics/18-Using-Arrays) idioms and useful methods.   
 Practice with arrays.   
 Review of [Git concepts](git/git-transport-commands.pdf), rethink about .gitignore.    
 </td>
@@ -129,7 +129,7 @@ Review and correction of SKE Restaurant
 </td>
 <td markdown="span">
 **Quiz** reading from a file, using Arrays and ArrayList    
-Lab: [Objects Lab](objects/lab-objects.md)    
+Lab: [Objects Lab](objects/lab-objects)    
 Lab URL: [https://classroom.github.com/a/ubpc4JQ8](https://classroom.github.com/a/ubpc4JQ8)    
 **Read**: *Big Java*, Ch. 2 (Objects) and Ch. 3 (Implementing Classes)    
 **Suggested**: Java Tutorial on [Classes and Objects](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)    
@@ -150,8 +150,8 @@ More About Objects
 **Lab**: Will extend Person and BankAccount from last week.    
 **Read**: *Big Java*, Ch. 9 (Inheritance and Polymorphism).   
 **Suggested**: Java Tutorial on [Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)     
-**Assignment**: postponed
-**Note:** Polymorphism is key to the power of OOP. Inheritance enables polymorphism and code reuse.  Try to understand them thoroughly.
+**Assignment**: postponed    
+**Note:** Polymorphism is key to O-O programming. Inheritance enables polymorphism and code reuse.  Try to understand them thoroughly.
 </td>
 </tr>
 <!-- OOP 3 -->
@@ -159,12 +159,14 @@ More About Objects
 <td align="center"> Nov 7 </td>
 <td markdown="span">
 [Writing equals and toString](objects/7-Fundamental-Methods.pdf)    
+[Polymorphism](objects/5-Polymorphism.pdf)    
+[Reference as Remote Control](objects/6-Reference-as-Remote-Control.pdf)    
 Factories for Object Creation  
 </td>
 <td markdown="span">
-**Quiz** anything covered so far       
+**Quiz** anything covered in the course so far     
+**Lab**: [Polymorphism, equals](objects/lab-polymorphism)   
 **Assignment**: SKE Restaurant with objects    
-**Lab**: TBA    
 </td>
 </tr>
 <!-- Project Prep -->
@@ -212,7 +214,7 @@ Review of Java and OO Concepts
 
 <font color="blue"><i>Big Java, 5th Ed.</i></font> by Cay Horstmann.  Book is easy to read, but long.  Horstmann has written many popular Java books, including *Core Java* (favorite of programmers) and *Object-oriented Design & Patterns* (favorite among SKE students).
 
-[Contact me](Contact.md) for how to get *Big Java*.
+[Contact me](Contact) for how to get *Big Java*.
 
 ---
-[About](About.md), [Resources](Resources.md)
+[About](About), [Resources](Resources)
