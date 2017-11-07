@@ -248,13 +248,13 @@ This is an example. Write your own code.
 OrderItem item1 = new OrderItem(7, "Salad", 25.5, 2); // no discount
 printOrderItem(item1);
 
-// PizzaHut constantly has promotions...
-Orderitem item1 = new TwoForOneItem(1, "Large Veg. Pizza", 399.00);
+// SKE wants to compete with PizzaHut, so we have 2-for-1 promotion...
+Orderitem item2 = new TwoForOneItem(1, "Large Veg. Pizza", 399.00);
 // since its 2-for-1 lets buy more
 item2.addQuantity(3);
 printOrderItem(item2);
 
-// Add to order nad compute the total
+// Add to order and compute the total
 OrderItem[] myOrder = { item1, item2 };
 System.out.println("Order contains:");
 double total = 0.0;
@@ -268,9 +268,67 @@ System.out.printf("Total price: %.2f\n", total);
 ## Order Class
 
 Write an **Order** class that contains everything in a customer's order.  This is similar to Quiz7, where the **CourseList** class contains **Course** objects.  
-details to be added.
+You should have at least these methods(\*)
+
+<table border="1">
+<tr>
+<th width="35%">Method</th>
+<th width="65%">Description</th>
+</tr>
+<tr valign="top">
+<td markdown="span">void addItem(OrderItem item)</td>
+<td>
+add an item to the order.  If the item is already in the order, then update the **quantity** of the existing item instead of adding a new OrderItem. </td>
+<td>get the attributes. getPrice() returns unit price of the menu item.</td>
+</tr>
+<tr valign="top">
+<td markdown="span">OrderItem getItem(int id)</td>
+<td>
+get one OrderItem by the menuItem's id number (as on your menu).
+Return null if no matching item
+</td>
+</tr>
+<tr valign="top">
+<td markdown="span">boolean removeItem(int id)</td>
+<td> completely remove an OrderItem with matching item number.  </td>
+</tr>
+<td markdown="span">List<OrderItem> getItems()</td>
+<td> get all the OrderItem in the Order. </td>
+</tr>
+<tr valign="top">
+<td markdown="span">double getTotal()</td>
+<td> get the total price for this order.</td>
+</tr>
+</table>
+
+(\*) In your SKE Restaurant application you may have more methods,
+or modify these methods.  For the lab, please use these methods.
+
+
+```java
+OrderItem item1 = new OrderItem(7, "Salad", 25.5, 2); // no discount
+Orderitem item2 = new TwoForOneItem(1, "Large Veg. Pizza", 399.00);
+// since its 2-for-1 lets buy more
+item2.addQuantity(3);
+
+Order order = new Order();
+order.addItem(item1);
+order.addItem(item2);
+
+// Display the order
+System.out.println("Order contains:");
+for( OrderItem item: order.getItems() ) {
+    printOrderItem(item);
+}
+double total = order.getTotal();
+System.out.printf("Total price: %.2f\n", total);
+```
 
 
 ## About the Design 
 
-A guiding principle in OO design is "*Prefer Composition over Inheritance*".  Instead of writing special subclasses of OrderItem to get special pricing, we could define Pricing classes that implement these rules.  The OrderItems would invoke a Pricing object to compute the item's price.
+The design of OrderItem would be better if MenuItem was also a class that encapsulated the id, name, and unitPrice.
+
+If you want to have a discount like "40 Baht off your order", you can use an OrderItem for that.  Its like a menu item with negative price and quantity 1.  This way, the discount is printed as a separate line on the receipt.
+
+A principle in OO design is "*Prefer Composition over Inheritance*".  Instead of writing special subclasses of OrderItem to change the pricing, we could define Pricing classes that defines various discounts.  The OrderItems would invoke a Pricing object to compute the item's price.
