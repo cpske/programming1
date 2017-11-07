@@ -147,7 +147,7 @@ More About Objects
 </td>
 <td markdown="span">
 **Quiz**:  computer-based quiz using Github classroom    
-**Lab**: Will extend Person and BankAccount from last week.    
+**Lab**: [Inheritance](objects/lab-inheritance.pdf) - extend Person and BankAccount from last week.    
 **Read**: *Big Java*, Ch. 9 (Inheritance and Polymorphism).   
 **Suggested**: Java Tutorial on [Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)     
 **Assignment**: postponed    
