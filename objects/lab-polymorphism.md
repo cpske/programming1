@@ -268,7 +268,7 @@ System.out.printf("Total price: %.2f\n", total);
 ## Order Class
 
 Write an **Order** class that contains everything in a customer's order.  This is similar to Quiz7, where the **CourseList** class contains **Course** objects.  
-You should have at least these methods(\*)
+You should have at least these methods:
 
 <table border="1">
 <tr>
@@ -278,8 +278,8 @@ You should have at least these methods(\*)
 <tr valign="top">
 <td markdown="span">void addItem(OrderItem item)</td>
 <td>
-add an item to the order.  If the item is already in the order, then update the **quantity** of the existing item instead of adding a new OrderItem. </td>
-<td>get the attributes. getPrice() returns unit price of the menu item.</td>
+add an item to the order.  If the item is already in the order, then update the **quantity** of the existing item instead of adding a new OrderItem. 
+</td>
 </tr>
 <tr valign="top">
 <td markdown="span">OrderItem getItem(int id)</td>
