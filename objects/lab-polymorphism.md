@@ -31,7 +31,7 @@ Explain why "a == b" is true, but "A == B" is false.
 
 ## Problem 2: Write equals() for Course
 
-Use your **quiz7** from last week. Revise *Course* and *CourseList* as describe here, and "push" the revised code to Github.  If you deleted the quiz from your computer, you can clone (download) it again from Github.  Find the project on your Github home page.
+Use your **quiz7** from last week. Revise *Course* and *CourseList* as describe here, and **push** the revised code to Github.  If you deleted the quiz from your computer, you can clone (download) it again from Github.  Find the project on your Github home page.
 
 2.1 Write an `equals(Object)` method for the **Course** class.  Two courses are equal if the course **id** have same value. Ignore the other attributes (title and credits).
   * Use the 4-part template for equals() as shown in class

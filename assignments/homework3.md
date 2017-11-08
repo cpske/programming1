@@ -74,13 +74,6 @@ Write a new class named **RestaurantManager** that is responsible for informatio
 <td>Set the name of the menu file.  The default menu file is "data/menu.txt", but the application can set the name of the menu file. After this method is called, the RestaurantManger will reload the menu data from the file.
 </td>
 </tr>
-<tr valign="top">
-<td markdown="span">
-<tt>static void init()</tt>
-</td>
-<td>This method causes RestaurantManager to read menu data from the menu file and open the orders log file.
-</td>
-</tr>
 </table>
 
 The SKE Restaurant class should get the menu data by calling

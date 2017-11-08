@@ -6,7 +6,7 @@
 cmd> git clone https://github.com/OOP2018/objectslab-yourname.git objectslab
 ```
 3. Do the problems. Test and review your code. "Review" means carefully read it from start to end.
-4. Commit to local repository and push to Github:
+4. Commit to your local repository and push to Github:
 ```shell
 cmd> git status
 cmd> git add src/banking/BankTest.java

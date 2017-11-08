@@ -164,9 +164,10 @@ More About Objects
 Factories for Object Creation  
 </td>
 <td markdown="span">
-**Quiz** anything covered in the course so far     
 **Lab**: [Polymorphism, equals](objects/lab-polymorphism)   
-**Assignment**: SKE Restaurant with objects    
+**Assignment Cancelled**: [HW4: SKE Restaurant with objects](assignments/homework4) (Optional)    
+**Coding Practice**: [Fraction class](assignments/Fraction.pdf) recommended for practice writing classes.     
+I have an **app** for this.
 </td>
 </tr>
 <!-- Project Prep -->
@@ -177,21 +178,48 @@ Summary and Project Preparation
 Iterative and Incremental Dev't Method
 </td>
 <td markdown="span">
-Summit 1 page project proposal   
+**Quiz** anything studied so far, including **equals**    
 Study technology you need for project    
-Ask for individual help
+Ask for help
+</td>
+</tr>
+<!-- Project Prep -->
+<tr valign="top">
+<td align="center"> Nov 19 </td>
+<td markdown="span">
+SKE Restaurant resubmittal.
+</td>
+<td markdown="span">
+Last day to resubmit for partial credit.    
+Repository must be **ske-restaurant**, with correct project structure
+and correct class/package naming.  Some projects have wrong repo name,
+wrong file layout (so src/ dir), or ridiculous class names.
+</td>
+</tr>
+<!-- Commencement -->
+<tr valign="top">
+<td align="center"> Nov 21 </td>
+<td markdown="span">
+KU Graduation Ceremony. No class.
+</td>
+<td markdown="span">
+Work on your project.  Write prototype code. Have something running as soon as you can.    
+Ask TAs and instructor for help!    
+**Practice Problem**: [Fraction class](assignments/Fraction.pdf)    
 </td>
 </tr>
 <!-- Project -->
 <tr valign="top">
-<td align="center"> Nov 21<br/>Nov 28 </td>
+<td align="center"> Nov 28 </td>
 <td markdown="span">
-Project Development with    
-weekly review, possible demo
+Intro to New SKE Curriculum by Prof. Kitsana    
+How to create a JAR file    
+Project Development and review.   
+Be ready to demo what you have so far.   
 </td>
 <td markdown="span">
 You must have code in Github and something
-to demonstrate each week.
+to demonstrate.
 Ask TAs and instructor for help!
 </td>
 </tr>
