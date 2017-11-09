@@ -165,8 +165,7 @@ Factories for Object Creation
 <td markdown="span">
 **Lab**: [Polymorphism, equals](objects/lab-polymorphism)   
 **Assignment Cancelled**: [HW4: SKE Restaurant with objects](assignments/homework4) (Optional if you already finished HW2&HW3)    
-**Coding Practice**: [Fraction class](assignments/Fraction.pdf) recommended for practice writing classes.     
-I have an **app** for this.
+**Coding Practice**: [Fraction class](assignments/Fraction.pdf) recommended for practice writing classes. There is an **app** for this.
 </td>
 </tr>
 <!-- Project Prep -->
