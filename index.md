@@ -150,7 +150,6 @@ More About Objects
 **Lab**: [Inheritance](objects/lab-inheritance.pdf) - extend Person and BankAccount from last week.    
 **Read**: *Big Java*, Ch. 9 (Inheritance and Polymorphism).   
 **Suggested**: Java Tutorial on [Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)     
-**Assignment**: postponed    
 **Note:** Polymorphism is key to O-O programming. Inheritance enables polymorphism and code reuse.  Try to understand them thoroughly.
 </td>
 </tr>
@@ -165,7 +164,7 @@ Factories for Object Creation
 </td>
 <td markdown="span">
 **Lab**: [Polymorphism, equals](objects/lab-polymorphism)   
-**Assignment Cancelled**: [HW4: SKE Restaurant with objects](assignments/homework4) (Optional)    
+**Assignment Cancelled**: [HW4: SKE Restaurant with objects](assignments/homework4) (Optional if you already finished HW2&HW3)    
 **Coding Practice**: [Fraction class](assignments/Fraction.pdf) recommended for practice writing classes.     
 I have an **app** for this.
 </td>
