@@ -172,11 +172,15 @@ Factories for Object Creation
 <tr valign="top">
 <td align="center"> Nov 14 </td>
 <td markdown="span">
-Summary and Project Preparation    
-Iterative and Incremental Dev't Method
+Survey: do you want to have class this week?    
+[https://goo.gl/forms/DX4hHnetQoVkjY1x1](https://goo.gl/forms/DX4hHnetQoVkjY1x1)    
+Model-View-Controller disign for GUI applications.    
+English punctuation rules.    
+How to create a runnable JAR file.
 </td>
 <td markdown="span">
-**Quiz** anything studied so far, including **equals**    
+Write a simple game using JavaFX form (the form is given).      
+**Quiz** anything studied so far, using objects and **equals**    
 Study technology you need for project    
 Ask for help
 </td>
@@ -216,8 +220,7 @@ Project Development and review.
 Be ready to demo what you have so far.   
 </td>
 <td markdown="span">
-You must have code in Github and something
-to demonstrate.
+You must have code in Github and something to demonstrate.
 Ask TAs and instructor for help!
 </td>
 </tr>
