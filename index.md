@@ -172,7 +172,7 @@ Factories for Object Creation
 <tr valign="top">
 <td align="center"> Nov 14 </td>
 <td markdown="span">
-Survey: do you want to have class this week?    
+**Survey: do you want to have class this week?**    
 [https://goo.gl/forms/DX4hHnetQoVkjY1x1](https://goo.gl/forms/DX4hHnetQoVkjY1x1)    
 Model-View-Controller disign for GUI applications.    
 English punctuation rules.    
