@@ -174,12 +174,11 @@ Factories for Object Creation
 <td markdown="span">
 **Survey: do you want to have class this week?**    
 [https://goo.gl/forms/DX4hHnetQoVkjY1x1](https://goo.gl/forms/DX4hHnetQoVkjY1x1)    
-Model-View-Controller disign for GUI applications.    
+How to [create a game with JavaFX](https://github.com/jbrucker/guessing-game) and MVC design. 
 English punctuation rules.    
 How to create a runnable JAR file.
 </td>
 <td markdown="span">
-Write a simple game using JavaFX form (the form is given).      
 **Quiz** anything studied so far, using objects and **equals**    
 Study technology you need for project    
 Ask for help
