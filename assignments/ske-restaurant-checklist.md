@@ -26,19 +26,21 @@ Please check your project.
 <td markdown="span">
 <tt>public static String[] getMenuItems()</tt>
 </td>
-<td>Return **array** of menu item names.</td>
+<td markdown="span">Return **array** of menu item names.</td>
 </tr>
 <tr valign="top">
 <td markdown="span">
 <tt>public static double[] getPrices()</tt>
-</td>
+<td markdown="span">
 <td>Return **array** of menu item prices.</td>
 </tr>
 <tr valign="top">
 <td markdown="span">
 <tt>public static void recordOrder(int orderNumber, int[] order, double total)</tt>
 </td>
-<td>Record a completed order. *OK to have different parameters for this, since your code may represent an order differently.  You may also let RestaurantManager assign order number itself.*</td>
+<td markdown="span">
+Record a completed order. *OK to have different parameters for this, since your code may represent an order differently.  You may also let RestaurantManager assign order number itself.*
+</td>
 </tr>
 </table>
 3. RestaurantManager **does not interact with customer**. 
