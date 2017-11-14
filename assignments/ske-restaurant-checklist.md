@@ -17,7 +17,7 @@ Please check your project.
 ### Checklist for RestaurantManager
 
 1. All attributes are **private**.  The other classes should not directly access attributes.
-2. Has the methods exactly as in Homework 3:
+2. Has the methods required in Homework 3:
 <table border="1" align="left">
 <tr>
 <th width="50%">Method</th>  <th width="50%">Description</th>
@@ -31,20 +31,22 @@ Please check your project.
 <tr valign="top">
 <td markdown="span">
 <tt>public static double[] getPrices()</tt>
+</td>
 <td markdown="span">
-<td>Return **array** of menu item prices.</td>
+Return **array** of menu item prices.
+</td>
 </tr>
 <tr valign="top">
 <td markdown="span">
 <tt>public static void recordOrder(int orderNumber, int[] order, double total)</tt>
 </td>
 <td markdown="span">
-Record a completed order. *OK to have different parameters for this, since your code may represent an order differently.  You may also let RestaurantManager assign order number itself.*
+Record a completed order. *Your method may be different or have different parameters. But the **order** should be a parameter.*
 </td>
 </tr>
 </table>
 3. RestaurantManager **does not interact with customer**. 
-4. RestaurantManager **does not** have an attribute for an **order**.  recordOrder receives order as a parameter.  There is no need for an attribute for this.
+4. RestaurantManager **does not** have an **attribute** for an order.  recordOrder receives order as a parameter.  There is no need for an attribute for this.
 5. Write a good Javadoc comment.  That should be obvious by now.
 
 ```java
@@ -64,11 +66,11 @@ public class RestaurantManager {
     // no ArrayList attributes. they are local variables used temporarily.
 ```
 
-### Checklist for OrderTaker (or whatever class accepts order from user)
+### Checklist for Restaurant (or whatever class accepts order from user)
 
 1. Gets the menuItems and prices from RestaurantManager **one time** and saves them.
 ```java
-public class OrderTaker {
+public class Restaurant {
 
     private String[] menuItems = RestaurantManager.getMenuItems();
     private double[] prices = RestaurantManager.getPrices();
