@@ -187,13 +187,13 @@ Examples:
 <tr valign="top">
 <td align="center"> Nov 19 </td>
 <td markdown="span">
-SKE Restaurant resubmittal.
+SKE Restaurant resubmittal.    
+[Checklist for Assignment](assignments/ske-restaurant-checklist.md)    
 </td>
 <td markdown="span">
 Last day to resubmit for partial credit.    
-Repository must be **ske-restaurant**, with correct project structure
-and correct class/package naming.  Some projects have wrong repo name,
-wrong file layout (so src/ dir), or ridiculous class names.
+[Checklist for Assignment](assignments/ske-restaurant-checklist.md)    
+Repository must be **ske-restaurant**, with correct project structure and correct class/package naming.
 </td>
 </tr>
 <!-- Commencement -->
