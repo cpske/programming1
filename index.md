@@ -175,10 +175,9 @@ Factories for Object Creation
 **No Class this week**    
 How to [create a game with JavaFX](https://github.com/jbrucker/guessing-game) and MVC design.   
 English punctuation rules.    
-How to create a runnable JAR file.
 </td>
 <td markdown="span">
-**Project**: add link to your Github repo to [Projects Page](https://goo.gl/BUhK9k).  
+**Assignment**: Add link to your Github repo to [Projects Page](https://goo.gl/BUhK9k).  
 Examples:   
 [Guessing Game with JavaFX](https://github.com/jbrucker/guessing-game) and MVC design.   
 
