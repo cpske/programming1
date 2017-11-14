@@ -172,16 +172,16 @@ Factories for Object Creation
 <tr valign="top">
 <td align="center"> Nov 14 </td>
 <td markdown="span">
-**Survey: do you want to have class this week?**    
-[https://goo.gl/forms/DX4hHnetQoVkjY1x1](https://goo.gl/forms/DX4hHnetQoVkjY1x1)    
-How to [create a game with JavaFX](https://github.com/jbrucker/guessing-game) and MVC design. 
+**No Class this week**    
+How to [create a game with JavaFX](https://github.com/jbrucker/guessing-game) and MVC design.   
 English punctuation rules.    
 How to create a runnable JAR file.
 </td>
 <td markdown="span">
-**Quiz** anything studied so far, using objects and **equals**    
-Study technology you need for project    
-Ask for help
+**Project**: add link to your Github repo to [Projects Page](https://goo.gl/BUhK9k).  
+Examples:   
+[Guessing Game with JavaFX](https://github.com/jbrucker/guessing-game) and MVC design.   
+
 </td>
 </tr>
 <!-- Project Prep -->
