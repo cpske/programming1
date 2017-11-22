@@ -84,8 +84,6 @@ The SKE Restaurant class (the order taker) should not have any string constants 
 
 When an order is completed, the SKE Restaurant should call the **recordOrder** method, so the restaurant can record the sale.  (RestaurantManger should also send the order to the chef!  But that feature is for later.)
 
-**Coming Soon:** instructions on how to write the sale to a file.
-
 ### 4. (Optional) Command Line Argument for Menu: -m menufile
 
 How can the user tell the application what file he wants to use for menu data?  For testing, we might have a separate file (`testmenu.txt`) and the restaurant might have a different breakfast menu and lunch menu. Or a special menu for the vegetarian festival.
@@ -96,6 +94,10 @@ Many applications let you specify *command line arguments* to pass optional valu
 2. The user might input a relative or absolute path for the file, and it may be relative to the SKE Restaurant application.  To handle both possibilities do this:
     * Try to open the file as a file in the filesystem using `new FileInputStream(filename)`. If that works, you are done.
     * Try to open the file as a a classpath resource (using ClassLoader, described above).  
+
+### 5. RestaurantManager is Not User Interface
+
+The RestaurantManager does not interact with the customer.  It accepts orders from another object, but it doesn't create the order.  So don't create the `quantity` array or `Order` object (if you use a class for Order) in RestaurantManager.  That's the responsibility of another class.
 
 
 ### How to Submit
@@ -108,7 +110,7 @@ We should add a git "tag" to this version, since its a major change to the resta
 
 #### How to Read from a File
 
-We want SKE Restaurant to run on someone else's computer, and we don't know where he will install the software.  So we can't use an **absolute path** for the menu file.  Instead, we will require that the menu file be in a `data` subdirectory of wherever the application is installed.  This is a standard away of including resources such as icons and data files as part of an application.
+We want SKE Restaurant to run on someone else's computer, and we don't know where he will install the software.  So we can't use an **absolute path** for the menu file.  Instead, we will require that the menu file be in a `data` subdirectory of **wherever the application is installed**.  This is a standard away of including resources such as icons and data files as part of an application.  The SKE Restaurant is *not* going to be running Eclipse, so "src/" is not part of the file path!
 
 The Java Classloader knows where the application is installed and can find "resources" that are located relative to the application.  The code is like this:
 
@@ -209,7 +211,7 @@ Similarly, to **write** to a file we first open an OutputStream (writes bytes) a
 Here is one way to do that using a file for the output.  First we open a **FileOutputStream** object, then create a **PrintStream** object to handle writing of text and formatting.  Opening a file for input or output may cause an Exception to be thrown if the file cannot be read or written, so the code uses a try - catch block to handle the exception.  If an exception occurs, the code will jump into the "catch" block.  If everything is OK, it will skip over the catch block.   See *Big Java* section 11.3 for info about handling exceptions.
 
 ```java
-String outputfile = "text.txt";
+String outputfile = "test.txt";
 OutputStream out = null;
 try {
     out = new FileOutputStream( outputfile );
