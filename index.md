@@ -218,6 +218,7 @@ Project Development and review.
 Be ready to demo what you have so far.   
 </td>
 <td markdown="span">
+**Quiz** primarily on Oct 24-Nov 7 topics.     
 You must have code in Github and something to demonstrate.
 Ask TAs and instructor for help!
 </td>
