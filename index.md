@@ -174,7 +174,7 @@ Factories for Object Creation
 <td markdown="span">
 **No Class this week**    
 How to [create a game with JavaFX](https://github.com/jbrucker/guessing-game) and MVC design.   
-English punctuation rules.    
+[English punctuation rules](English-Grammar).    
 </td>
 <td markdown="span">
 **Assignment**: Add link to your Github repo to [Projects Page](https://goo.gl/BUhK9k).  
@@ -212,7 +212,7 @@ Ask TAs and instructor for help!
 <tr valign="top">
 <td align="center"> Nov 28 </td>
 <td markdown="span">
-Intro to New SKE Curriculum by Prof. Kitsana    
+Intro to New SKE Curriculum by Prof. Kitsana, 1:15PM     
 How to create a JAR file    
 Project Development and review.   
 Be ready to demo what you have so far.   
