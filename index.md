@@ -208,16 +208,18 @@ Ask TAs and instructor for help!
 **Practice Problem**: [Fraction class](assignments/Fraction.pdf)    
 </td>
 </tr>
-<!-- Project -->
+<!-- week 15 Project work -->
 <tr valign="top">
 <td align="center"> Nov 28 </td>
 <td markdown="span">
+Final & Project Date/time    
 Intro to New SKE Curriculum by Prof. Kitsana, 1:15PM     
 How to create a JAR file    
 Project Development and review.   
 Be ready to demo what you have so far.   
 </td>
 <td markdown="span">
+[Review Lab](https://classroom.github.com/a/QMuQcnMn) some review questions.    
 **Quiz** primarily on Oct 24-Nov 7 topics.     
 You must have code in Github and something to demonstrate.
 Ask TAs and instructor for help!
