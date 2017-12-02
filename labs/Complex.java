@@ -3,7 +3,7 @@
  * Complex number are immutable. Operations on complex numbers 
  * don't change the existing complex number objects.
  * 
- * @author
+ * @author Bill Gates
  */
 public class Complex {
 	private final double real;
