@@ -229,7 +229,10 @@ Ask TAs and instructor for help!
 <tr valign="top">
 <td align="center">Review</td>
 <td markdown="span">
-Review of Java and OO Concepts
+[Practice Exam](review/exam-sample)    
+[Lab 15 Solution](labs/Lab15-solution)    
+[Quiz 8 Solution](labs/Complex.java)    
+Ske-restaurant Solution: [Fatalai Jon](https://github.com/fatalaijon/ske-restaurant) wrote OK code, but some students did better. Look for their repos.
 </td>
 <td markdown="span">
 [Java Tutorial on Udemy](https://www.udemy.com/java-tutorial/) nice online course starts easy, covers a lot.
