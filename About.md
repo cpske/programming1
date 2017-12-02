@@ -22,7 +22,7 @@ It is OK to discuss design and problems you have, but not to share code.  If you
 ---
 ### Programming Tools You Need
 
-See [Resources](Resources.md).
+See [Resources](Resources).
 
 ---
 ### Textbook and Documentation
