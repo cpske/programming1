@@ -28,10 +28,9 @@ for(int index=start; test_condition; increment_operation) {
    statements for loop
 }
 ```
-**Example**: print the index and the array element value.
+**Example**: print each array value with its index. 
 ```java
 double[] array = new double[] { 10.0, 20.0, 5.0 };
-double sum = 0.0;
 for(int k=0; k<array.length; k++) {
     System.out.printf("[%d] = %f\n", k, array[k]);
 }
@@ -40,13 +39,15 @@ for(int k=0; k<array.length; k++) {
 **Example**: Sum the values and squares of values in an array.
 ```java
 double[] x = new double[] { 10.0, 20.0, 5.0, 99.0 };
-double sumSquares = 0; // initialization
+// initialization:
+double sum = 0;
+double sumSquares = 0;
 for(int k=0; k<x.length; k++) {
     sum = sum + x[k];
     sumSquares += x[k]*x[k];
 }
-// Now you can compute average:
-double average = sum/size;
+// Now you can compute average.
+double average = sum/(x.length);
 ```
 
 **Example**: evaluate this polynomial
@@ -61,9 +62,10 @@ Compute the polynomial like this:
 A "for" loop that computes this starts from the last element of `a[]`:
 ```java
 double poly = 0;
-for(int k=a.length-1; k>=0; k--) poly = poly*x + a[k];
+for(int k=a.length-1; k>=0; k--) 
+    poly = poly*x + a[k];
 ```
-This shows how a "for" loop can run from high value (n) to low value (0).
+This shows how a "for" loop can iterate from high value (n) to low value (0).
 
 #### 2. for-each loop
 
@@ -84,7 +86,7 @@ for( double x: array ) {
     sumSquares += x*x;
 }
 ```
-The loop is much easier to read with the index (k).
+The for-each loop is much cleaner and easier to read than indexed for-loop.
 
 **Example:** print each element in an array of names.
 ```java
