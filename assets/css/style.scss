@@ -4,6 +4,10 @@
 
 @import "{{ site.theme }}";
 
+header {
+  display: none;
+}
+
 blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color;
