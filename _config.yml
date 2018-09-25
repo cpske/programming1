@@ -1,6 +1,6 @@
 # Remove theme
 theme: minima
-title: Programming 1 @ KU
+title: Programming 1
 description: Intro to programming using Java
 exclude: [bin, misc, Gemfile, Gemfile.lock]
 # Use Git's markdown syntax

@@ -10,8 +10,7 @@ old/
 *.ctxt
 *.lock
 .~lock*
-!.gitignore
 # index.html is generated from index.md
-index.html
+/index.html
 # labs is for lab assignments, deployed via Github classroom
 labs/
